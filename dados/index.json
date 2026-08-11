@@ -1,0 +1,619 @@
+{
+ "projeto": "Desbravando UTV · repaginação v3",
+ "grade": {
+  "larguraTela": 1440,
+  "larguraConteudo": 1200,
+  "recuoLateral": 120,
+  "recuoLateralMobile": 20
+ },
+ "cores": {
+  "#F2F2F2": "papel",
+  "#FFFFFF": "branco",
+  "#000000": "preto",
+  "#111111": "tinta",
+  "#717171": "cinza",
+  "#9A9A9A": "cinza fraco",
+  "#D9D9D9": "linha",
+  "#FFFFFFD1": "branco 82%",
+  "#FFFFFF8C": "branco 55%",
+  "#FFFFFF61": "branco 38%",
+  "#FFFFFF29": "branco 16%",
+  "#FFFFFFA6": "branco 65%",
+  "#FFFFFF59": "branco 35%",
+  "#FFFFFFE6": "branco 90%",
+  "#FFFFFF14": "branco 8%",
+  "#00000099": "preto 60%",
+  "#00000047": "preto 28%",
+  "#0000007A": "preto 48%",
+  "#000000D9": "preto 85%",
+  "#00000026": "preto 15%",
+  "#FFFFFFB3": "branco 70%"
+ },
+ "comoUsar": "Cada módulo tem dois arquivos nesta pasta: <base>.json (estruturado) e <base>.txt (texto puro). Use o campo \"base\" de cada item abaixo.",
+ "modulos": [
+  {
+   "chave": "01|nav",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "nav",
+   "base": "01-nav",
+   "elementosNaWix": 11
+  },
+  {
+   "chave": "01|vídeo/vídeo de abertura",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "vídeo/vídeo de abertura",
+   "base": "01-video-video-de-abertura",
+   "elementosNaWix": 5
+  },
+  {
+   "chave": "01|posicionamento",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "posicionamento",
+   "base": "01-posicionamento",
+   "elementosNaWix": 6
+  },
+  {
+   "chave": "01|destaques (carrossel automático)",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "destaques (carrossel automático)",
+   "base": "01-destaques-carrossel-automatico",
+   "elementosNaWix": 14
+  },
+  {
+   "chave": "01|expedições",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "expedições",
+   "base": "01-expedicoes",
+   "elementosNaWix": 53
+  },
+  {
+   "chave": "01|galeria",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "galeria",
+   "base": "01-galeria",
+   "elementosNaWix": 24
+  },
+  {
+   "chave": "01|parceiros oficiais",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "parceiros oficiais",
+   "base": "01-parceiros-oficiais",
+   "elementosNaWix": 6
+  },
+  {
+   "chave": "01|quem já foi",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "quem já foi",
+   "base": "01-quem-ja-foi",
+   "elementosNaWix": 17
+  },
+  {
+   "chave": "01|comunidade",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "comunidade",
+   "base": "01-comunidade",
+   "elementosNaWix": 8
+  },
+  {
+   "chave": "01|três pilares",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "três pilares",
+   "base": "01-tres-pilares",
+   "elementosNaWix": 35
+  },
+  {
+   "chave": "01|rodapé",
+   "tela": "01",
+   "telaNome": "Home",
+   "modulo": "rodapé",
+   "base": "01-rodape",
+   "elementosNaWix": 20
+  },
+  {
+   "chave": "02|nav",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "nav",
+   "base": "02-nav",
+   "elementosNaWix": 11
+  },
+  {
+   "chave": "02|abertura",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "abertura",
+   "base": "02-abertura",
+   "elementosNaWix": 12
+  },
+  {
+   "chave": "02|transição · começa a agenda",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "transição · começa a agenda",
+   "base": "02-transicao-comeca-a-agenda",
+   "elementosNaWix": 4
+  },
+  {
+   "chave": "02|agenda",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "agenda",
+   "base": "02-agenda",
+   "elementosNaWix": 59
+  },
+  {
+   "chave": "02|faq",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "faq",
+   "base": "02-faq",
+   "elementosNaWix": 33
+  },
+  {
+   "chave": "02|chamada final · cadastro de interesse",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "chamada final · cadastro de interesse",
+   "base": "02-chamada-final-cadastro-de-interesse",
+   "elementosNaWix": 15
+  },
+  {
+   "chave": "02|rodapé",
+   "tela": "02",
+   "telaNome": "Grupo Avulso",
+   "modulo": "rodapé",
+   "base": "02-rodape",
+   "elementosNaWix": 20
+  },
+  {
+   "chave": "03|nav",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "nav",
+   "base": "03-nav",
+   "elementosNaWix": 11
+  },
+  {
+   "chave": "03|vídeo/vídeo da expedição",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "vídeo/vídeo da expedição",
+   "base": "03-video-video-da-expedicao",
+   "elementosNaWix": 5
+  },
+  {
+   "chave": "03|apresentação",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "apresentação",
+   "base": "03-apresentacao",
+   "elementosNaWix": 22
+  },
+  {
+   "chave": "03|resumo da expedição",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "resumo da expedição",
+   "base": "03-resumo-da-expedicao",
+   "elementosNaWix": 38
+  },
+  {
+   "chave": "03|galeria",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "galeria",
+   "base": "03-galeria",
+   "elementosNaWix": 23
+  },
+  {
+   "chave": "03|sobre o destino",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "sobre o destino",
+   "base": "03-sobre-o-destino",
+   "elementosNaWix": 19
+  },
+  {
+   "chave": "03|roteiro",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "roteiro",
+   "base": "03-roteiro",
+   "elementosNaWix": 68
+  },
+  {
+   "chave": "03|hospedagem",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "hospedagem",
+   "base": "03-hospedagem",
+   "elementosNaWix": 42
+  },
+  {
+   "chave": "03|está incluso",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "está incluso",
+   "base": "03-esta-incluso",
+   "elementosNaWix": 48
+  },
+  {
+   "chave": "03|reserva",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "reserva",
+   "base": "03-reserva",
+   "elementosNaWix": 22
+  },
+  {
+   "chave": "03|não está incluso",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "não está incluso",
+   "base": "03-nao-esta-incluso",
+   "elementosNaWix": 24
+  },
+  {
+   "chave": "03|guia da expedição",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "guia da expedição",
+   "base": "03-guia-da-expedicao",
+   "elementosNaWix": 62
+  },
+  {
+   "chave": "03|faq",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "faq",
+   "base": "03-faq",
+   "elementosNaWix": 41
+  },
+  {
+   "chave": "03|rodapé",
+   "tela": "03",
+   "telaNome": "Página da Expedição",
+   "modulo": "rodapé",
+   "base": "03-rodape",
+   "elementosNaWix": 20
+  },
+  {
+   "chave": "04|nav",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "nav",
+   "base": "04-nav",
+   "elementosNaWix": 11
+  },
+  {
+   "chave": "04|abertura",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "abertura",
+   "base": "04-abertura",
+   "elementosNaWix": 30
+  },
+  {
+   "chave": "04|como funciona",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "como funciona",
+   "base": "04-como-funciona",
+   "elementosNaWix": 21
+  },
+  {
+   "chave": "04|para quem é",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "para quem é",
+   "base": "04-para-quem-e",
+   "elementosNaWix": 22
+  },
+  {
+   "chave": "04|personalizável",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "personalizável",
+   "base": "04-personalizavel",
+   "elementosNaWix": 54
+  },
+  {
+   "chave": "04|formulário de orçamento",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "formulário de orçamento",
+   "base": "04-formulario-de-orcamento",
+   "elementosNaWix": 76
+  },
+  {
+   "chave": "04|rodapé",
+   "tela": "04",
+   "telaNome": "Grupo Fechado",
+   "modulo": "rodapé",
+   "base": "04-rodape",
+   "elementosNaWix": 20
+  },
+  {
+   "chave": "00|logo Desbravando",
+   "tela": "00",
+   "telaNome": "Sistema",
+   "modulo": "logo Desbravando",
+   "base": "00-logo-desbravando",
+   "elementosNaWix": 1
+  },
+  {
+   "chave": "M1|nav/mobile",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "nav/mobile",
+   "base": "m1-nav-mobile",
+   "elementosNaWix": 4
+  },
+  {
+   "chave": "M1|vídeo/vídeo de abertura",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "vídeo/vídeo de abertura",
+   "base": "m1-video-video-de-abertura",
+   "elementosNaWix": 5
+  },
+  {
+   "chave": "M1|posicionamento",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "posicionamento",
+   "base": "m1-posicionamento",
+   "elementosNaWix": 6
+  },
+  {
+   "chave": "M1|destaques",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "destaques",
+   "base": "m1-destaques",
+   "elementosNaWix": 15
+  },
+  {
+   "chave": "M1|expedições · etapa 1",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "expedições · etapa 1",
+   "base": "m1-expedicoes-etapa-1",
+   "elementosNaWix": 6
+  },
+  {
+   "chave": "M1|expedições · etapa 2",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "expedições · etapa 2",
+   "base": "m1-expedicoes-etapa-2",
+   "elementosNaWix": 47
+  },
+  {
+   "chave": "M1|galeria (carrossel · espia a próxima)",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "galeria (carrossel · espia a próxima)",
+   "base": "m1-galeria-carrossel-espia-a-proxima",
+   "elementosNaWix": 12
+  },
+  {
+   "chave": "M1|parceiros oficiais",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "parceiros oficiais",
+   "base": "m1-parceiros-oficiais",
+   "elementosNaWix": 8
+  },
+  {
+   "chave": "M1|quem já foi",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "quem já foi",
+   "base": "m1-quem-ja-foi",
+   "elementosNaWix": 12
+  },
+  {
+   "chave": "M1|comunidade",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "comunidade",
+   "base": "m1-comunidade",
+   "elementosNaWix": 10
+  },
+  {
+   "chave": "M1|três pilares",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "três pilares",
+   "base": "m1-tres-pilares",
+   "elementosNaWix": 21
+  },
+  {
+   "chave": "M1|rodapé/mobile",
+   "tela": "M1",
+   "telaNome": "Home (mobile)",
+   "modulo": "rodapé/mobile",
+   "base": "m1-rodape-mobile",
+   "elementosNaWix": 15
+  },
+  {
+   "chave": "M2|nav/mobile",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "nav/mobile",
+   "base": "m2-nav-mobile",
+   "elementosNaWix": 4
+  },
+  {
+   "chave": "M2|vídeo/vídeo da expedição",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "vídeo/vídeo da expedição",
+   "base": "m2-video-video-da-expedicao",
+   "elementosNaWix": 5
+  },
+  {
+   "chave": "M2|apresentação",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "apresentação",
+   "base": "m2-apresentacao",
+   "elementosNaWix": 12
+  },
+  {
+   "chave": "M2|galeria (carrossel · espia a próxima)",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "galeria (carrossel · espia a próxima)",
+   "base": "m2-galeria-carrossel-espia-a-proxima",
+   "elementosNaWix": 11
+  },
+  {
+   "chave": "M2|sobre",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "sobre",
+   "base": "m2-sobre",
+   "elementosNaWix": 6
+  },
+  {
+   "chave": "M2|roteiro",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "roteiro",
+   "base": "m2-roteiro",
+   "elementosNaWix": 58
+  },
+  {
+   "chave": "M2|hospedagem",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "hospedagem",
+   "base": "m2-hospedagem",
+   "elementosNaWix": 37
+  },
+  {
+   "chave": "M2|incluso",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "incluso",
+   "base": "m2-incluso",
+   "elementosNaWix": 46
+  },
+  {
+   "chave": "M2|reserva",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "reserva",
+   "base": "m2-reserva",
+   "elementosNaWix": 20
+  },
+  {
+   "chave": "M2|não incluso",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "não incluso",
+   "base": "m2-nao-incluso",
+   "elementosNaWix": 19
+  },
+  {
+   "chave": "M2|guia",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "guia",
+   "base": "m2-guia",
+   "elementosNaWix": 42
+  },
+  {
+   "chave": "M2|faq",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "faq",
+   "base": "m2-faq",
+   "elementosNaWix": 23
+  },
+  {
+   "chave": "M2|barra-fixa/reserva",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "barra-fixa/reserva",
+   "base": "m2-barra-fixa-reserva",
+   "elementosNaWix": 8
+  },
+  {
+   "chave": "M2|rodapé/mobile",
+   "tela": "M2",
+   "telaNome": "Página da Expedição (mobile)",
+   "modulo": "rodapé/mobile",
+   "base": "m2-rodape-mobile",
+   "elementosNaWix": 15
+  },
+  {
+   "chave": "M3|nav/mobile",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "nav/mobile",
+   "base": "m3-nav-mobile",
+   "elementosNaWix": 4
+  },
+  {
+   "chave": "M3|abertura",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "abertura",
+   "base": "m3-abertura",
+   "elementosNaWix": 6
+  },
+  {
+   "chave": "M3|transição · começa a agenda",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "transição · começa a agenda",
+   "base": "m3-transicao-comeca-a-agenda",
+   "elementosNaWix": 3
+  },
+  {
+   "chave": "M3|agenda",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "agenda",
+   "base": "m3-agenda",
+   "elementosNaWix": 67
+  },
+  {
+   "chave": "M3|faq",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "faq",
+   "base": "m3-faq",
+   "elementosNaWix": 23
+  },
+  {
+   "chave": "M3|chamada final/mobile",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "chamada final/mobile",
+   "base": "m3-chamada-final-mobile",
+   "elementosNaWix": 11
+  },
+  {
+   "chave": "M3|rodapé/mobile",
+   "tela": "M3",
+   "telaNome": "Grupo Avulso (mobile)",
+   "modulo": "rodapé/mobile",
+   "base": "m3-rodape-mobile",
+   "elementosNaWix": 15
+  }
+ ]
+}

@@ -1,0 +1,2586 @@
+{
+ "tela": "03",
+ "telaNome": "Página da Expedição",
+ "modulo": "hospedagem",
+ "elementosNaWix": 42,
+ "espacamentoQueNaoViraElemento": 7,
+ "recorte": "previa/modulos/03-hospedagem.png",
+ "elementos": [
+  {
+   "num": 1,
+   "prof": 0,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "hospedagem",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "#FFFFFF branco",
+     "#FFFFFF"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "prof": 1,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "80 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "prof": 1,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "prof": 2,
+   "tipo": "recuo lateral",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "120 px",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "prof": 2,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "prof": 3,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "40 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "fim",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "prof": 4,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "640 px",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "14 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "HOSPEDAGEM",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "11 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+3",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "ONDE O GRUPO FICA",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "48 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.04",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "prof": 4,
+   "tipo": "mola",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "prof": 4,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "2 hospedagens · 4 pernoites",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+0.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "18 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Hospedagem escolhida a dedo entre as opções e padrões da região · 4 pernoites com café da manhã · jantas inclusas (3 em Mostardas · 1 em Tramandaí).",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "16 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.6",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "780 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "40 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "prof": 3,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "2 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 17,
+   "prof": 4,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "hospedagem/Pousada Pouso Alegre",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "30 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 18,
+   "prof": 5,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "40 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 19,
+   "prof": 6,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "360 px",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "8 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 20,
+   "prof": 7,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "CHEGADA & CORAÇÃO DA EXPEDIÇÃO",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "11 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+3",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 21,
+   "prof": 7,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Pousada Pouso Alegre",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "24 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.12",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.3",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 22,
+   "prof": 7,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "10 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 23,
+   "prof": 8,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Mostardas · RS",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+0.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 24,
+   "prof": 8,
+   "tipo": "retângulo",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "3 px",
+     null
+    ],
+    [
+     "Altura",
+     "3 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 25,
+   "prof": 8,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "3 noites",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+0.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 26,
+   "prof": 6,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "No centro do roteiro, com café da manhã. Sua base nas noites 1, 2 e 3.",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "18 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.6",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 27,
+   "prof": 5,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "6 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 28,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 29,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 30,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 31,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "70 px",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 32,
+   "prof": 4,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "hospedagem/Schenkel Hotel",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "30 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "1 px topo · #D9D9D9 linha",
+     "#D9D9D9"
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 33,
+   "prof": 5,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "40 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 34,
+   "prof": 6,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "360 px",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "8 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 35,
+   "prof": 7,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "BASE DA DESPEDIDA",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "11 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+3",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 36,
+   "prof": 7,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Schenkel Hotel",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "24 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.12",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.3",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 37,
+   "prof": 7,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "10 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 38,
+   "prof": 8,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Tramandaí · RS",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+0.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 39,
+   "prof": 8,
+   "tipo": "retângulo",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "3 px",
+     null
+    ],
+    [
+     "Altura",
+     "3 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 40,
+   "prof": 8,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "1 noite",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+0.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 41,
+   "prof": 6,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Apart-hotel com café da manhã. Sua base na última noite — noite 4.",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "18 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.6",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 42,
+   "prof": 5,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "6 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 43,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 44,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 45,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 46,
+   "prof": 6,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "70 px",
+     null
+    ],
+    [
+     "Altura",
+     "176 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 47,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "2 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 48,
+   "prof": 2,
+   "tipo": "recuo lateral",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "120 px",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 49,
+   "prof": 1,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "80 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  }
+ ]
+}

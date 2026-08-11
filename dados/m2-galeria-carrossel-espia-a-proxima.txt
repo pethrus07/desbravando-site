@@ -1,0 +1,59 @@
+MÓDULO: galeria (carrossel · espia a próxima)   ·   tela: Página da Expedição (mobile)
+11 elementos para montar na Wix (+2 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-galeria-carrossel-espia-a-proxima.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "galeria (carrossel · espia a próxima)"
+   Largura: estica  · Altura: automática  · Espaço: 10 px  · Alinha: início  ·
+   Canto: reto
+
+nº 2 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 8 px  · Alinha: início  ·
+   Canto: reto
+
+nº 3 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 4 · FOTO
+   Largura: 300 px  · Altura: 250 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 5 · FOTO
+   Largura: estica  · Altura: 250 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 8 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 7 · TEXTO
+   texto: "1 / 4"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 9 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 5 px  ·
+   Alinha: início  · Canto: reto
+
+nº 10 · RETÂNGULO
+   Largura: 18 px  · Altura: 3 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · RETÂNGULO
+   Largura: 6 px  · Altura: 3 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 12 · RETÂNGULO
+   Largura: 6 px  · Altura: 3 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · RETÂNGULO
+   Largura: 6 px  · Altura: 3 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto

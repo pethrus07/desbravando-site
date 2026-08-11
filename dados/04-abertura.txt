@@ -1,0 +1,168 @@
+MÓDULO: abertura   ·   tela: Grupo Fechado
+30 elementos para montar na Wix (+5 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/04-abertura.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "abertura"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 88 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 30 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · COLUNA "abertura"
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "EXPEDIÇÕES · GRUPO FECHADO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "SUA EXPEDIÇÃO,\nDO SEU JEITO."
+   Fonte: Anton  · Tamanho: 72 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.5  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 60 px  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · TEXTO
+   texto: "Empresas, concessionárias e turmas de amigos. Você escolhe o destino, a data e o padrão — a gente monta a operação inteira e devolve o orçamento em até 48 horas."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 620 px  ·
+   Alinhamento: esquerda
+
+nº 11 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 12 · COLUNA
+   Largura: automática  · Altura: automática  · Espaço: 12 px  · Alinha: fim  ·
+   Canto: reto
+
+nº 13 · LINHA "botão/solido"
+   Largura: automática  · Altura: 48 px  · Fundo: #000000 preto  ·
+   Recuo: 22 px  · Espaço: 9 px  · Alinha: centro  · Distribui: centro  ·
+   Canto: reto
+
+nº 14 · TEXTO
+   texto: "SOLICITAR ORÇAMENTO"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1  · Entre letras: +1.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 16 · LINHA "botão/contorno"
+   Largura: automática  · Altura: 48 px  · Recuo: 22 px  · Espaço: 9 px  ·
+   Contorno: 1 px nos 4 lados · #111111 tinta  · Alinha: centro  ·
+   Distribui: centro  · Canto: reto
+
+nº 17 · TEXTO
+   texto: "VER DESTINOS POSSÍVEIS"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 18 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 19 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 20 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Alinha: início  ·
+   Canto: reto
+
+nº 21 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 22 · TEXTO
+   texto: "PRAZO DA PROPOSTA"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 23 · TEXTO
+   texto: "até 48h"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 24 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 25 · TEXTO
+   texto: "GRUPO MÍNIMO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 26 · TEXTO
+   texto: "6 carros"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 27 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 28 · TEXTO
+   texto: "DESTINOS NO MAPA"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 29 · TEXTO
+   texto: "4 + sob medida"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 30 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 31 · TEXTO
+   texto: "DURAÇÃO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 32 · TEXTO
+   texto: "de 2 a 7 dias"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 33 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 34 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 35 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 88 px  · Alinha: início  · Canto: reto

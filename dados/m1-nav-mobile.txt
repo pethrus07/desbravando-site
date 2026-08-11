@@ -1,0 +1,37 @@
+MÓDULO: nav/mobile   ·   tela: Home (mobile)
+4 elementos para montar na Wix (+5 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m1-nav-mobile.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · LINHA "nav/mobile"
+   Largura: estica  · Altura: 58 px  · Fundo: #000000 preto  · Alinha: centro  ·
+   Canto: reto
+
+nº 2 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 4 · CAIXA "ícone/menu"
+   Largura: 22 px  · Altura: 22 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 5 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 6 · FOTO "marca/montanha"
+   Largura: 58 px  · Altura: 22 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 8 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 22 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 9 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto

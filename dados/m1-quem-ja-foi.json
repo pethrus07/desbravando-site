@@ -1,0 +1,849 @@
+{
+ "tela": "M1",
+ "telaNome": "Home (mobile)",
+ "modulo": "quem já foi",
+ "elementosNaWix": 12,
+ "espacamentoQueNaoViraElemento": 4,
+ "recorte": "previa/modulos/m1-quem-ja-foi.png",
+ "elementos": [
+  {
+   "num": 1,
+   "prof": 0,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "quem já foi",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "#F2F2F2 papel",
+     "#F2F2F2"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "prof": 1,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "40 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "prof": 1,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "prof": 2,
+   "tipo": "recuo lateral",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "20 px",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "prof": 2,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "16 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "QUEM JÁ FOI",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "10 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "A EXPEDIÇÃO ACABA.\nO GRUPO CONTINUA.",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "30 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.04",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.4",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "prof": 3,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "2 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "prof": 4,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "18 px",
+     null
+    ],
+    [
+     "Espaço",
+     "10 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "↗",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "19 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.12",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.2",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "“Foi a primeira vez que levei minha mulher e meus dois filhos numa expedição. Não faltou nada — e é isso que faz a diferença.”",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "15 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.55",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Participante da 2ª Expedição Família",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "2 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "prof": 2,
+   "tipo": "recuo lateral",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "20 px",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "prof": 1,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "40 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  }
+ ]
+}

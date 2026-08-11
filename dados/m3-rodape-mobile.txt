@@ -1,0 +1,88 @@
+MÓDULO: rodapé/mobile   ·   tela: Grupo Avulso (mobile)
+15 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m3-rodape-mobile.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "rodapé/mobile"
+   Largura: estica  · Altura: automática  · Fundo: #000000 preto  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 34 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 20 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 6 · FOTO "marca/montanha"
+   Largura: 64 px  · Altura: 24 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: centro  ·
+   Distribui: centro  · Canto: reto
+
+nº 8 · TEXTO
+   texto: "Expedições"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.45  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "Estoque Off-Road"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.45  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 10 · TEXTO
+   texto: "Produtos"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.45  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 11 · TEXTO
+   texto: "O Desbravando"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.45  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 12 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #FFFFFF29 branco 16%  ·
+   Alinha: início  · Canto: reto
+
+nº 13 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 14 · CAIXA "ícone/message-circle"
+   Largura: 19 px  · Altura: 19 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 15 · CAIXA "ícone/instagram"
+   Largura: 19 px  · Altura: 19 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 16 · CAIXA "ícone/youtube"
+   Largura: 19 px  · Altura: 19 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · TEXTO
+   texto: "© 2026 Desbravando UTV"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 400  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 18 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 19 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 30 px  · Alinha: início  · Canto: reto

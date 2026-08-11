@@ -1,0 +1,2860 @@
+{
+ "tela": "M1",
+ "telaNome": "Home (mobile)",
+ "modulo": "expedições · etapa 2",
+ "elementosNaWix": 47,
+ "espacamentoQueNaoViraElemento": 8,
+ "recorte": "previa/modulos/m1-expedicoes-etapa-2.png",
+ "elementos": [
+  {
+   "num": 1,
+   "prof": 0,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "expedições · etapa 2",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "#FFFFFF branco",
+     "#FFFFFF"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "prof": 1,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "prof": 2,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "formato/GRUPO AVULSO",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "22 px",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "01",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "11 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "22 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "GRUPO AVULSO",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "30 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.04",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.4",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "16 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Ideal para quem procura uma experiência organizada pelo Desbravando, com destino, data e grupo já formado.",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "15 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.55",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "24 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "prof": 3,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#D9D9D9 linha",
+     "#D9D9D9"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "QUEM VAI",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Você, sua família ou seus amigos, ao lado de outros desbravadores",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "DATAS",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 17,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Definidas no calendário do Desbravando",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 18,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 19,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "VAGA",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 20,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Individual ou por carro",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 21,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 22,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "ROTEIRO",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 23,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Pronto e reconhecido antes por quem vai guiar",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 24,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#D9D9D9 linha",
+     "#D9D9D9"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 25,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "22 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 26,
+   "prof": 3,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "botão/texto",
+   "campos": [
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Altura",
+     "48 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "9 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "centro",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 27,
+   "prof": 4,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "VER PRÓXIMAS EXPEDIÇÕES",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1",
+     null
+    ],
+    [
+     "Entre letras",
+     "+1.2",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 28,
+   "prof": 4,
+   "tipo": "caixa",
+   "aux": false,
+   "nome": "ícone/arrow-right",
+   "campos": [
+    [
+     "Largura",
+     "13 px",
+     null
+    ],
+    [
+     "Altura",
+     "13 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     " · —",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 29,
+   "prof": 1,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "1 px topo · #D9D9D9 linha",
+     "#D9D9D9"
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 30,
+   "prof": 2,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "formato/GRUPO FECHADO",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "22 px",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 31,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "02",
+   "campos": [
+    [
+     "Fonte",
+     "JetBrains Mono",
+     null
+    ],
+    [
+     "Tamanho",
+     "11 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.4",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 32,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "22 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 33,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "GRUPO FECHADO",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "30 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.04",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.4",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 34,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "16 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 35,
+   "prof": 3,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Ideal para quem deseja criar uma expedição exclusiva, personalizada em cada detalhe para o seu grupo.",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "15 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#717171 cinza",
+     "#717171"
+    ],
+    [
+     "Entrelinha",
+     "1.55",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 36,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "24 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 37,
+   "prof": 3,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 38,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#D9D9D9 linha",
+     "#D9D9D9"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 39,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 40,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "QUEM VAI",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 41,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Só quem você convidar — família, amigos ou a sua empresa",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 42,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 43,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "DATAS",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 44,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Escolhidas pelo seu grupo",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 45,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 46,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "VAGA",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 47,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "O grupo inteiro, em exclusividade",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 48,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "13 px",
+     null
+    ],
+    [
+     "Espaço",
+     "20 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 49,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "ROTEIRO",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "9 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#9A9A9A cinza fraco",
+     "#9A9A9A"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+2.4",
+     null
+    ],
+    [
+     "Largura",
+     "92 px",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 50,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "Montado sob medida, do destino à alimentação",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12.5 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1.45",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 51,
+   "prof": 4,
+   "tipo": "fio",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#D9D9D9 linha",
+     "#D9D9D9"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 52,
+   "prof": 3,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "22 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 53,
+   "prof": 3,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "botão/texto",
+   "campos": [
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Altura",
+     "48 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "9 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "centro",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 54,
+   "prof": 4,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "SOLICITAR ORÇAMENTO",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#111111 tinta",
+     "#111111"
+    ],
+    [
+     "Entrelinha",
+     "1",
+     null
+    ],
+    [
+     "Entre letras",
+     "+1.2",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 55,
+   "prof": 4,
+   "tipo": "caixa",
+   "aux": false,
+   "nome": "ícone/arrow-right",
+   "campos": [
+    [
+     "Largura",
+     "13 px",
+     null
+    ],
+    [
+     "Altura",
+     "13 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     " · —",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  }
+ ]
+}

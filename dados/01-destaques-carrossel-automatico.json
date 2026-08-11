@@ -1,0 +1,1016 @@
+{
+ "tela": "01",
+ "telaNome": "Home",
+ "modulo": "destaques (carrossel automático)",
+ "elementosNaWix": 14,
+ "espacamentoQueNaoViraElemento": 5,
+ "recorte": "previa/modulos/01-destaques-carrossel-automatico.png",
+ "elementos": [
+  {
+   "num": 1,
+   "prof": 0,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "destaques (carrossel automático)",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "440 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "prof": 1,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "estica",
+     null
+    ],
+    [
+     "Fundo",
+     "degradê 100° · #000000D9 0% → #00000026 70%",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "prof": 2,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "estica",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "prof": 3,
+   "tipo": "recuo lateral",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "120 px",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "prof": 3,
+   "tipo": "coluna",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "620 px",
+     null
+    ],
+    [
+     "Altura",
+     "automática",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "18 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "prof": 4,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "PRÉ-RESERVA ABERTA",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "11 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#FFFFFFA6 branco 65%",
+     "#FFFFFFA6"
+    ],
+    [
+     "Entrelinha",
+     "1.2",
+     null
+    ],
+    [
+     "Entre letras",
+     "+3",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "prof": 4,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "URUBICI · SANTA CATARINA",
+   "campos": [
+    [
+     "Fonte",
+     "Anton",
+     null
+    ],
+    [
+     "Tamanho",
+     "48 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#FFFFFF branco",
+     "#FFFFFF"
+    ],
+    [
+     "Entrelinha",
+     "1.04",
+     null
+    ],
+    [
+     "Entre letras",
+     "-0.4",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "prof": 4,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "3ª Expedição Família. 26 a 30 de agosto de 2026, na melhor janela do ano na serra catarinense.",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "16 px",
+     null
+    ],
+    [
+     "Peso",
+     "400",
+     null
+    ],
+    [
+     "Cor",
+     "#FFFFFFD1 branco 82%",
+     "#FFFFFFD1"
+    ],
+    [
+     "Entrelinha",
+     "1.6",
+     null
+    ],
+    [
+     "Entre letras",
+     "0",
+     null
+    ],
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "prof": 4,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "4 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "prof": 4,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "botão/claro",
+   "campos": [
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Altura",
+     "48 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#FFFFFF branco",
+     "#FFFFFF"
+    ],
+    [
+     "Recuo",
+     "22 px",
+     null
+    ],
+    [
+     "Espaço",
+     "9 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "centro",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "prof": 5,
+   "tipo": "texto",
+   "aux": false,
+   "conteudo": "FAÇA SUA PRÉ-RESERVA",
+   "campos": [
+    [
+     "Fonte",
+     "Archivo",
+     null
+    ],
+    [
+     "Tamanho",
+     "12 px",
+     null
+    ],
+    [
+     "Peso",
+     "600",
+     null
+    ],
+    [
+     "Cor",
+     "#000000 preto",
+     "#000000"
+    ],
+    [
+     "Entrelinha",
+     "1",
+     null
+    ],
+    [
+     "Entre letras",
+     "+1.4",
+     null
+    ],
+    [
+     "Largura",
+     "automática",
+     null
+    ],
+    [
+     "Alinhamento",
+     "esquerda",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "prof": 5,
+   "tipo": "caixa",
+   "aux": false,
+   "nome": "ícone/arrow-right",
+   "campos": [
+    [
+     "Largura",
+     "13 px",
+     null
+    ],
+    [
+     "Altura",
+     "13 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     " · —",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "prof": 3,
+   "tipo": "mola",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "prof": 3,
+   "tipo": "recuo lateral",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "120 px",
+     null
+    ],
+    [
+     "Altura",
+     "1 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "prof": 2,
+   "tipo": "linha",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "38 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "8 px",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "centro",
+     null
+    ],
+    [
+     "Distribui",
+     "centro",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "prof": 3,
+   "tipo": "retângulo",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "26 px",
+     null
+    ],
+    [
+     "Altura",
+     "3 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#FFFFFF branco",
+     "#FFFFFF"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 17,
+   "prof": 3,
+   "tipo": "retângulo",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "8 px",
+     null
+    ],
+    [
+     "Altura",
+     "3 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#FFFFFF59 branco 35%",
+     "#FFFFFF59"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 18,
+   "prof": 3,
+   "tipo": "retângulo",
+   "aux": false,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "8 px",
+     null
+    ],
+    [
+     "Altura",
+     "3 px",
+     null
+    ],
+    [
+     "Fundo",
+     "#FFFFFF59 branco 35%",
+     "#FFFFFF59"
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  },
+  {
+   "num": 19,
+   "prof": 2,
+   "tipo": "respiro",
+   "aux": true,
+   "nome": "",
+   "campos": [
+    [
+     "Largura",
+     "estica",
+     null
+    ],
+    [
+     "Altura",
+     "16 px",
+     null
+    ],
+    [
+     "Fundo",
+     "—",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  }
+ ]
+}

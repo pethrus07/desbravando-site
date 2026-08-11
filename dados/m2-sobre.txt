@@ -1,0 +1,48 @@
+MÓDULO: sobre   ·   tela: Página da Expedição (mobile)
+6 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-sobre.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "sobre"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "O DESTINO"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "O TRECHO MAIS BRUTO DO LITORAL GAÚCHO."
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "Cinco dias cruzando o trecho mais bruto do litoral gaúcho — dunas que não acabam, lagoas de água doce escondidas na areia, beira-oceano por quilômetros, matas de pinus, vilas de pescadores e faróis. Tudo com hospedagem escolhida a dedo entre o padrão e as opções da região e estrutura completa de apoio."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 10 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto

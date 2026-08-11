@@ -1,0 +1,101 @@
+MÓDULO: quem já foi   ·   tela: Home
+17 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/01-quem-ja-foi.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "quem já foi"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 24 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · COLUNA
+   Largura: 780 px  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "QUEM JÁ FOI"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "A EXPEDIÇÃO ACABA.\nO GRUPO CONTINUA."
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 10 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 40 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 12 · TEXTO
+   texto: "↗"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: 34 px  ·
+   Alinhamento: esquerda
+
+nº 13 · TEXTO
+   texto: "“Foi a primeira vez que levei minha mulher e meus dois filhos numa expedição. Não faltou nada — e é isso que faz a diferença.”"
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 14 · TEXTO
+   texto: "Participante da 2ª Expedição Família"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: 240 px  ·
+   Alinhamento: esquerda
+
+nº 15 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 40 px  ·
+   Alinha: início  · Canto: reto
+
+nº 16 · TEXTO
+   texto: "↗"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: 34 px  ·
+   Alinhamento: esquerda
+
+nº 17 · TEXTO
+   texto: "“Já rodei com outros grupos. A diferença do Desbravando é a estrutura: apoio, resgate, e alguém pensando em tudo antes de você precisar.”"
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 18 · TEXTO
+   texto: "Participante · Serra da Canastra"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: 240 px  ·
+   Alinhamento: esquerda
+
+nº 19 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 20 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 21 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto

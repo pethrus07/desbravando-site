@@ -1,0 +1,118 @@
+MÓDULO: rodapé   ·   tela: Home
+20 elementos para montar na Wix (+6 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/01-rodape.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "rodapé"
+   Largura: estica  · Altura: automática  · Fundo: #000000 preto  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 58 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 44 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 7 · FOTO "marca/montanha"
+   Largura: 74 px  · Altura: 28 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 8 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 9 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 28 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 10 · TEXTO
+   texto: "Expedições"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 11 · TEXTO
+   texto: "Estoque Off-Road"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 12 · TEXTO
+   texto: "Produtos"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 13 · TEXTO
+   texto: "O Desbravando"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #FFFFFFD1 branco 82%  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 14 · RETÂNGULO
+   Largura: 1 px  · Altura: 16 px  · Fundo: #FFFFFF29 branco 16%  ·
+   Alinha: início  · Canto: reto
+
+nº 15 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 16 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 16 · CAIXA "ícone/message-circle"
+   Largura: 18 px  · Altura: 18 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · CAIXA "ícone/instagram"
+   Largura: 18 px  · Altura: 18 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 18 · CAIXA "ícone/youtube"
+   Largura: 18 px  · Altura: 18 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #FFFFFF29 branco 16%  ·
+   Alinha: início  · Canto: reto
+
+nº 20 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 21 · TEXTO
+   texto: "© 2026 Desbravando UTV"
+   Fonte: Archivo  · Tamanho: 13 px  · Peso: 400  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 22 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 23 · TEXTO
+   texto: "Privacidade"
+   Fonte: Archivo  · Tamanho: 13 px  · Peso: 400  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 24 · TEXTO
+   texto: "Termos"
+   Fonte: Archivo  · Tamanho: 13 px  · Peso: 400  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 25 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 26 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 44 px  · Alinha: início  · Canto: reto

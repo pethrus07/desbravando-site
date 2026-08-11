@@ -1,0 +1,49 @@
+MÓDULO: parceiros oficiais   ·   tela: Home
+6 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/01-parceiros-oficiais.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "parceiros oficiais"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 88 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 34 px  ·
+   Alinha: centro  · Distribui: centro  · Canto: reto
+
+nº 4 · LINHA "logo/Can-Am"
+   Largura: 180 px  · Altura: 54 px  · Alinha: centro  · Distribui: centro  ·
+   Canto: reto
+
+nº 5 · TEXTO
+   texto: "Can-Am"
+   Fonte: Anton  · Tamanho: 34 px  · Peso: 400  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.08  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 6 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 24 px  · Alinha: início  · Canto: reto
+
+nº 7 · TEXTO
+   texto: "PARCEIRA OFICIAL DAS EXPEDIÇÕES"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 12 px  · Alinha: início  · Canto: reto
+
+nº 9 · TEXTO
+   texto: "Ao lado de quem compartilha a mesma paixão."
+   Fonte: Anton  · Tamanho: 34 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.08  · Entre letras: -0.4  · Largura: 820 px  ·
+   Alinhamento: centro
+
+nº 10 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 88 px  · Alinha: início  · Canto: reto

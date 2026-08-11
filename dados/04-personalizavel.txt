@@ -1,0 +1,286 @@
+MÓDULO: personalizável   ·   tela: Grupo Fechado
+54 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/04-personalizavel.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "personalizável"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · COLUNA "cabeçalho"
+   Largura: 780 px  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "SOB MEDIDA"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "O QUE DÁ PARA PERSONALIZAR"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "Praticamente tudo. A régua de segurança e apoio é a única coisa que não muda."
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 10 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 56 px  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 12 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 14 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 15 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 16 · TEXTO
+   texto: "Destino"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 17 · TEXTO
+   texto: "Escolha entre os destinos do nosso mapa ou proponha um novo"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 18 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 19 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 20 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 21 · TEXTO
+   texto: "Data e duração"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 22 · TEXTO
+   texto: "De um fim de semana a uma semana inteira"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 23 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 24 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 25 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 26 · TEXTO
+   texto: "Hospedagem"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 27 · TEXTO
+   texto: "Do pousada-pé-na-estrada ao resort"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 28 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 29 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 30 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 31 · TEXTO
+   texto: "Carros"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 32 · TEXTO
+   texto: "Frota própria, locação ou os carros do seu grupo"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 33 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 34 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 35 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 36 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 37 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 38 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 39 · TEXTO
+   texto: "Alimentação"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 40 · TEXTO
+   texto: "Almoço de campo, restaurantes locais ou chef exclusivo"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 41 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 42 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 43 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 44 · TEXTO
+   texto: "Mídia"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 45 · TEXTO
+   texto: "Fotógrafo, cinegrafista e drone acompanhando o grupo"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 46 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 47 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 48 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 49 · TEXTO
+   texto: "Brindes"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 50 · TEXTO
+   texto: "Kit personalizado com a marca da sua empresa"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 51 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 52 · TEXTO
+   texto: "↗"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 20 px  ·
+   Alinhamento: esquerda
+
+nº 53 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 4 px  · Alinha: início  ·
+   Canto: reto
+
+nº 54 · TEXTO
+   texto: "Segurança"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 55 · TEXTO
+   texto: "Resgate, apoio mecânico e ambulância sob demanda"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 56 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 57 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 58 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto

@@ -1,0 +1,81 @@
+MÓDULO: abertura   ·   tela: Grupo Avulso
+12 elementos para montar na Wix (+5 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/02-abertura.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "abertura"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 84 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 7 · TEXTO
+   texto: "Expedições"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "/"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "Grupo Avulso"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 10 · COLUNA "abertura"
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · TEXTO
+   texto: "GRUPO AVULSO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · TEXTO
+   texto: "PRÓXIMAS EXPEDIÇÕES"
+   Fonte: Anton  · Tamanho: 72 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.5  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 13 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 60 px  · Alinha: início  ·
+   Canto: reto
+
+nº 14 · TEXTO
+   texto: "Escolha seu próximo destino, conheça todos os detalhes da expedição e reserve sua vaga em um grupo já formado."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 620 px  ·
+   Alinhamento: esquerda
+
+nº 15 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 16 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 17 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 84 px  · Alinha: início  · Canto: reto

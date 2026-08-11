@@ -1,0 +1,86 @@
+MÓDULO: chamada final/mobile   ·   tela: Grupo Avulso (mobile)
+11 elementos para montar na Wix (+9 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m3-chamada-final-mobile.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "chamada final/mobile"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 48 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 6 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 24 px  · Alinha: início  · Canto: reto
+
+nº 8 · TEXTO
+   texto: "NOVAS EXPEDIÇÕES"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 9 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 12 px  · Alinha: início  · Canto: reto
+
+nº 10 · TEXTO
+   texto: "AINDA NÃO ENCONTROU SUA PRÓXIMA EXPERIÊNCIA?"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 11 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 14 px  · Alinha: início  · Canto: reto
+
+nº 12 · TEXTO
+   texto: "Nossa agenda é atualizada constantemente. Cadastre seu interesse e seja avisado quando uma nova expedição estiver disponível para o seu perfil."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 13 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 26 px  · Alinha: início  · Canto: reto
+
+nº 14 · LINHA
+   Largura: estica  · Altura: 48 px  · Espaço: 12 px  ·
+   Contorno: 1.5 px base · #111111 tinta  · Alinha: centro  · Canto: reto
+
+nº 15 · TEXTO
+   texto: "seu e-mail"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 16 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 14 px  · Alinha: início  · Canto: reto
+
+nº 18 · TEXTO
+   texto: "Avise-me sobre novas expedições"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 19 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 20 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 48 px  · Alinha: início  · Canto: reto

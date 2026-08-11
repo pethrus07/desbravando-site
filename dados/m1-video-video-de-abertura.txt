@@ -1,0 +1,31 @@
+MÓDULO: vídeo/vídeo de abertura   ·   tela: Home (mobile)
+5 elementos para montar na Wix
+Recorte de como deve ficar: previa/modulos/m1-video-video-de-abertura.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "vídeo/vídeo de abertura"
+   Largura: estica  · Altura: 380 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 2 · COLUNA
+   Largura: estica  · Altura: estica  ·
+   Fundo: degradê 180° · #00000047 0% → #0000007A 100%  · Espaço: 14 px  ·
+   Alinha: centro  · Distribui: centro  · Canto: reto
+
+nº 3 · LINHA
+   Largura: 62 px  · Altura: 62 px  ·
+   Contorno: 1.5 px nos 4 lados · #FFFFFFB3 branco 70%  · Alinha: centro  ·
+   Distribui: centro  · Canto: redondo
+
+nº 4 · CAIXA "ícone/play"
+   Largura: 20 px  · Altura: 20 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 5 · TEXTO
+   texto: "VÍDEO DE ABERTURA"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #FFFFFFA6 branco 65%  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda

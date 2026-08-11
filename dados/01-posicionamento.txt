@@ -1,0 +1,48 @@
+MÓDULO: posicionamento   ·   tela: Home
+6 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/01-posicionamento.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "posicionamento"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 84 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 24 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "O DESBRAVANDO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "MAIS QUE UMA MARCA.\nUM ESTILO DE VIDA."
+   Fonte: Anton  · Tamanho: 72 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.5  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "O Desbravando reúne pessoas que compartilham a mesma paixão pelo universo off-road. Da compra e venda de UTVs às expedições pelo Brasil, passando por produtos desenvolvidos para quem vive esse estilo de vida, cada detalhe é pensado para proporcionar experiências que vão muito além da trilha."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 900 px  ·
+   Alinhamento: esquerda
+
+nº 9 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 10 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 84 px  · Alinha: início  · Canto: reto

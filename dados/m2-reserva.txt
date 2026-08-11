@@ -1,0 +1,119 @@
+MÓDULO: reserva   ·   tela: Página da Expedição (mobile)
+20 elementos para montar na Wix (+6 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-reserva.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "reserva"
+   Largura: estica  · Altura: automática  · Fundo: #000000 preto  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto
+
+nº 3 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 16 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 4 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 5 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 6 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 16 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "RESERVA"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "O INVESTIMENTO DA EXPEDIÇÃO"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · COLUNA "reserva/mobile"
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 10 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #FFFFFF29 branco 16%  ·
+   Alinha: início  · Canto: reto
+
+nº 11 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 12 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 5 px  ·
+   Alinha: início  · Canto: reto
+
+nº 13 · TEXTO
+   texto: "POR PESSOA"
+   Fonte: JetBrains Mono  · Tamanho: 9 px  · Peso: 400  ·
+   Cor: #FFFFFF8C branco 55%  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 14 · TEXTO
+   texto: "a confirmar"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 5 px  ·
+   Contorno: 1 px esquerda · #FFFFFF29 branco 16%  · Alinha: início  ·
+   Canto: reto
+
+nº 16 · TEXTO
+   texto: "POR CASAL"
+   Fonte: JetBrains Mono  · Tamanho: 9 px  · Peso: 400  ·
+   Cor: #FFFFFF8C branco 55%  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 17 · TEXTO
+   texto: "a confirmar"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 18 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #FFFFFF29 branco 16%  ·
+   Alinha: início  · Canto: reto
+
+nº 19 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 18 px  · Alinha: início  · Canto: reto
+
+nº 20 · LINHA "botão/claro"
+   Largura: estica  · Altura: 52 px  · Fundo: #FFFFFF branco  · Recuo: 24 px  ·
+   Espaço: 9 px  · Alinha: centro  · Distribui: centro  · Canto: reto
+
+nº 21 · TEXTO
+   texto: "FAZER PRÉ-RESERVA"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #000000 preto  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 22 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 23 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 10 px  · Alinha: início  · Canto: reto
+
+nº 24 · TEXTO
+   texto: "A escolha da acomodação acontece na próxima etapa, depois de iniciar a reserva."
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 400  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 25 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 26 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto

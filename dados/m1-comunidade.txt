@@ -1,0 +1,71 @@
+MÓDULO: comunidade   ·   tela: Home (mobile)
+10 elementos para montar na Wix (+6 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m1-comunidade.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "comunidade"
+   Largura: estica  · Altura: automática  · Fundo: #000000 preto  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 48 px  · Alinha: início  · Canto: reto
+
+nº 3 · FOTO "marca/montanha"
+   Largura: 74 px  · Altura: 28 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 4 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 18 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 6 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 7 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 8 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 9 · TEXTO
+   texto: "Faça parte da\nComunidade Desbravando"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: centro
+
+nº 10 · TEXTO
+   texto: "Cada nova experiência e cada nova conquista fortalecem sua trajetória e desbloqueiam benefícios exclusivos."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #FFFFFFD1 branco 82%  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: centro
+
+nº 11 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 12 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 22 px  · Alinha: início  · Canto: reto
+
+nº 13 · LINHA "botão/claro"
+   Largura: automática  · Altura: 48 px  · Fundo: #FFFFFF branco  ·
+   Recuo: 22 px  · Espaço: 9 px  · Alinha: centro  · Distribui: centro  ·
+   Canto: reto
+
+nº 14 · TEXTO
+   texto: "CONHEÇA SUA JORNADA"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #000000 preto  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 16 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 48 px  · Alinha: início  · Canto: reto

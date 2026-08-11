@@ -1,0 +1,191 @@
+MÓDULO: hospedagem   ·   tela: Página da Expedição (mobile)
+37 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-hospedagem.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "hospedagem"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "HOSPEDAGEM"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "ONDE O GRUPO FICA"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "Hospedagem escolhida a dedo entre as opções e padrões da região · 4 pernoites com café da manhã · jantas inclusas (3 em Mostardas · 1 em Tramandaí)."
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 10 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · COLUNA "hospedagem/Pousada Pouso Alegre"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 12 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 16 px  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 8 px  · Alinha: início  ·
+   Canto: reto
+
+nº 14 · TEXTO
+   texto: "CHEGADA & CORAÇÃO DA EXPEDIÇÃO"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · TEXTO
+   texto: "Pousada Pouso Alegre"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 16 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 17 · TEXTO
+   texto: "Mostardas · RS"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 18 · RETÂNGULO
+   Largura: 3 px  · Altura: 3 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 19 · TEXTO
+   texto: "3 noites"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.4  · Entre letras: +0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 20 · TEXTO
+   texto: "No centro do roteiro, com café da manhã. Sua base nas noites 1, 2 e 3."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 21 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 22 · FOTO
+   Largura: estica  · Altura: 116 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 23 · FOTO
+   Largura: estica  · Altura: 116 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 24 · FOTO
+   Largura: 34 px  · Altura: 116 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 25 · COLUNA "hospedagem/Schenkel Hotel"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 20 px  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 26 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 16 px  · Alinha: início  ·
+   Canto: reto
+
+nº 27 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 8 px  · Alinha: início  ·
+   Canto: reto
+
+nº 28 · TEXTO
+   texto: "BASE DA DESPEDIDA"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 29 · TEXTO
+   texto: "Schenkel Hotel"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 30 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 31 · TEXTO
+   texto: "Tramandaí · RS"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 32 · RETÂNGULO
+   Largura: 3 px  · Altura: 3 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 33 · TEXTO
+   texto: "1 noite"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.4  · Entre letras: +0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 34 · TEXTO
+   texto: "Apart-hotel com café da manhã. Sua base na última noite — noite 4."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 35 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 36 · FOTO
+   Largura: estica  · Altura: 116 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 37 · FOTO
+   Largura: estica  · Altura: 116 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 38 · FOTO
+   Largura: 34 px  · Altura: 116 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 39 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 40 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 41 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto

@@ -1,0 +1,313 @@
+MÓDULO: roteiro   ·   tela: Página da Expedição (mobile)
+58 elementos para montar na Wix (+9 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-roteiro.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "roteiro"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "ROTEIRO"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "DIA A DIA"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 9 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · LINHA "roteiro/dia 01"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 18 px  ·
+   Alinha: início  · Canto: reto
+
+nº 11 · COLUNA
+   Largura: 52 px  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 12 · TEXTO
+   texto: "DIA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 13 · TEXTO
+   texto: "01"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  ·
+   Contorno: 1 px esquerda · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 15 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 16 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 16 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 17 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  · Alinha: início  ·
+   Canto: reto
+
+nº 18 · TEXTO
+   texto: "02 dez · Mostardas · RS"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: estica  · Alinhamento: esquerda
+
+nº 19 · TEXTO
+   texto: "CHEGADA"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 20 · TEXTO
+   texto: "Check-in a partir das 15:00 em Mostardas. O evento de boas-vindas inicia às 19:00 com jantar completo, chopp, drinks e música ao vivo."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 21 · LINHA "roteiro/dia 02"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 18 px  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 22 · COLUNA
+   Largura: 52 px  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 23 · TEXTO
+   texto: "DIA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 24 · TEXTO
+   texto: "02"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 25 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  ·
+   Contorno: 1 px esquerda · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 26 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 27 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 16 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 28 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  · Alinha: início  ·
+   Canto: reto
+
+nº 29 · TEXTO
+   texto: "03 dez · Lagoa do Peixe · ~170 km"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: estica  · Alinhamento: esquerda
+
+nº 30 · TEXTO
+   texto: "PONTAL DO BUJURU"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 31 · TEXTO
+   texto: "Beira-mar até Bujuru pelo Parque Nacional da Lagoa do Peixe, margens da Lagoa dos Patos e o Pontal do Bujuru."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 32 · LINHA "roteiro/dia 03"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 18 px  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 33 · COLUNA
+   Largura: 52 px  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 34 · TEXTO
+   texto: "DIA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 35 · TEXTO
+   texto: "03"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 36 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  ·
+   Contorno: 1 px esquerda · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 37 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 38 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 16 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 39 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  · Alinha: início  ·
+   Canto: reto
+
+nº 40 · TEXTO
+   texto: "04 dez · Mostardas · RS · ~140 km"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: estica  · Alinhamento: esquerda
+
+nº 41 · TEXTO
+   texto: "FAROL CRISTÓVÃO PEREIRA"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 42 · TEXTO
+   texto: "Estradas vicinais, floresta de pinus e dunas até o Farol Cristóvão Pereira, com almoço na trilha e volta pela margem da Lagoa dos Patos."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 43 · LINHA "roteiro/dia 04"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 18 px  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 44 · COLUNA
+   Largura: 52 px  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 45 · TEXTO
+   texto: "DIA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 46 · TEXTO
+   texto: "04"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 47 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  ·
+   Contorno: 1 px esquerda · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 48 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 49 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 16 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 50 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  · Alinha: início  ·
+   Canto: reto
+
+nº 51 · TEXTO
+   texto: "05 dez · Tramandaí · RS · ~230 km"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: estica  · Alinhamento: esquerda
+
+nº 52 · TEXTO
+   texto: "MOSTARDAS → TRAMANDAÍ"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 53 · TEXTO
+   texto: "Dunas e reflorestamento, almoço na Lagoa do Bacupari, praia de São Simão e beira-oceano até Tramandaí. À noite, fora do volante, nosso tradicional evento de encerramento."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 54 · LINHA "roteiro/dia 05"
+   Largura: estica  · Altura: automática  · Recuo: 20 px  · Espaço: 18 px  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 55 · COLUNA
+   Largura: 52 px  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 56 · TEXTO
+   texto: "DIA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 57 · TEXTO
+   texto: "05"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 58 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  ·
+   Contorno: 1 px esquerda · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 59 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 60 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 16 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 61 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 10 px  · Alinha: início  ·
+   Canto: reto
+
+nº 62 · TEXTO
+   texto: "06 dez · Tramandaí · RS"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: estica  · Alinhamento: esquerda
+
+nº 63 · TEXTO
+   texto: "DESPEDIDA"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 64 · TEXTO
+   texto: "Café da manhã e check-out, sem pressa. Você volta para casa com memórias que duram para sempre."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 65 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 66 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 67 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto

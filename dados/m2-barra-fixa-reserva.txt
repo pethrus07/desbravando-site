@@ -1,0 +1,55 @@
+MÓDULO: barra-fixa/reserva   ·   tela: Página da Expedição (mobile)
+8 elementos para montar na Wix (+3 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-barra-fixa-reserva.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · LINHA "barra-fixa/reserva"
+   Largura: estica  · Altura: 82 px  · Fundo: #000000 preto  ·
+   Contorno: 1 px topo · #FFFFFF29 branco 16%  · Alinha: centro  ·
+   Canto: reto
+
+nº 2 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 4 · COLUNA
+   Largura: automática  · Altura: automática  · Espaço: 3 px  ·
+   Alinha: início  · Canto: reto
+
+nº 5 · TEXTO
+   texto: "A PARTIR DE"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 6 · TEXTO
+   texto: "Pré-reserva aberta"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 8 · LINHA "botão/claro"
+   Largura: 176 px  · Altura: 48 px  · Fundo: #FFFFFF branco  · Recuo: 22 px  ·
+   Espaço: 9 px  · Alinha: centro  · Distribui: centro  · Canto: reto
+
+nº 9 · TEXTO
+   texto: "FAZER PRÉ-RESERVA"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #000000 preto  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 10 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto

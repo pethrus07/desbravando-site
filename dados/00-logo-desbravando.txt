@@ -1,0 +1,11 @@
+MÓDULO: logo Desbravando   ·   tela: Sistema
+1 elementos para montar na Wix
+Recorte de como deve ficar: previa/modulos/00-logo-desbravando.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · FOTO "logo Desbravando"
+   Largura: 136 px  · Altura: 48 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto

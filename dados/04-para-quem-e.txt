@@ -1,0 +1,122 @@
+MÓDULO: para quem é   ·   tela: Grupo Fechado
+22 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/04-para-quem-e.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "para quem é"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 26 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · COLUNA "cabeçalho"
+   Largura: 780 px  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "PARA QUEM É"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "TRÊS TIPOS DE GRUPO QUE RODAM COM A GENTE"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 24 px  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · COLUNA
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: início  · Canto: reto
+
+nº 11 · FOTO
+   Largura: estica  · Altura: 190 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 12 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 12 px  ·
+   Alinha: início  · Canto: reto
+
+nº 13 · TEXTO
+   texto: "Empresas"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · TEXTO
+   texto: "Incentivo de vendas, convenção ou confraternização. Kit personalizado com a marca da empresa e material de mídia para vocês usarem depois."
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 15 · COLUNA
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: início  · Canto: reto
+
+nº 16 · FOTO
+   Largura: estica  · Altura: 190 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 12 px  ·
+   Alinha: início  · Canto: reto
+
+nº 18 · TEXTO
+   texto: "Concessionárias"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 19 · TEXTO
+   texto: "Test-drive de verdade com os seus clientes, no terreno em que o carro foi feito para rodar. A gente cuida da operação, vocês cuidam da relação."
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 20 · COLUNA
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: início  · Canto: reto
+
+nº 21 · FOTO
+   Largura: estica  · Altura: 190 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 22 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 12 px  ·
+   Alinha: início  · Canto: reto
+
+nº 23 · TEXTO
+   texto: "Grupos de amigos"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 24 · TEXTO
+   texto: "Vocês já rodam juntos e querem fazer uma viagem grande sem ninguém precisar organizar. A gente organiza."
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 25 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 26 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto

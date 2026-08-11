@@ -1,0 +1,48 @@
+MÓDULO: expedições · etapa 1   ·   tela: Home (mobile)
+6 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m1-expedicoes-etapa-1.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "expedições · etapa 1"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "EXPEDIÇÕES"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "ESCOLHA A EXPERIÊNCIA QUE COMBINA COM VOCÊ."
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "Dois formatos de expedições desenvolvidos para diferentes perfis, com o mesmo padrão de organização, segurança e experiência Desbravando."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 10 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto

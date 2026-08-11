@@ -1,0 +1,36 @@
+MÓDULO: transição · começa a agenda   ·   tela: Grupo Avulso
+4 elementos para montar na Wix (+3 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/02-transicao-comeca-a-agenda.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · LINHA "transição · começa a agenda"
+   Largura: estica  · Altura: 68 px  · Fundo: #000000 preto  · Alinha: centro  ·
+   Canto: reto
+
+nº 2 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 16 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 4 · TEXTO
+   texto: "AGENDA 2026"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #FFFFFFD1 branco 82%  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 5 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 6 · TEXTO
+   texto: "5 expedições"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #FFFFFF8C branco 55%  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 7 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto

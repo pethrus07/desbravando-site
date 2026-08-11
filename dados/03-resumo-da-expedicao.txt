@@ -1,0 +1,204 @@
+MÓDULO: resumo da expedição   ·   tela: Página da Expedição
+38 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/03-resumo-da-expedicao.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "resumo da expedição"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 52 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 6 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 7 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 8 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 22 px  · Alinha: início  ·
+   Canto: reto
+
+nº 9 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · TEXTO
+   texto: "LOCALIZAÇÃO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 11 · TEXTO
+   texto: "Litoral do RS · Brasil"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · TEXTO
+   texto: "BASE"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · TEXTO
+   texto: "Mostardas & Tramandaí"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 16 · TEXTO
+   texto: "DURAÇÃO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 17 · TEXTO
+   texto: "5 dias · 3 de trilha"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 18 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 22 px  · Alinha: início  ·
+   Canto: reto
+
+nº 20 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 21 · TEXTO
+   texto: "VEÍCULOS"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 22 · TEXTO
+   texto: "O seu UTV · transporte incluso"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 23 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 24 · TEXTO
+   texto: "DESTAQUES"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 25 · TEXTO
+   texto: "Dunas · lagoas · faróis"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 26 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 27 · TEXTO
+   texto: "PERCURSO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 28 · TEXTO
+   texto: "~540 km em 3 dias de trilha"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 29 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 30 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 22 px  · Alinha: início  ·
+   Canto: reto
+
+nº 31 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 32 · TEXTO
+   texto: "DATAS"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 33 · TEXTO
+   texto: "02 a 06 de dezembro de 2026"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 34 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 35 · TEXTO
+   texto: "FORMATO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 36 · TEXTO
+   texto: "Casais e Família"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 37 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 38 · TEXTO
+   texto: "REGIÃO"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 39 · TEXTO
+   texto: "Mostardas · Lagoa do Peixe · Tramandaí"
+   Fonte: Archivo  · Tamanho: 17 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 40 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 41 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 42 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 52 px  · Alinha: início  · Canto: reto

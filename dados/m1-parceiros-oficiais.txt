@@ -1,0 +1,60 @@
+MÓDULO: parceiros oficiais   ·   tela: Home (mobile)
+8 elementos para montar na Wix (+6 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m1-parceiros-oficiais.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "parceiros oficiais"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 44 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA "logo/Can-Am"
+   Largura: 150 px  · Altura: 46 px  · Alinha: centro  · Distribui: centro  ·
+   Canto: reto
+
+nº 4 · TEXTO
+   texto: "Can-Am"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.08  · Entre letras: -0.3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 5 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 18 px  · Alinha: início  · Canto: reto
+
+nº 6 · TEXTO
+   texto: "PARCEIRA OFICIAL DAS EXPEDIÇÕES"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 10 px  · Alinha: início  · Canto: reto
+
+nº 8 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 9 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 10 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 11 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 12 · TEXTO
+   texto: "Ao lado de quem compartilha a mesma paixão."
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.08  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: centro
+
+nº 13 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 14 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 44 px  · Alinha: início  · Canto: reto

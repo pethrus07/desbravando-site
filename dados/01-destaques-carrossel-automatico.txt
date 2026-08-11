@@ -1,0 +1,87 @@
+MÓDULO: destaques (carrossel automático)   ·   tela: Home
+14 elementos para montar na Wix (+5 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/01-destaques-carrossel-automatico.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "destaques (carrossel automático)"
+   Largura: estica  · Altura: 440 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 2 · COLUNA
+   Largura: estica  · Altura: estica  ·
+   Fundo: degradê 100° · #000000D9 0% → #00000026 70%  · Alinha: início  ·
+   Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: estica  · Alinha: centro  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: 620 px  · Altura: automática  · Espaço: 18 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "PRÉ-RESERVA ABERTA"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #FFFFFFA6 branco 65%  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "URUBICI · SANTA CATARINA"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "3ª Expedição Família. 26 a 30 de agosto de 2026, na melhor janela do ano na serra catarinense."
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #FFFFFFD1 branco 82%  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 4 px  · Alinha: início  · Canto: reto
+
+nº 10 · LINHA "botão/claro"
+   Largura: automática  · Altura: 48 px  · Fundo: #FFFFFF branco  ·
+   Recuo: 22 px  · Espaço: 9 px  · Alinha: centro  · Distribui: centro  ·
+   Canto: reto
+
+nº 11 · TEXTO
+   texto: "FAÇA SUA PRÉ-RESERVA"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #000000 preto  ·
+   Entrelinha: 1  · Entre letras: +1.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 14 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 15 · LINHA
+   Largura: estica  · Altura: 38 px  · Espaço: 8 px  · Alinha: centro  ·
+   Distribui: centro  · Canto: reto
+
+nº 16 · RETÂNGULO
+   Largura: 26 px  · Altura: 3 px  · Fundo: #FFFFFF branco  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · RETÂNGULO
+   Largura: 8 px  · Altura: 3 px  · Fundo: #FFFFFF59 branco 35%  ·
+   Alinha: início  · Canto: reto
+
+nº 18 · RETÂNGULO
+   Largura: 8 px  · Altura: 3 px  · Fundo: #FFFFFF59 branco 35%  ·
+   Alinha: início  · Canto: reto
+
+nº 19 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 16 px  · Alinha: início  · Canto: reto

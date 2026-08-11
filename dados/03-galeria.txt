@@ -1,0 +1,129 @@
+MÓDULO: galeria   ·   tela: Página da Expedição
+23 elementos para montar na Wix (+7 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/03-galeria.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "galeria"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 72 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 24 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 40 px  · Alinha: fim  ·
+   Canto: reto
+
+nº 7 · COLUNA
+   Largura: automática  · Altura: automática  · Espaço: 12 px  ·
+   Alinha: início  · Canto: reto
+
+nº 8 · TEXTO
+   texto: "REGISTRO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "A EXPEDIÇÃO POR DENTRO"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 10 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 11 · TEXTO
+   texto: "Dunas, lagoas e beira-oceano."
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 12 · COLUNA "galeria (carrossel · 1 foto por vez)"
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · COLUNA
+   Largura: estica  · Altura: 520 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 14 · LINHA
+   Largura: estica  · Altura: estica  · Recuo: 22 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 15 · LINHA
+   Largura: 44 px  · Altura: 44 px  · Fundo: #FFFFFFE6 branco 90%  ·
+   Alinha: centro  · Distribui: centro  · Canto: redondo
+
+nº 16 · CAIXA "ícone/chevron-left"
+   Largura: 19 px  · Altura: 19 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 18 · LINHA
+   Largura: 44 px  · Altura: 44 px  · Fundo: #FFFFFFE6 branco 90%  ·
+   Alinha: centro  · Distribui: centro  · Canto: redondo
+
+nº 19 · CAIXA "ícone/chevron-right"
+   Largura: 19 px  · Altura: 19 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 20 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 21 · TEXTO
+   texto: "Parque Nacional da Lagoa do Peixe"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 22 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 23 · TEXTO
+   texto: "1 / 4"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 24 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 6 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 25 · RETÂNGULO
+   Largura: 22 px  · Altura: 3 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 26 · RETÂNGULO
+   Largura: 8 px  · Altura: 3 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 27 · RETÂNGULO
+   Largura: 8 px  · Altura: 3 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 28 · RETÂNGULO
+   Largura: 8 px  · Altura: 3 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 29 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 30 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 72 px  · Alinha: início  · Canto: reto

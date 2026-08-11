@@ -1,0 +1,133 @@
+MÓDULO: faq   ·   tela: Grupo Avulso (mobile)
+23 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m3-faq.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "faq"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "DÚVIDAS"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "PERGUNTAS FREQUENTES"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 9 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 16 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 11 · TEXTO
+   texto: "Preciso ter UTV próprio para participar?"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 12 · TEXTO
+   texto: "+"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 13 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 16 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 14 · TEXTO
+   texto: "Qual o nível de dificuldade dessa expedição?"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 15 · TEXTO
+   texto: "+"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 16 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 16 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 17 · TEXTO
+   texto: "Criança pode ir? A partir de que idade?"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 18 · TEXTO
+   texto: "+"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 19 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 16 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 20 · TEXTO
+   texto: "Como funciona o apoio mecânico e o resgate?"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 21 · TEXTO
+   texto: "+"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 22 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 16 px  · Espaço: 12 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 23 · TEXTO
+   texto: "O que acontece se eu precisar cancelar?"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 24 · TEXTO
+   texto: "+"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 25 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 26 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 27 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto

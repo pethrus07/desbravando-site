@@ -1,0 +1,129 @@
+MÓDULO: apresentação   ·   tela: Página da Expedição
+22 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/03-apresentacao.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "apresentação"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 64 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 24 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 7 · TEXTO
+   texto: "Expedições"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "/"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "Grupo Avulso"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 10 · TEXTO
+   texto: "/"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 11 · TEXTO
+   texto: "Costa Doce · RS"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 60 px  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 20 px  · Alinha: início  ·
+   Canto: reto
+
+nº 14 · TEXTO
+   texto: "EXPEDIÇÃO COSTA DOCE · 02 A 06 DE DEZEMBRO DE 2026"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · TEXTO
+   texto: "COSTA DOCE\nRIO GRANDE DO SUL"
+   Fonte: Anton  · Tamanho: 72 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.5  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 16 · TEXTO
+   texto: "Isso não é trilha, é expedição padrão Desbravando."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 620 px  ·
+   Alinhamento: esquerda
+
+nº 17 · LINHA "status/pre-reserva"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 18 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 19 · TEXTO
+   texto: "Pré-reserva aberta"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 20 · COLUNA
+   Largura: automática  · Altura: automática  · Espaço: 12 px  · Alinha: fim  ·
+   Canto: reto
+
+nº 21 · LINHA "botão/solido"
+   Largura: automática  · Altura: 54 px  · Fundo: #000000 preto  ·
+   Recuo: 24 px  · Espaço: 9 px  · Alinha: centro  · Distribui: centro  ·
+   Canto: reto
+
+nº 22 · TEXTO
+   texto: "FAZER PRÉ-RESERVA"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1  · Entre letras: +1.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 23 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 24 · TEXTO
+   texto: "sem precisar rolar a página inteira"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.5  · Entre letras: 0  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 25 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 26 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 64 px  · Alinha: início  · Canto: reto

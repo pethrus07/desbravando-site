@@ -1,0 +1,111 @@
+MÓDULO: sobre o destino   ·   tela: Página da Expedição
+19 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/03-sobre-o-destino.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "sobre o destino"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 24 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · COLUNA
+   Largura: 780 px  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "O DESTINO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "O TRECHO MAIS BRUTO\nDO LITORAL GAÚCHO."
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 56 px  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · TEXTO
+   texto: "Cinco dias cruzando o trecho mais bruto do litoral gaúcho — dunas que não acabam, lagoas de água doce escondidas na areia, beira-oceano por quilômetros, matas de pinus, vilas de pescadores e faróis. Tudo com hospedagem escolhida a dedo entre o padrão e as opções da região e estrutura completa de apoio."
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 11 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 12 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 14 · TEXTO
+   texto: "BASE"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: 110 px  ·
+   Alinhamento: esquerda
+
+nº 15 · TEXTO
+   texto: "Mostardas & Tramandaí"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 16 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 17 · TEXTO
+   texto: "TRILHA"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: 110 px  ·
+   Alinhamento: esquerda
+
+nº 18 · TEXTO
+   texto: "3 dias · ~540 km"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 19 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 20 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 20 · TEXTO
+   texto: "SEU CARRO"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: 110 px  ·
+   Alinhamento: esquerda
+
+nº 21 · TEXTO
+   texto: "Vai de cegonha, com seguro contra roubo"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 22 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 23 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 76 px  · Alinha: início  · Canto: reto

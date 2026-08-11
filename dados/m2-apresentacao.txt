@@ -1,0 +1,76 @@
+MÓDULO: apresentação   ·   tela: Página da Expedição (mobile)
+12 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-apresentacao.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "apresentação"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 32 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "EXPEDIÇÃO COSTA DOCE · GRUPO AVULSO"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "COSTA DOCE\nRIO GRANDE DO SUL"
+   Fonte: Anton  · Tamanho: 38 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.02  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "02 a 06 de dezembro de 2026"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · LINHA "status/pre-reserva"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 10 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 11 · TEXTO
+   texto: "Pré-reserva aberta"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · LINHA "botão/solido"
+   Largura: estica  · Altura: 50 px  · Fundo: #000000 preto  · Recuo: 23 px  ·
+   Espaço: 9 px  · Alinha: centro  · Distribui: centro  · Canto: reto
+
+nº 13 · TEXTO
+   texto: "FAZER PRÉ-RESERVA"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 15 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 16 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 32 px  · Alinha: início  · Canto: reto

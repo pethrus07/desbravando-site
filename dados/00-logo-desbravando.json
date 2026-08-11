@@ -1,0 +1,64 @@
+{
+ "tela": "00",
+ "telaNome": "Sistema",
+ "modulo": "logo Desbravando",
+ "elementosNaWix": 1,
+ "espacamentoQueNaoViraElemento": 0,
+ "recorte": "previa/modulos/00-logo-desbravando.png",
+ "elementos": [
+  {
+   "num": 1,
+   "prof": 0,
+   "tipo": "foto",
+   "aux": false,
+   "nome": "logo Desbravando",
+   "campos": [
+    [
+     "Largura",
+     "136 px",
+     null
+    ],
+    [
+     "Altura",
+     "48 px",
+     null
+    ],
+    [
+     "Fundo",
+     "foto",
+     null
+    ],
+    [
+     "Recuo",
+     "—",
+     null
+    ],
+    [
+     "Espaço",
+     "—",
+     null
+    ],
+    [
+     "Contorno",
+     "—",
+     null
+    ],
+    [
+     "Alinha",
+     "início",
+     null
+    ],
+    [
+     "Distribui",
+     "—",
+     null
+    ],
+    [
+     "Canto",
+     "reto",
+     null
+    ]
+   ]
+  }
+ ]
+}

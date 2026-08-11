@@ -1,0 +1,328 @@
+MÓDULO: agenda   ·   tela: Grupo Avulso
+59 elementos para montar na Wix (+9 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/02-agenda.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "agenda"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 64 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 6 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · LINHA "índice/Costa Doce"
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 24 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 8 · TEXTO
+   texto: "01"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 40 px  · Alinhamento: esquerda
+
+nº 9 · FOTO
+   Largura: 208 px  · Altura: 138 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · TEXTO
+   texto: "COSTA DOCE"
+   Fonte: Anton  · Tamanho: 44 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.4  · Largura: 430 px  ·
+   Alinhamento: esquerda
+
+nº 11 · COLUNA
+   Largura: 130 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 12 · TEXTO
+   texto: "RS"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 13 · TEXTO
+   texto: "Casais e Família"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · COLUNA
+   Largura: 190 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 15 · TEXTO
+   texto: "02–06 dez 2026"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 16 · TEXTO
+   texto: "Pré-reserva aberta"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 17 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 18 · CAIXA "ícone/arrow-right"
+   Largura: 20 px  · Altura: 20 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · LINHA "índice/Urubici"
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 24 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 20 · TEXTO
+   texto: "02"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 40 px  · Alinhamento: esquerda
+
+nº 21 · FOTO
+   Largura: 208 px  · Altura: 138 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 22 · TEXTO
+   texto: "URUBICI"
+   Fonte: Anton  · Tamanho: 44 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.4  · Largura: 430 px  ·
+   Alinhamento: esquerda
+
+nº 23 · COLUNA
+   Largura: 130 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 24 · TEXTO
+   texto: "SC"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 25 · TEXTO
+   texto: "Família"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 26 · COLUNA
+   Largura: 190 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 27 · TEXTO
+   texto: "26–30 ago 2026"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 28 · TEXTO
+   texto: "Últimas vagas"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 29 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 30 · CAIXA "ícone/arrow-right"
+   Largura: 20 px  · Altura: 20 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 31 · LINHA "índice/Serra da Canastra"
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 24 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 32 · TEXTO
+   texto: "03"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 40 px  · Alinhamento: esquerda
+
+nº 33 · FOTO
+   Largura: 208 px  · Altura: 138 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 34 · TEXTO
+   texto: "SERRA DA CANASTRA"
+   Fonte: Anton  · Tamanho: 44 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.4  · Largura: 430 px  ·
+   Alinhamento: esquerda
+
+nº 35 · COLUNA
+   Largura: 130 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 36 · TEXTO
+   texto: "MG"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 37 · TEXTO
+   texto: "Só Homens"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 38 · COLUNA
+   Largura: 190 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 39 · TEXTO
+   texto: "Datas em definição"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 40 · TEXTO
+   texto: "Lista de espera"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 41 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 42 · CAIXA "ícone/arrow-right"
+   Largura: 20 px  · Altura: 20 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 43 · LINHA "índice/Visconde de Mauá"
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 24 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 44 · TEXTO
+   texto: "04"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 40 px  · Alinhamento: esquerda
+
+nº 45 · FOTO
+   Largura: 208 px  · Altura: 138 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 46 · TEXTO
+   texto: "VISCONDE DE MAUÁ"
+   Fonte: Anton  · Tamanho: 44 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.4  · Largura: 430 px  ·
+   Alinhamento: esquerda
+
+nº 47 · COLUNA
+   Largura: 130 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 48 · TEXTO
+   texto: "RJ"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 49 · TEXTO
+   texto: "Só Homens"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 50 · COLUNA
+   Largura: 190 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 51 · TEXTO
+   texto: "Datas em definição"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 52 · TEXTO
+   texto: "Lista de espera"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 53 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 54 · CAIXA "ícone/arrow-right"
+   Largura: 20 px  · Altura: 20 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 55 · LINHA "índice/Macaé"
+   Largura: estica  · Altura: automática  · Recuo: 26 px  · Espaço: 24 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 56 · TEXTO
+   texto: "05"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 40 px  · Alinhamento: esquerda
+
+nº 57 · FOTO
+   Largura: 208 px  · Altura: 138 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 58 · TEXTO
+   texto: "MACAÉ"
+   Fonte: Anton  · Tamanho: 44 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.4  · Largura: 430 px  ·
+   Alinhamento: esquerda
+
+nº 59 · COLUNA
+   Largura: 130 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 60 · TEXTO
+   texto: "RJ"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 61 · TEXTO
+   texto: "Casais e Família"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 62 · COLUNA
+   Largura: 190 px  · Altura: automática  · Espaço: 3 px  · Alinha: início  ·
+   Canto: reto
+
+nº 63 · TEXTO
+   texto: "Datas em definição"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 64 · TEXTO
+   texto: "Lista de espera"
+   Fonte: Archivo  · Tamanho: 13.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 65 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 66 · CAIXA "ícone/arrow-right"
+   Largura: 20 px  · Altura: 20 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 67 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 68 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 96 px  · Alinha: início  · Canto: reto

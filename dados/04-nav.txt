@@ -1,0 +1,70 @@
+MÓDULO: nav   ·   tela: Grupo Fechado
+11 elementos para montar na Wix (+3 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/04-nav.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · LINHA "nav"
+   Largura: estica  · Altura: 78 px  · Fundo: #000000 preto  · Alinha: centro  ·
+   Canto: reto
+
+nº 2 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 40 px  · Alinha: centro  ·
+   Canto: reto
+
+nº 4 · FOTO "marca/montanha"
+   Largura: 69 px  · Altura: 26 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 5 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 30 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 6 · TEXTO
+   texto: "Expedições"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #FFFFFF branco  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "Estoque Off-Road"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #FFFFFFD1 branco 82%  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "Produtos"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #FFFFFFD1 branco 82%  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "O Desbravando"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #FFFFFFD1 branco 82%  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 10 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 11 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 12 · CAIXA "ícone/globe"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · TEXTO
+   texto: "Ready to welcome riders from around the world."
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 400  · Cor: #FFFFFF8C branco 55%  ·
+   Entrelinha: 1.5  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto

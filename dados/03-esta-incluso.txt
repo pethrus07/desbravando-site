@@ -1,0 +1,268 @@
+MÓDULO: está incluso   ·   tela: Página da Expedição
+48 elementos para montar na Wix (+7 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/03-esta-incluso.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "está incluso"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 84 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 6 · COLUNA
+   Largura: 780 px  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · TEXTO
+   texto: "O PACOTE"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "O QUE ESTÁ INCLUSO"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 9 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto
+
+nº 10 · COLUNA "o que está incluso"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Recuo: 40 px  · Alinha: início  · Canto: reto
+
+nº 11 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 20 px  · Alinha: fim  ·
+   Canto: reto
+
+nº 12 · TEXTO
+   texto: "TUDO ISTO ACOMPANHA A EXPEDIÇÃO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 13 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 14 · TEXTO
+   texto: "11 itens"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 15 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 22 px  · Alinha: início  · Canto: reto
+
+nº 16 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 48 px  · Alinha: início  ·
+   Canto: reto
+
+nº 18 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 19 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 20 · TEXTO
+   texto: "01"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 21 · TEXTO
+   texto: "3 dias de trilha guiada por equipe experiente"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 22 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 23 · TEXTO
+   texto: "02"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 24 · TEXTO
+   texto: "Cegonha (transporte do UTV) ida e volta, com seguro contra roubo"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 25 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 26 · TEXTO
+   texto: "03"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 27 · TEXTO
+   texto: "Transfer terrestre ida e volta — Limeira ↔ aeroporto e Porto Alegre ↔ Mostardas/Tramandaí"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 28 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 29 · TEXTO
+   texto: "04"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 30 · TEXTO
+   texto: "4 pernoites com café da manhã (3 Mostardas · 1 Tramandaí)"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 31 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 32 · TEXTO
+   texto: "05"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 33 · TEXTO
+   texto: "4 jantas (3 Mostardas · 1 Tramandaí)"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 34 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Alinha: início  · Canto: reto
+
+nº 35 · TEXTO
+   texto: "06"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 36 · TEXTO
+   texto: "3 almoços (2 Mostardas · 1 Tramandaí)"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 37 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 38 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 39 · TEXTO
+   texto: "07"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 40 · TEXTO
+   texto: "Eventos fora do volante — boas-vindas e encerramento, com coquetel, chopp, drinks e música ao vivo"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 41 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 42 · TEXTO
+   texto: "08"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 43 · TEXTO
+   texto: "Carro de apoio 4×4 + reboque"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 44 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 45 · TEXTO
+   texto: "09"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 46 · TEXTO
+   texto: "4 quadriciclos + mecânicos no comboio"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 47 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 48 · TEXTO
+   texto: "10"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 49 · TEXTO
+   texto: "Equipe de 7 pessoas — guias, apoio e mecânica"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 50 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 14 px  · Espaço: 16 px  ·
+   Alinha: início  · Canto: reto
+
+nº 51 · TEXTO
+   texto: "11"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: 32 px  · Alinhamento: esquerda
+
+nº 52 · TEXTO
+   texto: "Equipe de fotos e vídeos profissionais"
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 53 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 54 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 55 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 84 px  · Alinha: início  · Canto: reto

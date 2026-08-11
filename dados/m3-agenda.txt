@@ -1,0 +1,344 @@
+MÓDULO: agenda   ·   tela: Grupo Avulso (mobile)
+67 elementos para montar na Wix (+5 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m3-agenda.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "agenda"
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 2 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 3 · COLUNA
+   Largura: estica  · Altura: automática  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 4 · FOTO
+   Largura: estica  · Altura: 210 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 10 px  ·
+   Alinha: início  · Canto: reto
+
+nº 6 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 7 · TEXTO
+   texto: "01"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "RS · 5 dias · Casais e Família"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "COSTA DOCE"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 10 · TEXTO
+   texto: "02–06 dez 2026"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 11 · LINHA "status/pre-reserva"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 12 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 13 · TEXTO
+   texto: "Pré-reserva aberta"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 15 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 16 · TEXTO
+   texto: "VER EXPEDIÇÃO →"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 17 · COLUNA
+   Largura: estica  · Altura: automática  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 18 · FOTO
+   Largura: estica  · Altura: 210 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 10 px  ·
+   Alinha: início  · Canto: reto
+
+nº 20 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 21 · TEXTO
+   texto: "02"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 22 · TEXTO
+   texto: "SC · 5 dias · Família"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 23 · TEXTO
+   texto: "URUBICI"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 24 · TEXTO
+   texto: "26–30 ago 2026"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 25 · LINHA "status/ultimas"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 26 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 27 · TEXTO
+   texto: "Últimas vagas"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 28 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 29 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 30 · TEXTO
+   texto: "VER EXPEDIÇÃO →"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 31 · COLUNA
+   Largura: estica  · Altura: automática  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 32 · FOTO
+   Largura: estica  · Altura: 210 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 33 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 10 px  ·
+   Alinha: início  · Canto: reto
+
+nº 34 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 35 · TEXTO
+   texto: "03"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 36 · TEXTO
+   texto: "MG · 4 dias · Só Homens"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 37 · TEXTO
+   texto: "SERRA DA CANASTRA"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 38 · TEXTO
+   texto: "Datas em definição"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 39 · LINHA "status/espera"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 40 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 41 · TEXTO
+   texto: "Lista de espera"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 42 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 43 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 44 · TEXTO
+   texto: "VER EXPEDIÇÃO →"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 45 · COLUNA
+   Largura: estica  · Altura: automática  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 46 · FOTO
+   Largura: estica  · Altura: 210 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 47 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 10 px  ·
+   Alinha: início  · Canto: reto
+
+nº 48 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 49 · TEXTO
+   texto: "04"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 50 · TEXTO
+   texto: "RJ · 3 dias · Só Homens"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 51 · TEXTO
+   texto: "VISCONDE DE MAUÁ"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 52 · TEXTO
+   texto: "Datas em definição"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 53 · LINHA "status/espera"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 54 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 55 · TEXTO
+   texto: "Lista de espera"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 56 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 57 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 58 · TEXTO
+   texto: "VER EXPEDIÇÃO →"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 59 · COLUNA
+   Largura: estica  · Altura: automática  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 60 · FOTO
+   Largura: estica  · Altura: 210 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 61 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 10 px  ·
+   Alinha: início  · Canto: reto
+
+nº 62 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 63 · TEXTO
+   texto: "05"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 64 · TEXTO
+   texto: "RJ · 3 dias · Casais e Família"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 65 · TEXTO
+   texto: "MACAÉ"
+   Fonte: Anton  · Tamanho: 27 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 66 · TEXTO
+   texto: "Datas em definição"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 67 · LINHA "status/espera"
+   Largura: automática  · Altura: automática  · Espaço: 7 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 68 · RETÂNGULO
+   Largura: 5 px  · Altura: 5 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 69 · TEXTO
+   texto: "Lista de espera"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 70 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: centro  · Canto: reto
+
+nº 71 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 72 · TEXTO
+   texto: "VER EXPEDIÇÃO →"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda

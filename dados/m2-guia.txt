@@ -1,0 +1,229 @@
+MÓDULO: guia   ·   tela: Página da Expedição (mobile)
+42 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m2-guia.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "guia"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "GUIA DA EXPEDIÇÃO"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "ENCONTRE QUALQUER INFORMAÇÃO"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · TEXTO
+   texto: "Pesquise um termo ou navegue pelos tópicos. É a mesma base que o atendimento consulta."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · LINHA
+   Largura: estica  · Altura: 50 px  · Recuo: 16 px  · Espaço: 12 px  ·
+   Contorno: 1.5 px base · #111111 tinta  · Alinha: centro  · Canto: reto
+
+nº 10 · CAIXA "ícone/search"
+   Largura: 17 px  · Altura: 17 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 11 · TEXTO
+   texto: "hotel, transfer, check-in, clima…"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 12 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 13 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 14 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 15 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 15 · TEXTO
+   texto: "01"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: 24 px  · Alinhamento: esquerda
+
+nº 16 · TEXTO
+   texto: "Logística"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 17 · TEXTO
+   texto: "6 itens"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 18 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 15 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 20 · TEXTO
+   texto: "02"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: 24 px  · Alinhamento: esquerda
+
+nº 21 · TEXTO
+   texto: "Hospedagem"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 22 · TEXTO
+   texto: "5 itens"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 23 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 24 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 15 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 25 · TEXTO
+   texto: "03"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: 24 px  · Alinhamento: esquerda
+
+nº 26 · TEXTO
+   texto: "Gastronomia"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 27 · TEXTO
+   texto: "4 itens"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 28 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 29 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 15 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 30 · TEXTO
+   texto: "04"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: 24 px  · Alinhamento: esquerda
+
+nº 31 · TEXTO
+   texto: "Transporte"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 32 · TEXTO
+   texto: "4 itens"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 33 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 34 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 15 px  · Espaço: 12 px  ·
+   Contorno: 1 px base · #D9D9D9 linha  · Alinha: centro  · Canto: reto
+
+nº 35 · TEXTO
+   texto: "05"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: 24 px  · Alinhamento: esquerda
+
+nº 36 · TEXTO
+   texto: "Vestuário"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 37 · TEXTO
+   texto: "3 itens"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 38 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 39 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 15 px  · Espaço: 12 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 40 · TEXTO
+   texto: "06"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: 24 px  · Alinhamento: esquerda
+
+nº 41 · TEXTO
+   texto: "O que levar"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 700  · Cor: #111111 tinta  ·
+   Entrelinha: 1.3  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 42 · TEXTO
+   texto: "6 itens"
+   Fonte: JetBrains Mono  · Tamanho: 10 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.3  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 43 · CAIXA "ícone/arrow-right"
+   Largura: 15 px  · Altura: 15 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 44 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 45 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 46 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 36 px  · Alinha: início  · Canto: reto

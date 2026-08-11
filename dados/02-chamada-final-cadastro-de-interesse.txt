@@ -1,0 +1,90 @@
+MÓDULO: chamada final · cadastro de interesse   ·   tela: Grupo Avulso
+15 elementos para montar na Wix (+5 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/02-chamada-final-cadastro-de-interesse.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "chamada final · cadastro de interesse"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 100 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 6 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 7 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto
+
+nº 8 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 80 px  · Alinha: início  ·
+   Canto: reto
+
+nº 9 · COLUNA
+   Largura: 560 px  · Altura: automática  · Espaço: 16 px  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · TEXTO
+   texto: "NOVAS EXPEDIÇÕES"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 11 · TEXTO
+   texto: "AINDA NÃO ENCONTROU\nSUA PRÓXIMA EXPERIÊNCIA?"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 12 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 34 px  · Alinha: início  ·
+   Canto: reto
+
+nº 13 · TEXTO
+   texto: "Nossa agenda é atualizada constantemente. Cadastre seu interesse e seja avisado quando uma nova expedição estiver disponível para o seu perfil."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 14 · LINHA
+   Largura: estica  · Altura: 58 px  · Espaço: 20 px  ·
+   Contorno: 1.5 px base · #111111 tinta  · Alinha: centro  · Canto: reto
+
+nº 15 · TEXTO
+   texto: "seu e-mail"
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 16 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 9 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 17 · TEXTO
+   texto: "AVISE-ME"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 18 · CAIXA "ícone/arrow-right"
+   Largura: 14 px  · Altura: 14 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 20 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 100 px  · Alinha: início  · Canto: reto

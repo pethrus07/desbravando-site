@@ -1,0 +1,221 @@
+MÓDULO: hospedagem   ·   tela: Página da Expedição
+42 elementos para montar na Wix (+7 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/03-hospedagem.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "hospedagem"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 80 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 6 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 40 px  · Alinha: fim  ·
+   Canto: reto
+
+nº 7 · COLUNA
+   Largura: 640 px  · Altura: automática  · Espaço: 14 px  · Alinha: início  ·
+   Canto: reto
+
+nº 8 · TEXTO
+   texto: "HOSPEDAGEM"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 9 · TEXTO
+   texto: "ONDE O GRUPO FICA"
+   Fonte: Anton  · Tamanho: 48 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 10 · MOLA  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 11 · TEXTO
+   texto: "2 hospedagens · 4 pernoites"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 18 px  · Alinha: início  · Canto: reto
+
+nº 13 · TEXTO
+   texto: "Hospedagem escolhida a dedo entre as opções e padrões da região · 4 pernoites com café da manhã · jantas inclusas (3 em Mostardas · 1 em Tramandaí)."
+   Fonte: Archivo  · Tamanho: 16 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: 780 px  ·
+   Alinhamento: esquerda
+
+nº 14 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto
+
+nº 15 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 16 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 17 · COLUNA "hospedagem/Pousada Pouso Alegre"
+   Largura: estica  · Altura: automática  · Recuo: 30 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 18 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 40 px  · Alinha: início  ·
+   Canto: reto
+
+nº 19 · COLUNA
+   Largura: 360 px  · Altura: automática  · Espaço: 8 px  · Alinha: início  ·
+   Canto: reto
+
+nº 20 · TEXTO
+   texto: "CHEGADA & CORAÇÃO DA EXPEDIÇÃO"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 21 · TEXTO
+   texto: "Pousada Pouso Alegre"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 22 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 23 · TEXTO
+   texto: "Mostardas · RS"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 24 · RETÂNGULO
+   Largura: 3 px  · Altura: 3 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 25 · TEXTO
+   texto: "3 noites"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 26 · TEXTO
+   texto: "No centro do roteiro, com café da manhã. Sua base nas noites 1, 2 e 3."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 27 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 28 · FOTO
+   Largura: estica  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 29 · FOTO
+   Largura: estica  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 30 · FOTO
+   Largura: estica  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 31 · FOTO
+   Largura: 70 px  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 32 · COLUNA "hospedagem/Schenkel Hotel"
+   Largura: estica  · Altura: automática  · Recuo: 30 px  · Espaço: 20 px  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 33 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 40 px  · Alinha: início  ·
+   Canto: reto
+
+nº 34 · COLUNA
+   Largura: 360 px  · Altura: automática  · Espaço: 8 px  · Alinha: início  ·
+   Canto: reto
+
+nº 35 · TEXTO
+   texto: "BASE DA DESPEDIDA"
+   Fonte: Archivo  · Tamanho: 11 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +3  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 36 · TEXTO
+   texto: "Schenkel Hotel"
+   Fonte: Anton  · Tamanho: 24 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.3  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 37 · LINHA
+   Largura: automática  · Altura: automática  · Espaço: 10 px  ·
+   Alinha: centro  · Canto: reto
+
+nº 38 · TEXTO
+   texto: "Tramandaí · RS"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +0.4  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 39 · RETÂNGULO
+   Largura: 3 px  · Altura: 3 px  · Fundo: #9A9A9A cinza fraco  ·
+   Alinha: início  · Canto: reto
+
+nº 40 · TEXTO
+   texto: "1 noite"
+   Fonte: JetBrains Mono  · Tamanho: 12 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.4  · Entre letras: +0.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 41 · TEXTO
+   texto: "Apart-hotel com café da manhã. Sua base na última noite — noite 4."
+   Fonte: Archivo  · Tamanho: 18 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.6  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 42 · LINHA
+   Largura: estica  · Altura: automática  · Espaço: 6 px  · Alinha: início  ·
+   Canto: reto
+
+nº 43 · FOTO
+   Largura: estica  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 44 · FOTO
+   Largura: estica  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 45 · FOTO
+   Largura: estica  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 46 · FOTO
+   Largura: 70 px  · Altura: 176 px  · Fundo: foto  · Alinha: início  ·
+   Canto: reto
+
+nº 47 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 48 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 120 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 49 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 80 px  · Alinha: início  · Canto: reto

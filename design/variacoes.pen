@@ -1,0 +1,4256 @@
+{
+  "version": "2.15",
+  "children": [
+    {
+      "type": "frame",
+      "id": "aeiUm",
+      "x": 0,
+      "y": 0,
+      "name": "V1 · Claro centrado (evolução do atual)",
+      "clip": true,
+      "width": 1440,
+      "fill": "#F2F2F2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "aa21e",
+          "width": "fill_container",
+          "height": 520,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://static.wixstatic.com/media/596511_df09a903379d4ed597872015d3fce991f000.jpg/v1/fill/w_1800,h_1260,al_c,q_85/img.jpg",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aa0Xv",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#000000B3",
+                    "position": 0
+                  },
+                  {
+                    "color": "#00000000",
+                    "position": 0.55
+                  }
+                ]
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aaYTM",
+                  "name": "nav",
+                  "width": "fill_container",
+                  "height": 78,
+                  "fill": "#00000000",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aaCeN",
+                      "width": 120,
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aaUMk",
+                      "width": "fill_container",
+                      "gap": 34,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aaEiw",
+                          "name": "logo",
+                          "width": 128,
+                          "height": 30,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://static.wixstatic.com/media/596511_67f4e0bf83fc4da0b1402969946a5306~mv2.png",
+                            "mode": "fit"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "aaGmf",
+                          "fill": "#FFFFFFCC",
+                          "content": "Expedições",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Archivo",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "aaIpY",
+                          "fill": "#FFFFFFCC",
+                          "content": "Off Road",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Archivo",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "aaKtH",
+                          "fill": "#FFFFFFCC",
+                          "content": "Vestuário",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Archivo",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "aaMxq",
+                          "fill": "#FFFFFFCC",
+                          "content": "o Desbravando",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Archivo",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aaOA9",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "path",
+                          "id": "aaQES",
+                          "name": "ícone/search",
+                          "geometry": "M3 11a8 8 0 1 0 16 0 8 8 0 1 0-16 0z m-3-11m21 21l-4.3-4.3",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#FFFFFFCC",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "aaSIB",
+                          "name": "ícone/shopping-bag",
+                          "geometry": "M6 2l-3 4v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14l-3-4z m-3 4h18m-5 4a4 4 0 0 1-8 0",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#FFFFFFCC",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aaWP3",
+                      "width": 120,
+                      "height": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "abxU7",
+          "name": "chamada",
+          "width": "fill_container",
+          "fill": "#F2F2F2",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ablyL",
+              "width": "fill_container",
+              "height": 76
+            },
+            {
+              "type": "frame",
+              "id": "abtNF",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "abnCu",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "abpGd",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 26,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aa44X",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "MAIS DO QUE UMA MARCA,\nUM ESTILO DE VIDA",
+                      "lineHeight": 1.02,
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 58,
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "aa68G",
+                      "fill": "#717171",
+                      "textGrowth": "fixed-width",
+                      "width": 700,
+                      "content": "Expedições off-road de UTV pelo Brasil. A gente monta o roteiro, a hospedagem, o apoio mecânico e o resgate — você só dirige.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Archivo",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "frame",
+                      "id": "abju2",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "abdjR",
+                          "height": 48,
+                          "fill": "#000000",
+                          "gap": 9,
+                          "padding": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aa9cp",
+                              "fill": "#FFFFFF",
+                              "content": "VER PRÓXIMAS EXPEDIÇÕES",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.4
+                            },
+                            {
+                              "type": "path",
+                              "id": "abbf8",
+                              "name": "ícone/arrow-right",
+                              "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                              "width": 13,
+                              "height": 13,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 1.0833333333333333,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "abhrj",
+                          "height": 48,
+                          "gap": 9,
+                          "padding": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "abfnA",
+                              "fill": "#111111",
+                              "content": "MONTAR A DO MEU GRUPO",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.4
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "abrJW",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "abvRo",
+              "width": "fill_container",
+              "height": 76
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "acDT4",
+          "width": "fill_container",
+          "fill": "#F2F2F2",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aczMC",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "abzYQ",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "acvFa",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "abSwn",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "abKht",
+                          "width": "fill_container",
+                          "height": 300,
+                          "fill": "#000000",
+                          "layout": "vertical",
+                          "gap": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "abB2z",
+                              "name": "ícone/mountain",
+                              "geometry": "M0 0m8 3l4 8 5-5 5 15h-20l6-18z",
+                              "width": 56,
+                              "height": 56,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 4.666666666666667,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "abIdK",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "abD6i",
+                                  "fill": "#FFFFFF",
+                                  "content": "EXPEDIÇÕES",
+                                  "lineHeight": 1.1,
+                                  "textAlign": "center",
+                                  "fontFamily": "Anton",
+                                  "fontSize": 26,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "abF91",
+                                  "fill": "#FFFFFF99",
+                                  "textGrowth": "fixed-width",
+                                  "width": 260,
+                                  "content": "Roteiro fechado, grupo e estrutura completa",
+                                  "lineHeight": 1.5,
+                                  "textAlign": "center",
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "abQsE",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#111111",
+                          "gap": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "abMlc",
+                              "fill": "#FFFFFF",
+                              "content": "VER A AGENDA",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.6
+                            },
+                            {
+                              "type": "path",
+                              "id": "abOoV",
+                              "name": "ícone/arrow-right",
+                              "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                              "width": 13,
+                              "height": 13,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 1.0833333333333333,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aca3U",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ab2O0",
+                          "width": "fill_container",
+                          "height": 300,
+                          "fill": "#000000",
+                          "layout": "vertical",
+                          "gap": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "abUz6",
+                              "name": "ícone/car-front",
+                              "geometry": "M0 0m21 8l-2 2-1.5-3.7a2 2 0 0 0-1.854-1.3h-7.246a2 2 0 0 0-1.903 1.257l-1.497 3.743-2-2m4 6h0.01m9.99 0h0.01m-12.01-4h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-14a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2z m0 8v2m14-2v2",
+                              "width": 56,
+                              "height": 56,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 4.666666666666667,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ab0Lh",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "abWDP",
+                                  "fill": "#FFFFFF",
+                                  "content": "OFF ROAD",
+                                  "lineHeight": 1.1,
+                                  "textAlign": "center",
+                                  "fontFamily": "Anton",
+                                  "fontSize": 26,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "abYHy",
+                                  "fill": "#FFFFFF99",
+                                  "textGrowth": "fixed-width",
+                                  "width": 260,
+                                  "content": "Compra e venda de UTV com avaliação técnica",
+                                  "lineHeight": 1.5,
+                                  "textAlign": "center",
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ab80b",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#111111",
+                          "gap": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ab4SJ",
+                              "fill": "#FFFFFF",
+                              "content": "VER O ESTOQUE",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.6
+                            },
+                            {
+                              "type": "path",
+                              "id": "ab6Ws",
+                              "name": "ícone/arrow-right",
+                              "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                              "width": 13,
+                              "height": 13,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 1.0833333333333333,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "actBr",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aclmx",
+                          "width": "fill_container",
+                          "height": 300,
+                          "fill": "#000000",
+                          "layout": "vertical",
+                          "gap": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "acc7D",
+                              "name": "ícone/shirt",
+                              "geometry": "M20.38 3.46l-4.38-1.46a4 4 0 0 1-8 0l-4.38 1.46a2 2 0 0 0-1.34 2.23l0.58 3.47a1 1 0 0 0 0.99 0.84h2.15v10c0 1.1 0.9 2 2 2h8a2 2 0 0 0 2-2v-10h2.15a1 1 0 0 0 0.99-0.84l0.58-3.47a2 2 0 0 0-1.34-2.23z",
+                              "width": 56,
+                              "height": 56,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 4.666666666666667,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "acjiO",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "acfbm",
+                                  "fill": "#FFFFFF",
+                                  "content": "VESTUÁRIO",
+                                  "lineHeight": 1.1,
+                                  "textAlign": "center",
+                                  "fontFamily": "Anton",
+                                  "fontSize": 26,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ache5",
+                                  "fill": "#FFFFFF99",
+                                  "textGrowth": "fixed-width",
+                                  "width": 260,
+                                  "content": "Série curta e programa de membros",
+                                  "lineHeight": 1.5,
+                                  "textAlign": "center",
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "acrxI",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#111111",
+                          "gap": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "acnqg",
+                              "fill": "#FFFFFF",
+                              "content": "VER A COLEÇÃO",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.6
+                            },
+                            {
+                              "type": "path",
+                              "id": "acptZ",
+                              "name": "ícone/arrow-right",
+                              "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                              "width": 13,
+                              "height": 13,
+                              "stroke": "#FFFFFF",
+                              "strokeWidth": 1.0833333333333333,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "acxIT",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "acBQl",
+              "width": "fill_container",
+              "height": 88
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aegQD",
+          "name": "próximas",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ad4uh",
+              "width": "fill_container",
+              "height": 88
+            },
+            {
+              "type": "frame",
+              "id": "aecJb",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ad6x0",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ad8BJ",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 34,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "acUnS",
+                      "width": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "acJ5f",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "acFXN",
+                              "fill": "#717171",
+                              "content": "AGENDA 2026",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 11,
+                              "fontWeight": "600",
+                              "letterSpacing": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "acH1w",
+                              "fill": "#111111",
+                              "content": "PRÓXIMAS EXPEDIÇÕES",
+                              "lineHeight": 1.05,
+                              "fontFamily": "Anton",
+                              "fontSize": 40,
+                              "letterSpacing": -0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "acL8Y",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "acSj9",
+                          "height": 44,
+                          "gap": 9,
+                          "padding": 20,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "acOcH",
+                              "fill": "#111111",
+                              "content": "VER TODAS",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Archivo",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1.4
+                            },
+                            {
+                              "type": "path",
+                              "id": "acQgq",
+                              "name": "ícone/arrow-right",
+                              "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                              "width": 13,
+                              "height": 13,
+                              "stroke": "#111111",
+                              "strokeWidth": 1.0833333333333333,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ad2qy",
+                      "width": "fill_container",
+                      "gap": 22,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "adg2R",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "acWrB",
+                              "width": "fill_container",
+                              "height": 210,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://static.wixstatic.com/media/596511_41003b3065374e55b72bea651d100a9d~mv2.jpeg/v1/fill/w_700,h_490,al_c,q_85/img.jpg",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "adeY8",
+                              "width": "fill_container",
+                              "fill": "#F2F2F2",
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": 22,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "acYvk",
+                                  "fill": "#717171",
+                                  "content": "ÚLTIMAS VAGAS",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 11,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ac0y3",
+                                  "fill": "#111111",
+                                  "content": "Urubici · SC",
+                                  "lineHeight": 1.1,
+                                  "fontFamily": "Anton",
+                                  "fontSize": 26,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ac2CM",
+                                  "fill": "#717171",
+                                  "content": "26 a 30 de agosto de 2026",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "ac4Gv",
+                                  "fill": "#D9D9D9",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "adcVp",
+                                  "width": "fill_container",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ac6Ke",
+                                      "fill": "#111111",
+                                      "content": "R$ 19.500",
+                                      "lineHeight": 1.3,
+                                      "fontFamily": "Archivo",
+                                      "fontSize": 17,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "ac8NX",
+                                      "width": "fill_container",
+                                      "height": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "adaRG",
+                                      "name": "ícone/arrow-right",
+                                      "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                                      "width": 16,
+                                      "height": 16,
+                                      "stroke": "#111111",
+                                      "strokeWidth": 1.3333333333333333,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "adDHQ",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "adi6A",
+                              "width": "fill_container",
+                              "height": 210,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://static.wixstatic.com/media/c51a87_fae8119cc871489595096ac511c01e16~mv2.jpg/v1/fill/w_700,h_490,al_c,q_85/img.jpg",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "adBD7",
+                              "width": "fill_container",
+                              "fill": "#F2F2F2",
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": 22,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "adlaj",
+                                  "fill": "#717171",
+                                  "content": "LISTA DE ESPERA",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 11,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "adnd2",
+                                  "fill": "#111111",
+                                  "content": "Serra da Canastra · MG",
+                                  "lineHeight": 1.1,
+                                  "fontFamily": "Anton",
+                                  "fontSize": 26,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "adphL",
+                                  "fill": "#717171",
+                                  "content": "Datas em definição",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "adrlu",
+                                  "fill": "#D9D9D9",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "adzAo",
+                                  "width": "fill_container",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "adtpd",
+                                      "fill": "#111111",
+                                      "content": "Sob consulta",
+                                      "lineHeight": 1.3,
+                                      "fontFamily": "Archivo",
+                                      "fontSize": 17,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "advsW",
+                                      "width": "fill_container",
+                                      "height": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "adxwF",
+                                      "name": "ícone/arrow-right",
+                                      "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                                      "width": 16,
+                                      "height": 16,
+                                      "stroke": "#111111",
+                                      "strokeWidth": 1.3333333333333333,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ad0mP",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "adFLz",
+                              "width": "fill_container",
+                              "height": 210,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://static.wixstatic.com/media/c51a87_b2156d01937a4a9d8734a7658f27f59d~mv2.jpg/v1/fill/w_700,h_490,al_c,q_85/img.jpg",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "adYi6",
+                              "width": "fill_container",
+                              "fill": "#F2F2F2",
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": 22,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "adHPi",
+                                  "fill": "#717171",
+                                  "content": "LISTA DE ESPERA",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 11,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "adJS1",
+                                  "fill": "#111111",
+                                  "content": "Visconde de Mauá · RJ",
+                                  "lineHeight": 1.1,
+                                  "fontFamily": "Anton",
+                                  "fontSize": 26,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "adLWK",
+                                  "fill": "#717171",
+                                  "content": "Datas em definição",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "adN0t",
+                                  "fill": "#D9D9D9",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "adWfn",
+                                  "width": "fill_container",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "adP4c",
+                                      "fill": "#111111",
+                                      "content": "Sob consulta",
+                                      "lineHeight": 1.3,
+                                      "fontFamily": "Archivo",
+                                      "fontSize": 17,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "adR7V",
+                                      "width": "fill_container",
+                                      "height": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "adUbE",
+                                      "name": "ícone/arrow-right",
+                                      "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                                      "width": 16,
+                                      "height": 16,
+                                      "stroke": "#111111",
+                                      "strokeWidth": 1.3333333333333333,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aeaFs",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aeeMU",
+              "width": "fill_container",
+              "height": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "aiTcw",
+      "x": 1560,
+      "y": 0,
+      "name": "V2 · Roadbook (ficha de expedição)",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "aeHC4",
+          "name": "nav",
+          "width": "fill_container",
+          "height": 78,
+          "fill": "#000000",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aekX5",
+              "width": 120,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "aeDvC",
+              "width": "fill_container",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aem1O",
+                  "name": "logo",
+                  "width": 128,
+                  "height": 30,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/596511_67f4e0bf83fc4da0b1402969946a5306~mv2.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "aeo5x",
+                  "fill": "#FFFFFFCC",
+                  "content": "Expedições",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "aeq9g",
+                  "fill": "#FFFFFFCC",
+                  "content": "Off Road",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "aetcZ",
+                  "fill": "#FFFFFFCC",
+                  "content": "Vestuário",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "aevgI",
+                  "fill": "#FFFFFFCC",
+                  "content": "o Desbravando",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "frame",
+                  "id": "aexkr",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "path",
+                  "id": "aezoa",
+                  "name": "ícone/search",
+                  "geometry": "M3 11a8 8 0 1 0 16 0 8 8 0 1 0-16 0z m-3-11m21 21l-4.3-4.3",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "#FFFFFFCC",
+                  "strokeWidth": 1.5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "aeBrT",
+                  "name": "ícone/shopping-bag",
+                  "geometry": "M6 2l-3 4v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14l-3-4z m-3 4h18m-5 4a4 4 0 0 1-8 0",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "#FFFFFFCC",
+                  "strokeWidth": 1.5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aeFzl",
+              "width": 120,
+              "height": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aggsb",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aeJGN",
+              "width": "fill_container",
+              "height": 64
+            },
+            {
+              "type": "frame",
+              "id": "agckJ",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aeLKw",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "af8dh",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aeTZq",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aeNOf",
+                          "fill": "#717171",
+                          "content": "DESBRAVANDO UTV",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aePRY",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "aeRVH",
+                          "fill": "#717171",
+                          "content": "DOC. 001 — AGENDA 2026",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aeV29",
+                      "width": "fill_container",
+                      "height": 14
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "aeX6S",
+                      "fill": "#111111",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ae0aB",
+                      "width": "fill_container",
+                      "height": 30
+                    },
+                    {
+                      "type": "frame",
+                      "id": "afoTj",
+                      "width": "fill_container",
+                      "gap": 60,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ae6lM",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ae2ek",
+                              "fill": "#111111",
+                              "content": "EXPEDIÇÕES\nOFF-ROAD DE UTV",
+                              "lineHeight": 1.02,
+                              "fontFamily": "Anton",
+                              "fontSize": 54,
+                              "letterSpacing": -0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "ae4h3",
+                              "fill": "#111111",
+                              "content": "Isso não é passeio. É o padrão Desbravando.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 18
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "afmPA",
+                          "width": 460,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ae8pv",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "A gente reconhece a trilha antes, escolhe a hospedagem, garante apoio mecânico e resgate no comboio, e registra tudo em foto e vídeo.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 16
+                            },
+                            {
+                              "type": "frame",
+                              "id": "afkLR",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "afeAG",
+                                  "height": 44,
+                                  "fill": "#000000",
+                                  "gap": 9,
+                                  "padding": 20,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "afate",
+                                      "fill": "#FFFFFF",
+                                      "content": "VER A AGENDA",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Archivo",
+                                      "fontSize": 12,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 1.4
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "afcwX",
+                                      "name": "ícone/arrow-right",
+                                      "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                                      "width": 13,
+                                      "height": 13,
+                                      "stroke": "#FFFFFF",
+                                      "strokeWidth": 1.0833333333333333,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "afiH8",
+                                  "height": 44,
+                                  "gap": 9,
+                                  "padding": 20,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "afgEp",
+                                      "fill": "#111111",
+                                      "content": "GRUPO FECHADO",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Archivo",
+                                      "fontSize": 12,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 1.4
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "afqW2",
+                      "width": "fill_container",
+                      "height": 30
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "afs0L",
+                      "fill": "#111111",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "afu4u",
+                      "width": "fill_container",
+                      "height": 18
+                    },
+                    {
+                      "type": "frame",
+                      "id": "af116",
+                      "width": "fill_container",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "afBfF",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "afw8d",
+                              "fill": "#717171",
+                              "content": "EXPEDIÇÕES REALIZADAS",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "afzbW",
+                              "fill": "#111111",
+                              "content": "12",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "afHqQ",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "afDjo",
+                              "fill": "#717171",
+                              "content": "PILOTOS E FAMÍLIAS",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "afFm7",
+                              "fill": "#111111",
+                              "content": "340+",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "afNB1",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "afJuz",
+                              "fill": "#717171",
+                              "content": "ESTADOS RODADOS",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "afLyi",
+                              "fill": "#111111",
+                              "content": "9",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "afTNc",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "afPFK",
+                              "fill": "#717171",
+                              "content": "FOTOS ENTREGUES",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "afRJt",
+                              "fill": "#111111",
+                              "content": "15 mil",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "afZYn",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "afVQV",
+                              "fill": "#717171",
+                              "content": "PRÓXIMA SAÍDA",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "afXUE",
+                              "fill": "#111111",
+                              "content": "26 ago 2026",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "af35P",
+                      "width": "fill_container",
+                      "height": 18
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "af59y",
+                      "fill": "#111111",
+                      "width": "fill_container",
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "agag0",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ageos",
+              "width": "fill_container",
+              "height": 44
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "agXIq",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 2,
+          "children": [
+            {
+              "type": "frame",
+              "id": "agqKO",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "agivU",
+                  "width": "fill_container",
+                  "height": 190,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/596511_41003b3065374e55b72bea651d100a9d~mv2.jpeg/v1/fill/w_600,h_420,al_c,q_85/img.jpg",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "agoG5",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "gap": 8,
+                  "padding": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "agkzD",
+                      "fill": "#FFFFFF80",
+                      "content": "01",
+                      "lineHeight": 1.4,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 10,
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "agmDm",
+                      "fill": "#FFFFFF",
+                      "content": "Urubici · SC",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Archivo",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "agA3r",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "agsOx",
+                  "width": "fill_container",
+                  "height": 190,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/c51a87_fae8119cc871489595096ac511c01e16~mv2.jpg/v1/fill/w_600,h_420,al_c,q_85/img.jpg",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "agyZI",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "gap": 8,
+                  "padding": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aguSg",
+                      "fill": "#FFFFFF80",
+                      "content": "02",
+                      "lineHeight": 1.4,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 10,
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "agwVZ",
+                      "fill": "#FFFFFF",
+                      "content": "Serra da Canastra · MG",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Archivo",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "agLl4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "agC7a",
+                  "width": "fill_container",
+                  "height": 190,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/c51a87_b2156d01937a4a9d8734a7658f27f59d~mv2.jpg/v1/fill/w_600,h_420,al_c,q_85/img.jpg",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "agJil",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "gap": 8,
+                  "padding": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "agFaT",
+                      "fill": "#FFFFFF80",
+                      "content": "03",
+                      "lineHeight": 1.4,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 10,
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "agHeC",
+                      "fill": "#FFFFFF",
+                      "content": "Visconde de Mauá · RJ",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Archivo",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "agVEH",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "agNpN",
+                  "width": "fill_container",
+                  "height": 190,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/c51a87_c6526008d0e4497d8a78b6fd32d8b2d9~mv2.png/v1/fill/w_600,h_420,al_c,q_85/img.jpg",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "agTAY",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "gap": 8,
+                  "padding": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "agPtw",
+                      "fill": "#FFFFFF80",
+                      "content": "04",
+                      "lineHeight": 1.4,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 10,
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "agRxf",
+                      "fill": "#FFFFFF",
+                      "content": "Macaé · RJ",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Archivo",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aiQ8N",
+          "name": "agenda",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aiEMr",
+              "width": "fill_container",
+              "height": 64
+            },
+            {
+              "type": "frame",
+              "id": "aiM1l",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aiGQa",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "aiITT",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 22,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ag5Xk",
+                      "width": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "agZL9",
+                          "fill": "#111111",
+                          "content": "AGENDA 2026",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Anton",
+                          "fontSize": 40,
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ag1PS",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "ag3TB",
+                          "fill": "#717171",
+                          "content": "4 EXPEDIÇÕES · VAGA AVULSA",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aiCII",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "ag703",
+                          "fill": "#111111",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ahmq8",
+                          "width": "fill_container",
+                          "gap": 20,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ag94M",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "Nº",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahb8v",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "DESTINO",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahece",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "DATAS",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahgfX",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 90,
+                              "content": "DIAS",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahijG",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 130,
+                              "content": "NÍVEL",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahknp",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "A PARTIR DE",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 10,
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "ahouR",
+                          "fill": "#D9D9D9",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ahG2o",
+                          "width": "fill_container",
+                          "gap": 20,
+                          "padding": 18,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ahqyA",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "01",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 12,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahsCj",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Urubici · SC",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahuF2",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "26 a 30 de agosto de 2026",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahwJL",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 90,
+                              "content": "5 dias",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahyNu",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 130,
+                              "content": "Média",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahARd",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "R$ 19.500",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ahEYF",
+                              "height": 38,
+                              "gap": 9,
+                              "padding": 17,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ahCUW",
+                                  "fill": "#111111",
+                                  "content": "ABRIR",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ahZzV",
+                          "width": "fill_container",
+                          "gap": 20,
+                          "padding": 18,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ahI57",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "02",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 12,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahK9Q",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Serra da Canastra · MG",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahNdz",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Datas em definição",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahPhi",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 90,
+                              "content": "4 dias",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahRk1",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 130,
+                              "content": "Média/Alta",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ahToK",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sob consulta",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ahXwc",
+                              "height": 38,
+                              "gap": 9,
+                              "padding": 17,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ahVst",
+                                  "fill": "#111111",
+                                  "content": "ABRIR",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aih7s",
+                          "width": "fill_container",
+                          "gap": 20,
+                          "padding": 18,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ah1DE",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "03",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 12,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "ah3Hn",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Visconde de Mauá · RJ",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ah5K6",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Datas em definição",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ah7OP",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 90,
+                              "content": "3 dias",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ah9Sy",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 130,
+                              "content": "Alta",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "aibWh",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sob consulta",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aif3J",
+                              "height": 38,
+                              "gap": 9,
+                              "padding": 17,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aidZ0",
+                                  "fill": "#111111",
+                                  "content": "ABRIR",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aiAEZ",
+                          "width": "fill_container",
+                          "gap": 20,
+                          "padding": 18,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aikbb",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 40,
+                              "content": "04",
+                              "lineHeight": 1.4,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 12,
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "aimeU",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Macaé · RJ",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aioiD",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Datas em definição",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "aiqmm",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 90,
+                              "content": "3 dias",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "aisp5",
+                              "fill": "#717171",
+                              "textGrowth": "fixed-width",
+                              "width": 130,
+                              "content": "Leve",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "aiutO",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sob consulta",
+                              "lineHeight": 1.3,
+                              "fontFamily": "Archivo",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aiyBg",
+                              "height": 38,
+                              "gap": 9,
+                              "padding": 17,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aiwxx",
+                                  "fill": "#111111",
+                                  "content": "ABRIR",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aiKXC",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aiO44",
+              "width": "fill_container",
+              "height": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ampzs",
+      "x": 3120,
+      "y": 0,
+      "name": "V3 · Índice tipográfico",
+      "clip": true,
+      "width": 1440,
+      "fill": "#F2F2F2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ajhVe",
+          "name": "nav",
+          "width": "fill_container",
+          "height": 78,
+          "fill": "#000000",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aiVgf",
+              "width": 120,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "ajdNM",
+              "width": "fill_container",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aiXjY",
+                  "name": "logo",
+                  "width": 128,
+                  "height": 30,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/596511_67f4e0bf83fc4da0b1402969946a5306~mv2.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "aiZnH",
+                  "fill": "#FFFFFFCC",
+                  "content": "Expedições",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "ai1rq",
+                  "fill": "#FFFFFFCC",
+                  "content": "Off Road",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "ai3u9",
+                  "fill": "#FFFFFFCC",
+                  "content": "Vestuário",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "ai5yS",
+                  "fill": "#FFFFFFCC",
+                  "content": "o Desbravando",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "frame",
+                  "id": "ai7CB",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "path",
+                  "id": "ai9Gk",
+                  "name": "ícone/search",
+                  "geometry": "M3 11a8 8 0 1 0 16 0 8 8 0 1 0-16 0z m-3-11m21 21l-4.3-4.3",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "#FFFFFFCC",
+                  "strokeWidth": 1.5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "ajbJ3",
+                  "name": "ícone/shopping-bag",
+                  "geometry": "M6 2l-3 4v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14l-3-4z m-3 4h18m-5 4a4 4 0 0 1-8 0",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "#FFFFFFCC",
+                  "strokeWidth": 1.5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ajfRv",
+              "width": 120,
+              "height": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ajS0i",
+          "name": "abertura",
+          "width": "fill_container",
+          "fill": "#F2F2F2",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ajGDW",
+              "width": "fill_container",
+              "height": 92
+            },
+            {
+              "type": "frame",
+              "id": "ajOSQ",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ajIHF",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ajKLo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 30,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ajjYX",
+                      "fill": "#717171",
+                      "content": "O DESBRAVANDO",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Archivo",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "ajl2G",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ISSO NÃO É PASSEIO.\nÉ O PADRÃO DESBRAVANDO.",
+                      "lineHeight": 1.02,
+                      "fontFamily": "Anton",
+                      "fontSize": 72,
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ajEAd",
+                      "width": "fill_container",
+                      "gap": 60,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ajn6p",
+                          "fill": "#717171",
+                          "textGrowth": "fixed-width",
+                          "width": 620,
+                          "content": "Expedições off-road de UTV pelos destinos mais bonitos do Brasil. Roteiro reconhecido antes, hospedagem escolhida pela equipe, apoio mecânico e resgate no comboio.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Archivo",
+                          "fontSize": 18
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ajp98",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ajCwu",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ajwlj",
+                              "height": 48,
+                              "fill": "#000000",
+                              "gap": 9,
+                              "padding": 22,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ajsdR",
+                                  "fill": "#FFFFFF",
+                                  "content": "VER A AGENDA 2026",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "ajuhA",
+                                  "name": "ícone/arrow-right",
+                                  "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                                  "width": 13,
+                                  "height": 13,
+                                  "stroke": "#FFFFFF",
+                                  "strokeWidth": 1.0833333333333333,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ajAsL",
+                              "height": 48,
+                              "gap": 9,
+                              "padding": 22,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ajyo2",
+                                  "fill": "#111111",
+                                  "content": "MONTAR A DO MEU GRUPO",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ajMO7",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ajQWz",
+              "width": "fill_container",
+              "height": 92
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "alSBQ",
+          "width": "fill_container",
+          "fill": "#F2F2F2",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "alOuo",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ajU31",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "alKmW",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aj3iV",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ajW7K",
+                          "fill": "#717171",
+                          "content": "AGENDA 2026",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Archivo",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 3
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ajZbt",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "aj1fc",
+                          "fill": "#717171",
+                          "content": "VAGA AVULSA",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Archivo",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 3
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aj5mE",
+                      "width": "fill_container",
+                      "height": 14
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "aj7qn",
+                      "fill": "#111111",
+                      "width": "fill_container",
+                      "height": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "akv85",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aj9t6",
+                          "fill": "#717171",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "01",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        },
+                        {
+                          "type": "text",
+                          "id": "akbxP",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": 430,
+                          "content": "URUBICI",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Anton",
+                          "fontSize": 44,
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akhI0",
+                          "width": 120,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "akdBy",
+                              "fill": "#717171",
+                              "content": "SC",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "text",
+                              "id": "akfFh",
+                              "fill": "#717171",
+                              "content": "5 dias",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aknUb",
+                          "width": 190,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "akjMJ",
+                              "fill": "#111111",
+                              "content": "26–30 ago 2026",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "aklQs",
+                              "fill": "#717171",
+                              "content": "Últimas vagas",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akpXU",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akr1D",
+                          "width": 92,
+                          "height": 62,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://static.wixstatic.com/media/596511_41003b3065374e55b72bea651d100a9d~mv2.jpeg/v1/fill/w_300,h_210,al_c,q_85/img.jpg",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "akt5m",
+                          "name": "ícone/arrow-right",
+                          "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                          "width": 20,
+                          "height": 20,
+                          "stroke": "#111111",
+                          "strokeWidth": 1.6666666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "akURN",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "akycO",
+                          "fill": "#717171",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "02",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        },
+                        {
+                          "type": "text",
+                          "id": "akAgx",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": 430,
+                          "content": "SERRA DA CANASTRA",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Anton",
+                          "fontSize": 44,
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akGrI",
+                          "width": 120,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "akCkg",
+                              "fill": "#717171",
+                              "content": "MG",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "text",
+                              "id": "akEnZ",
+                              "fill": "#717171",
+                              "content": "4 dias",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akMCT",
+                          "width": 190,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "akIvr",
+                              "fill": "#111111",
+                              "content": "Datas em definição",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "akKza",
+                              "fill": "#717171",
+                              "content": "Lista de espera",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akOGC",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "akQKl",
+                          "width": 92,
+                          "height": 62,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://static.wixstatic.com/media/c51a87_fae8119cc871489595096ac511c01e16~mv2.jpg/v1/fill/w_300,h_210,al_c,q_85/img.jpg",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "akSN4",
+                          "name": "ícone/arrow-right",
+                          "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                          "width": 20,
+                          "height": 20,
+                          "stroke": "#111111",
+                          "strokeWidth": 1.6666666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aljAv",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "akWVw",
+                          "fill": "#717171",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "03",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        },
+                        {
+                          "type": "text",
+                          "id": "akYZf",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": 430,
+                          "content": "VISCONDE DE MAUÁ",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Anton",
+                          "fontSize": 44,
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ak5aq",
+                          "width": 120,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ak02Y",
+                              "fill": "#717171",
+                              "content": "RJ",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "text",
+                              "id": "ak26H",
+                              "fill": "#717171",
+                              "content": "3 dias",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "alblB",
+                          "width": 190,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ak7d9",
+                              "fill": "#111111",
+                              "content": "Datas em definição",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "ak9hS",
+                              "fill": "#717171",
+                              "content": "Lista de espera",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aldpk",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "alfs3",
+                          "width": 92,
+                          "height": 62,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://static.wixstatic.com/media/c51a87_b2156d01937a4a9d8734a7658f27f59d~mv2.jpg/v1/fill/w_300,h_210,al_c,q_85/img.jpg",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "alhwM",
+                          "name": "ícone/arrow-right",
+                          "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                          "width": 20,
+                          "height": 20,
+                          "stroke": "#111111",
+                          "strokeWidth": 1.6666666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "alIjd",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "allEe",
+                          "fill": "#717171",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "04",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "letterSpacing": 0.4
+                        },
+                        {
+                          "type": "text",
+                          "id": "alnHX",
+                          "fill": "#111111",
+                          "textGrowth": "fixed-width",
+                          "width": 430,
+                          "content": "MACAÉ",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Anton",
+                          "fontSize": 44,
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "altS8",
+                          "width": 120,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "alpLG",
+                              "fill": "#717171",
+                              "content": "RJ",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "text",
+                              "id": "alrPp",
+                              "fill": "#717171",
+                              "content": "3 dias",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "alz4j",
+                          "width": 190,
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "alvWR",
+                              "fill": "#111111",
+                              "content": "Datas em definição",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Archivo",
+                              "fontSize": 15
+                            },
+                            {
+                              "type": "text",
+                              "id": "alx0A",
+                              "fill": "#717171",
+                              "content": "Lista de espera",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Archivo",
+                              "fontSize": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "alB72",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "alEbL",
+                          "width": 92,
+                          "height": 62,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://static.wixstatic.com/media/c51a87_c6526008d0e4497d8a78b6fd32d8b2d9~mv2.png/v1/fill/w_300,h_210,al_c,q_85/img.jpg",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "alGfu",
+                          "name": "ícone/arrow-right",
+                          "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                          "width": 20,
+                          "height": 20,
+                          "stroke": "#111111",
+                          "strokeWidth": 1.6666666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "alMqF",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "alQx7",
+              "width": "fill_container",
+              "height": 80
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "amnvJ",
+          "width": "fill_container",
+          "height": 260,
+          "fill": "#000000",
+          "children": [
+            {
+              "type": "frame",
+              "id": "alUFz",
+              "width": 120,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "amjoh",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "al0QK",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "alWJi",
+                      "fill": "#FFFFFF",
+                      "content": "VAGA AVULSA",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Anton",
+                      "fontSize": 26,
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "text",
+                      "id": "alYM1",
+                      "fill": "#FFFFFFA6",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "Entre numa expedição já montada. Data fechada, valor por acomodação.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Archivo",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "al2Ut",
+                  "fill": "#FFFFFF33",
+                  "width": 1,
+                  "height": 120
+                },
+                {
+                  "type": "frame",
+                  "id": "al85E",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "al4Yc",
+                      "fill": "#FFFFFF",
+                      "content": "GRUPO FECHADO",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Anton",
+                      "fontSize": 26,
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "text",
+                      "id": "al61V",
+                      "fill": "#FFFFFFA6",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "A gente monta a expedição do seu grupo — destino, data e roteiro sob medida.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Archivo",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "amhky",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "amfgP",
+                      "height": 48,
+                      "fill": "#FFFFFF",
+                      "gap": 9,
+                      "padding": 22,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ama9n",
+                          "fill": "#000000",
+                          "content": "SOLICITAR ORÇAMENTO",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Archivo",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.4
+                        },
+                        {
+                          "type": "path",
+                          "id": "amdc6",
+                          "name": "ícone/arrow-right",
+                          "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                          "width": 13,
+                          "height": 13,
+                          "stroke": "#000000",
+                          "strokeWidth": 1.0833333333333333,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "amlr0",
+              "width": 120,
+              "height": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "apayH",
+      "x": 4680,
+      "y": 0,
+      "name": "V4 · Escuro contido (sem o clichê)",
+      "clip": true,
+      "width": 1440,
+      "fill": "#0B0B0B",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "amOia",
+          "name": "nav",
+          "width": "fill_container",
+          "height": 78,
+          "fill": "#000000",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "amrDb",
+              "width": 120,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "amKaI",
+              "width": "fill_container",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "amtGU",
+                  "name": "logo",
+                  "width": 128,
+                  "height": 30,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://static.wixstatic.com/media/596511_67f4e0bf83fc4da0b1402969946a5306~mv2.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "amvKD",
+                  "fill": "#FFFFFFCC",
+                  "content": "Expedições",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "amxOm",
+                  "fill": "#FFFFFFCC",
+                  "content": "Off Road",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "amzR5",
+                  "fill": "#FFFFFFCC",
+                  "content": "Vestuário",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "text",
+                  "id": "amBVO",
+                  "fill": "#FFFFFFCC",
+                  "content": "o Desbravando",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Archivo",
+                  "fontSize": 15
+                },
+                {
+                  "type": "frame",
+                  "id": "amDZx",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "path",
+                  "id": "amF3g",
+                  "name": "ícone/search",
+                  "geometry": "M3 11a8 8 0 1 0 16 0 8 8 0 1 0-16 0z m-3-11m21 21l-4.3-4.3",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "#FFFFFFCC",
+                  "strokeWidth": 1.5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "amH6Z",
+                  "name": "ícone/shopping-bag",
+                  "geometry": "M6 2l-3 4v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14l-3-4z m-3 4h18m-5 4a4 4 0 0 1-8 0",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "#FFFFFFCC",
+                  "strokeWidth": 1.5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "amMer",
+              "width": 120,
+              "height": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ao8uY",
+          "width": "fill_container",
+          "fill": "#0B0B0B",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "amQlT",
+              "width": "fill_container",
+              "height": 72
+            },
+            {
+              "type": "frame",
+              "id": "annjv",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "amSpC",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "anjb3",
+                  "width": "fill_container",
+                  "gap": 48,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ane4B",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 22,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "amUtl",
+                          "fill": "#FFFFFF8C",
+                          "content": "EXPEDIÇÕES OFF-ROAD DE UTV · BRASIL",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Archivo",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "amWw4",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "MAIS DO QUE UMA MARCA,\nUM ESTILO DE VIDA",
+                          "lineHeight": 1.02,
+                          "fontFamily": "Anton",
+                          "fontSize": 52,
+                          "letterSpacing": -0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "amYAN",
+                          "fill": "#FFFFFF8C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A gente monta a expedição inteira — roteiro, hospedagem, apoio mecânico, resgate e o registro em foto e vídeo.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Archivo",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "frame",
+                          "id": "am0Ew",
+                          "width": "fill_container",
+                          "height": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "anc0S",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "am6PH",
+                              "height": 48,
+                              "fill": "#FFFFFF",
+                              "gap": 9,
+                              "padding": 22,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "am2If",
+                                  "fill": "#000000",
+                                  "content": "VER PRÓXIMAS EXPEDIÇÕES",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "am4LY",
+                                  "name": "ícone/arrow-right",
+                                  "geometry": "M5 12h14m-19-12m12 5l7 7-7 7",
+                                  "width": 13,
+                                  "height": 13,
+                                  "stroke": "#000000",
+                                  "strokeWidth": 1.0833333333333333,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "anaW9",
+                              "height": 48,
+                              "padding": 22,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "am8Tq",
+                                  "fill": "#FFFFFF",
+                                  "content": "GRUPO FECHADO",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1.4
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ang8k",
+                      "width": 620,
+                      "height": 420,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://static.wixstatic.com/media/596511_41003b3065374e55b72bea651d100a9d~mv2.jpeg/v1/fill/w_900,h_630,al_c,q_85/img.jpg",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "anlfM",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "anpne",
+              "width": "fill_container",
+              "height": 64
+            },
+            {
+              "type": "frame",
+              "id": "anWkQ",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "anrqX",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "anSdo",
+                  "width": "fill_container",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "anxB8",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "antuG",
+                          "fill": "#FFFFFF",
+                          "content": "12",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Anton",
+                          "fontSize": 26,
+                          "letterSpacing": -0.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "anvyp",
+                          "fill": "#FFFFFF8C",
+                          "content": "expedições",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Archivo",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "anDNj",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "anzFR",
+                          "fill": "#FFFFFF",
+                          "content": "340+",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Anton",
+                          "fontSize": 26,
+                          "letterSpacing": -0.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "anBJA",
+                          "fill": "#FFFFFF8C",
+                          "content": "pilotos",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Archivo",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "anJYu",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "anFQ2",
+                          "fill": "#FFFFFF",
+                          "content": "9",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Anton",
+                          "fontSize": 26,
+                          "letterSpacing": -0.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "anHUL",
+                          "fill": "#FFFFFF8C",
+                          "content": "estados",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Archivo",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "anP9F",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "padding": 26,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "anL2d",
+                          "fill": "#FFFFFF",
+                          "content": "15 mil",
+                          "lineHeight": 1.1,
+                          "fontFamily": "Anton",
+                          "fontSize": 26,
+                          "letterSpacing": -0.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "anN5W",
+                          "fill": "#FFFFFF8C",
+                          "content": "fotos entregues",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Archivo",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "anUg7",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "anYoz",
+              "width": "fill_container",
+              "height": 64
+            },
+            {
+              "type": "frame",
+              "id": "ao4nw",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "an0si",
+                  "width": 120,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "ao0f4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "an8Hc",
+                      "width": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "an2v1",
+                          "fill": "#FFFFFF",
+                          "content": "PRÓXIMAS EXPEDIÇÕES",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Anton",
+                          "fontSize": 40,
+                          "letterSpacing": -0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "an4zK",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "an6Dt",
+                          "fill": "#FFFFFF8C",
+                          "content": "VER TODAS",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Archivo",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 3
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aoYcl",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aopa0",
+                          "width": "fill_container",
+                          "fill": "#141414",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "aoaKV",
+                              "width": 118,
+                              "height": "fill_container",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://static.wixstatic.com/media/596511_41003b3065374e55b72bea651d100a9d~mv2.jpeg/v1/fill/w_400,h_280,al_c,q_85/img.jpg",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aom7h",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": 20,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aocOE",
+                                  "fill": "#FFFFFF8C",
+                                  "content": "ÚLTIMAS VAGAS",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 10,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aoeSn",
+                                  "fill": "#FFFFFF",
+                                  "content": "Urubici · SC",
+                                  "lineHeight": 1.1,
+                                  "fontFamily": "Anton",
+                                  "fontSize": 22,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aogV6",
+                                  "fill": "#FFFFFF8C",
+                                  "content": "26–30 ago 2026",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "aoiZP",
+                                  "fill": "#FFFFFF1F",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aok3y",
+                                  "fill": "#FFFFFF",
+                                  "content": "R$ 19.500",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 17,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aoFEO",
+                          "width": "fill_container",
+                          "fill": "#141414",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "aoreJ",
+                              "width": 118,
+                              "height": "fill_container",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://static.wixstatic.com/media/c51a87_fae8119cc871489595096ac511c01e16~mv2.jpg/v1/fill/w_400,h_280,al_c,q_85/img.jpg",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aoDA5",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": 20,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aotis",
+                                  "fill": "#FFFFFF8C",
+                                  "content": "LISTA DE ESPERA",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 10,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aovmb",
+                                  "fill": "#FFFFFF",
+                                  "content": "Serra da Canastra · MG",
+                                  "lineHeight": 1.1,
+                                  "fontFamily": "Anton",
+                                  "fontSize": 22,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aoxpU",
+                                  "fill": "#FFFFFF8C",
+                                  "content": "Datas em definição",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "aoztD",
+                                  "fill": "#FFFFFF1F",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aoBxm",
+                                  "fill": "#FFFFFF",
+                                  "content": "Sob consulta",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 17,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aoV8C",
+                          "width": "fill_container",
+                          "fill": "#141414",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "aoHIx",
+                              "width": 118,
+                              "height": "fill_container",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "https://static.wixstatic.com/media/c51a87_b2156d01937a4a9d8734a7658f27f59d~mv2.jpg/v1/fill/w_400,h_280,al_c,q_85/img.jpg",
+                                "mode": "fill"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aoT4T",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": 20,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aoJMg",
+                                  "fill": "#FFFFFF8C",
+                                  "content": "LISTA DE ESPERA",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 10,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aoLPZ",
+                                  "fill": "#FFFFFF",
+                                  "content": "Visconde de Mauá · RJ",
+                                  "lineHeight": 1.1,
+                                  "fontFamily": "Anton",
+                                  "fontSize": 22,
+                                  "letterSpacing": -0.3
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aoNTI",
+                                  "fill": "#FFFFFF8C",
+                                  "content": "Datas em definição",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "aoPXr",
+                                  "fill": "#FFFFFF1F",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aoR1a",
+                                  "fill": "#FFFFFF",
+                                  "content": "Sob consulta",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "Archivo",
+                                  "fontSize": 17,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ao2jN",
+                  "width": 120,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ao6rf",
+              "width": "fill_container",
+              "height": 72
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "--preto": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "--sup-1": {
+      "type": "color",
+      "value": "#0B0B0B"
+    },
+    "--sup-2": {
+      "type": "color",
+      "value": "#141414"
+    },
+    "--sup-3": {
+      "type": "color",
+      "value": "#1E1E1E"
+    },
+    "--branco": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "--texto-82": {
+      "type": "color",
+      "value": "#FFFFFFD1"
+    },
+    "--texto-55": {
+      "type": "color",
+      "value": "#FFFFFF8C"
+    },
+    "--texto-38": {
+      "type": "color",
+      "value": "#FFFFFF61"
+    },
+    "--linha": {
+      "type": "color",
+      "value": "#FFFFFF21"
+    },
+    "--acento-azul-raro": {
+      "type": "color",
+      "value": "#2F80ED"
+    },
+    "--acento-verde-raro": {
+      "type": "color",
+      "value": "#1FA35A"
+    },
+    "--fonte-titulo": {
+      "type": "string",
+      "value": "Anton"
+    },
+    "--fonte-texto": {
+      "type": "string",
+      "value": "Archivo"
+    },
+    "--raio-foto": {
+      "type": "number",
+      "value": 14
+    },
+    "--raio-pilula": {
+      "type": "number",
+      "value": 999
+    },
+    "--traco-divisor": {
+      "type": "number",
+      "value": 1.5
+    }
+  },
+  "fileToken": "fef75536-542f-4ccf-a4a6-e676f48981e0"
+}

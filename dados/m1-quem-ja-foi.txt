@@ -1,0 +1,75 @@
+MÓDULO: quem já foi   ·   tela: Home (mobile)
+12 elementos para montar na Wix (+4 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m1-quem-ja-foi.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "quem já foi"
+   Largura: estica  · Altura: automática  · Fundo: #F2F2F2 papel  ·
+   Alinha: centro  · Canto: reto
+
+nº 2 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto
+
+nº 3 · LINHA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 4 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 5 · COLUNA
+   Largura: estica  · Altura: automática  · Espaço: 16 px  · Alinha: início  ·
+   Canto: reto
+
+nº 6 · TEXTO
+   texto: "QUEM JÁ FOI"
+   Fonte: Archivo  · Tamanho: 10 px  · Peso: 600  · Cor: #717171 cinza  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 7 · TEXTO
+   texto: "A EXPEDIÇÃO ACABA.\nO GRUPO CONTINUA."
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 8 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 9 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 10 · COLUNA
+   Largura: estica  · Altura: automática  · Recuo: 18 px  · Espaço: 10 px  ·
+   Alinha: início  · Canto: reto
+
+nº 11 · TEXTO
+   texto: "↗"
+   Fonte: Anton  · Tamanho: 19 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.12  · Entre letras: -0.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 12 · TEXTO
+   texto: "“Foi a primeira vez que levei minha mulher e meus dois filhos numa expedição. Não faltou nada — e é isso que faz a diferença.”"
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 13 · TEXTO
+   texto: "Participante da 2ª Expedição Família"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 14 · FIO
+   Largura: estica  · Altura: 2 px  · Fundo: #111111 tinta  · Alinha: início  ·
+   Canto: reto
+
+nº 15 · RECUO LATERAL  [espaçamento — vira recuo, não é elemento]
+   Largura: 20 px  · Altura: 1 px  · Alinha: início  · Canto: reto
+
+nº 16 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 40 px  · Alinha: início  · Canto: reto

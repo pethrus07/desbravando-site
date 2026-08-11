@@ -1,0 +1,264 @@
+MÓDULO: expedições · etapa 2   ·   tela: Home (mobile)
+47 elementos para montar na Wix (+8 de espaçamento, que viram recuo/margem e NÃO são elemento)
+Recorte de como deve ficar: previa/modulos/m1-expedicoes-etapa-2.png
+
+Grade do projeto: tela 1440 · conteúdo 1200 · recuo lateral 120 (celular 20)
+
+────────────────────────────────────────────────────────────────────────
+
+nº 1 · COLUNA "expedições · etapa 2"
+   Largura: estica  · Altura: automática  · Fundo: #FFFFFF branco  ·
+   Alinha: início  · Canto: reto
+
+nº 2 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 3 · COLUNA "formato/GRUPO AVULSO"
+   Largura: estica  · Altura: automática  · Recuo: 22 px  · Alinha: início  ·
+   Canto: reto
+
+nº 4 · TEXTO
+   texto: "01"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +2  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 5 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 22 px  · Alinha: início  · Canto: reto
+
+nº 6 · TEXTO
+   texto: "GRUPO AVULSO"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 7 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 16 px  · Alinha: início  · Canto: reto
+
+nº 8 · TEXTO
+   texto: "Ideal para quem procura uma experiência organizada pelo Desbravando, com destino, data e grupo já formado."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 9 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 24 px  · Alinha: início  · Canto: reto
+
+nº 10 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 11 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 12 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 13 · TEXTO
+   texto: "QUEM VAI"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 14 · TEXTO
+   texto: "Você, sua família ou seus amigos, ao lado de outros desbravadores"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 15 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 16 · TEXTO
+   texto: "DATAS"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 17 · TEXTO
+   texto: "Definidas no calendário do Desbravando"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 18 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 19 · TEXTO
+   texto: "VAGA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 20 · TEXTO
+   texto: "Individual ou por carro"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 21 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 22 · TEXTO
+   texto: "ROTEIRO"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 23 · TEXTO
+   texto: "Pronto e reconhecido antes por quem vai guiar"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 24 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 25 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 22 px  · Alinha: início  · Canto: reto
+
+nº 26 · LINHA "botão/texto"
+   Largura: automática  · Altura: 48 px  · Espaço: 9 px  · Alinha: centro  ·
+   Distribui: centro  · Canto: reto
+
+nº 27 · TEXTO
+   texto: "VER PRÓXIMAS EXPEDIÇÕES"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 28 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
+
+nº 29 · COLUNA
+   Largura: estica  · Altura: automática  ·
+   Contorno: 1 px topo · #D9D9D9 linha  · Alinha: início  · Canto: reto
+
+nº 30 · COLUNA "formato/GRUPO FECHADO"
+   Largura: estica  · Altura: automática  · Recuo: 22 px  · Alinha: início  ·
+   Canto: reto
+
+nº 31 · TEXTO
+   texto: "02"
+   Fonte: JetBrains Mono  · Tamanho: 11 px  · Peso: 400  ·
+   Cor: #9A9A9A cinza fraco  · Entrelinha: 1.4  · Entre letras: +2  ·
+   Largura: automática  · Alinhamento: esquerda
+
+nº 32 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 22 px  · Alinha: início  · Canto: reto
+
+nº 33 · TEXTO
+   texto: "GRUPO FECHADO"
+   Fonte: Anton  · Tamanho: 30 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.04  · Entre letras: -0.4  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 34 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 16 px  · Alinha: início  · Canto: reto
+
+nº 35 · TEXTO
+   texto: "Ideal para quem deseja criar uma expedição exclusiva, personalizada em cada detalhe para o seu grupo."
+   Fonte: Archivo  · Tamanho: 15 px  · Peso: 400  · Cor: #717171 cinza  ·
+   Entrelinha: 1.55  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 36 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 24 px  · Alinha: início  · Canto: reto
+
+nº 37 · COLUNA
+   Largura: estica  · Altura: automática  · Alinha: início  · Canto: reto
+
+nº 38 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 39 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 40 · TEXTO
+   texto: "QUEM VAI"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 41 · TEXTO
+   texto: "Só quem você convidar — família, amigos ou a sua empresa"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 42 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 43 · TEXTO
+   texto: "DATAS"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 44 · TEXTO
+   texto: "Escolhidas pelo seu grupo"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 45 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 46 · TEXTO
+   texto: "VAGA"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 47 · TEXTO
+   texto: "O grupo inteiro, em exclusividade"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 48 · LINHA
+   Largura: estica  · Altura: automática  · Recuo: 13 px  · Espaço: 20 px  ·
+   Alinha: início  · Canto: reto
+
+nº 49 · TEXTO
+   texto: "ROTEIRO"
+   Fonte: Archivo  · Tamanho: 9 px  · Peso: 600  · Cor: #9A9A9A cinza fraco  ·
+   Entrelinha: 1.2  · Entre letras: +2.4  · Largura: 92 px  ·
+   Alinhamento: esquerda
+
+nº 50 · TEXTO
+   texto: "Montado sob medida, do destino à alimentação"
+   Fonte: Archivo  · Tamanho: 12.5 px  · Peso: 400  · Cor: #111111 tinta  ·
+   Entrelinha: 1.45  · Entre letras: 0  · Largura: estica  ·
+   Alinhamento: esquerda
+
+nº 51 · FIO
+   Largura: estica  · Altura: 1 px  · Fundo: #D9D9D9 linha  · Alinha: início  ·
+   Canto: reto
+
+nº 52 · RESPIRO  [espaçamento — vira recuo, não é elemento]
+   Largura: estica  · Altura: 22 px  · Alinha: início  · Canto: reto
+
+nº 53 · LINHA "botão/texto"
+   Largura: automática  · Altura: 48 px  · Espaço: 9 px  · Alinha: centro  ·
+   Distribui: centro  · Canto: reto
+
+nº 54 · TEXTO
+   texto: "SOLICITAR ORÇAMENTO"
+   Fonte: Archivo  · Tamanho: 12 px  · Peso: 600  · Cor: #111111 tinta  ·
+   Entrelinha: 1  · Entre letras: +1.2  · Largura: automática  ·
+   Alinhamento: esquerda
+
+nº 55 · CAIXA "ícone/arrow-right"
+   Largura: 13 px  · Altura: 13 px  · Contorno:  · —  · Alinha: início  ·
+   Canto: reto
