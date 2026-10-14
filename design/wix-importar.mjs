@@ -8,9 +8,10 @@
 // Rodar:  node design/wix-importar.mjs --seco    (mostra o que faria)
 //         node design/wix-importar.mjs           (grava)
 import { wix, SITE } from './wix.mjs';
+import { CAPAS, GALERIA_COSTA, FOTOS_HOSPEDAGEM } from './wix-midia.mjs';
 import {
   COSTA_DOCE, ROTEIRO_COSTA, HOSPEDAGENS, HOSPEDAGEM_NOTA, INCLUSO_COSTA,
-  NAO_INCLUSO_COSTA, RESERVA, EXPEDICOES, GUIA, PERGUNTAS, DESTAQUES, fotoExpedicao,
+  NAO_INCLUSO_COSTA, RESERVA, EXPEDICOES, GUIA, GUIA_CONTEUDO, GUIA_PENDENTE, PERGUNTAS, DESTAQUES,
   RESPOSTAS_TESTE,
 } from './lib/dados.mjs';
 
@@ -31,14 +32,22 @@ const idDe = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '')
 const lista = (itens) => itens.map((i) => `<p>• ${i}</p>`).join('');
 
 /**
- * Imagem na Wix Data: o formato que os elementos entendem é `wix:image://v1/<id>/<nome>`.
- * A API aceita https puro e o id solto sem reclamar — a doc avisa que ela não valida
- * estrutura — mas aí o elemento de Imagem não renderiza. Usar sempre o wix:image.
+ * Imagem na Wix Data: o formato que os elementos entendem é
+ * `wix:image://v1/<id>/<nome>#originWidth=<w>&originHeight=<h>`.
+ *
+ * Duas armadilhas que só apareceram no QA do site no ar, as duas silenciosas:
+ *
+ *  1. A API aceita https puro e o id solto sem reclamar — a doc avisa que ela não valida
+ *     estrutura. Mas aí o elemento não renderiza.
+ *  2. Pior: aceita id de mídia que existe no CDN mas NÃO está na biblioteca do site.
+ *     Baixa 200 no navegador e parece certo. Na hora de ligar o elemento, a Wix não
+ *     resolve, e a foto não aparece. Por isso as capas passam pela tabela CAPAS de
+ *     `wix-midia.mjs`, cujos ids são conferidos contra a biblioteca.
  */
-const idMidia = (url) => url.match(/\/media\/([^/]+)/)[1];
-const imagemWix = (url) => `wix:image://v1/${idMidia(url)}/foto.jpg`;
-const galeriaWix = (urls, titulo) => urls.map((u, i) => ({
-  type: 'image', src: imagemWix(u), title: titulo, slug: `foto-${i}`,
+const imagemWix = (m) => `wix:image://v1/${m.id}/${m.nome}#originWidth=${m.largura}&originHeight=${m.altura}`;
+const galeriaWix = (fotos, titulo) => fotos.map((m, i) => ({
+  type: 'image', src: imagemWix(m), title: titulo, slug: `foto-${i + 1}`,
+  width: m.largura, height: m.altura,
 }));
 const dado = (chave) => COSTA_DOCE.dados.find(([r]) => r === chave)?.[1] || '';
 
@@ -94,9 +103,13 @@ await conta('Expedicoes', {
   veiculos: dado('veículos'),
   destaques: dado('destaques'),
   aeroporto: 'Porto Alegre · transfer incluso',
+  // 1ª célula do resumo. NÃO confundir com `regiao`, que é a linha 3 e vale outra coisa.
+  localizacao: dado('localização'),
+  // manchete da seção "sobre o destino" — copy por destino, então tem que ser campo
+  tituloSobre: 'O TRECHO MAIS BRUTO DO LITORAL GAÚCHO.',
   pontoEncontro: 'Mostardas, 02/12 a partir das 15:00',
-  fotoCapa: imagemWix(fotoExpedicao(3, 900)),
-  galeria: galeriaWix([3, 0, 1, 2].map((i) => fotoExpedicao(i, 1400)), COSTA_DOCE.nome),
+  fotoCapa: imagemWix(CAPAS[COSTA_DOCE.nome]),
+  galeria: galeriaWix(GALERIA_COSTA, COSTA_DOCE.nome),
   sobreDestino: `<p>${COSTA_DOCE.sobre}</p>`,
   hospedagemNota: HOSPEDAGEM_NOTA,
   incluso: lista(INCLUSO_COSTA),
@@ -116,7 +129,7 @@ for (const e of EXPEDICOES.slice(1)) {
     titulo: e.destino, uf: e.uf, nomeEdicao: e.titulo || '',
     chamada: e.resumo, situacao: e.status.rotulo, // rótulo, não slug — ver acima
     duracao: e.duracao, formato: e.formato,
-    fotoCapa: imagemWix(fotoExpedicao(e.fotoIdx, 900)),
+    fotoCapa: imagemWix(CAPAS[e.destino]),
     publicado: false,
   });
 }
@@ -140,21 +153,55 @@ for (const [i, h] of HOSPEDAGENS.entries()) {
     expedicao: idCosta,
     ordem: i + 1, nome: h.nome, papel: h.papel, onde: h.onde, noites: h.noites,
     texto: `<p>${h.texto}</p>`,
+    fotos: galeriaWix(FOTOS_HOSPEDAGEM[i] || [], h.nome),
   });
 }
 
 /* ── 4 · Guia ──────────────────────────────────────────────────────────
-   Categorias vazias, prontas para receber o conteúdo operacional. As perguntas NÃO
-   entram aqui — têm coleção própria. */
+   As perguntas NÃO entram aqui — têm coleção própria (FAQ).
+   4 das 9 categorias vêm do dossiê; as outras 5 ficam vazias esperando o cliente, e a
+   página recolhe linha vazia em vez de mostrar buraco. Ver GUIA_CONTEUDO. */
 console.log('Guia');
-for (const [categoria] of GUIA.filter(([c]) => c !== 'Perguntas frequentes')) {
+// A ordem sai do GUIA do desenho, não do alfabeto. Efeito colateral pretendido: as 4
+// categorias com conteúdo são justamente as 4 primeiras, então a seção abre cheia e as
+// vazias ficam no fim, onde incomodam menos até o cliente responder.
+const categoriasGuia = GUIA.map(([c]) => c).filter((c) => c !== 'Perguntas frequentes');
+for (const [i, categoria] of categoriasGuia.entries()) {
+  const c = GUIA_CONTEUDO[categoria] || { titulo: '', itens: [] };
   await conta('Guia', {
     _id: `${idCosta}-${idDe(categoria)}`,
-    expedicao: idCosta, categoria, titulo: '', conteudo: '',
+    expedicao: idCosta, categoria,
+    ordem: i + 1,
+    titulo: c.titulo,
+    conteudo: c.itens.length ? lista(c.itens) : '',
+  });
+}
+if (GUIA_PENDENTE.length) {
+  console.log(`    ⚠️ ${GUIA_PENDENTE.length} categorias do Guia seguem vazias (falta o cliente): ${GUIA_PENDENTE.join(', ')}`);
+}
+
+/* ── 5 · Itens do pacote ────────────────────────────────────────────────
+   Alimenta os repetidores de "está incluso" (11) e "não está incluso" (4). O mesmo
+   conteúdo dos campos ricos `incluso`/`naoIncluso` de Expedicoes — os dois existem de
+   propósito: campo rico = 1 elemento e menos fidelidade; repetidor = o desenho inteiro.
+   Escolha um na montagem, não ligue os dois na mesma página. */
+console.log('Itens');
+for (const [i, texto] of INCLUSO_COSTA.entries()) {
+  await conta('Itens', {
+    _id: `${idCosta}-inc-${String(i + 1).padStart(2, '0')}`,
+    expedicao: idCosta, escopo: 'incluso',
+    ordem: i + 1, numero: String(i + 1).padStart(2, '0'), texto,
+  });
+}
+for (const [i, texto] of NAO_INCLUSO_COSTA.entries()) {
+  await conta('Itens', {
+    _id: `${idCosta}-nao-${String(i + 1).padStart(2, '0')}`,
+    expedicao: idCosta, escopo: 'nao-incluso',
+    ordem: i + 1, numero: String(i + 1).padStart(2, '0'), texto,
   });
 }
 
-/* ── 5 · Destaques ── */
+/* ── 6 · Destaques ── */
 console.log('Destaques');
 for (const [i, d] of DESTAQUES.entries()) {
   await conta('Destaques', {
@@ -164,7 +211,7 @@ for (const [i, d] of DESTAQUES.entries()) {
   });
 }
 
-/* ── 6 · FAQ ───────────────────────────────────────────────────────────
+/* ── 7 · FAQ ───────────────────────────────────────────────────────────
    `expedicao` fica VAZIO nas gerais — é o que faz a resposta valer para todas. */
 console.log('FAQ');
 for (const [i, [pergunta, resposta, escopo]] of PERGUNTAS.entries()) {
@@ -181,7 +228,7 @@ for (const [i, [pergunta, resposta, escopo]] of PERGUNTAS.entries()) {
 console.log(`\n${SECO ? '[SECO] ' : ''}${ok} itens gravados${erro ? ` · ${erro} falharam` : ''}`);
 if (!SECO) {
   console.log('\nconferindo o que ficou no site:');
-  for (const c of ['Expedicoes', 'Roteiro', 'Hospedagens', 'Guia', 'Destaques', 'FAQ']) {
+  for (const c of ['Expedicoes', 'Roteiro', 'Hospedagens', 'Guia', 'Itens', 'Destaques', 'FAQ']) {
     try {
       const r = await wix('/wix-data/v2/items/query', { corpo: { dataCollectionId: c, query: { cursorPaging: { limit: 100 } } }, escopo: SITE });
       console.log(`   ${c.padEnd(12)} ${(r.dataItems || []).length} itens`);

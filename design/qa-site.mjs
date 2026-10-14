@@ -10,6 +10,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from '/Users/olive/Projetos/qa-parresia/node_modules/playwright/index.mjs';
 
+/** ⚠️ A Wix cacheia a página publicada no CDN. Sem furar esse cache, o teste lê uma
+ *  versão antiga e mente — aconteceu duas vezes: reportei filtro faltando que já estava
+ *  aplicado. Todo goto passa por aqui. */
+const SEM_CACHE = { 'Cache-Control': 'no-cache', Pragma: 'no-cache' };
+const semCache = (url) => url + (url.includes('?') ? '&' : '?') + 'nocache=' + Date.now();
+
 const RAIZ = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SAIDA = path.join(RAIZ, 'qa');
 fs.mkdirSync(SAIDA, { recursive: true });
@@ -38,6 +44,7 @@ for (const pg of PAGINAS) {
         ? 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1'
         : undefined,
     });
+    await ctx.setExtraHTTPHeaders(SEM_CACHE);
     const pagina = await ctx.newPage();
 
     const erros = [];
@@ -55,10 +62,10 @@ for (const pg of PAGINAS) {
     const t0 = Date.now();
     let resposta = null;
     try {
-      resposta = await pagina.goto(pg.url, { waitUntil: 'networkidle', timeout: 90000 });
+      resposta = await pagina.goto(semCache(pg.url), { waitUntil: 'networkidle', timeout: 90000 });
     } catch (e) {
       // networkidle às vezes nunca chega na Wix (websocket aberto); cai pro load
-      try { resposta = await pagina.goto(pg.url, { waitUntil: 'load', timeout: 60000 }); }
+      try { resposta = await pagina.goto(semCache(pg.url), { waitUntil: 'load', timeout: 60000 }); }
       catch (e2) { relatorio.push({ pg: pg.nome, tela: tela.id, fatal: String(e2.message).slice(0, 160) }); continue; }
     }
     const carga = Date.now() - t0;

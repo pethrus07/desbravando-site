@@ -45,6 +45,14 @@ const COLECOES = [
       T('regiao', 'Região'), T('base', 'Base'), T('veiculos', 'Veículos'),
       T('destaques', 'Destaques'), T('aeroporto', 'Aeroporto'),
       T('pontoEncontro', 'Ponto de encontro'),
+      // Os dois abaixo nasceram do mapa de ligação da página dinâmica: o desenho mostrava
+      // esses textos e não havia campo para eles, o que obrigaria a digitar direto no
+      // Editor — e aí a página deixa de servir a próxima expedição.
+      //   localizacao  → a 1ª célula do resumo ("Litoral do RS · Brasil"). NÃO é `regiao`,
+      //                  que é outra coisa ("Mostardas · Lagoa do Peixe · Tramandaí").
+      //   tituloSobre  → a manchete da seção "sobre o destino", que é copy por destino.
+      T('localizacao', 'Localização'),
+      T('tituloSobre', 'Título da seção Sobre o destino'),
       // ⚠️ DOIS campos de imagem, e são coisas diferentes:
       //   fotoCapa  → IMAGE. É o que um elemento de Imagem consegue conectar. Serve a
       //               linha da agenda e qualquer listagem. Elemento de Imagem NÃO
@@ -83,6 +91,10 @@ const COLECOES = [
     id: 'Guia', displayName: 'Guia da Expedição',
     fields: [
       REF('expedicao', 'Expedição', 'Expedicoes'),
+      // `ordem` não é enfeite: sem ela o repetidor só pode ordenar por `categoria`, o que
+      // sai em ordem alfabética (Clima, Contatos, Documentação…) e espalha as categorias
+      // ainda vazias no meio das preenchidas. A ordem do desenho é outra.
+      N('ordem', 'Ordem'),
       T('categoria', 'Categoria'), T('titulo', 'Título'), R('conteudo', 'Conteúdo'),
     ],
   },
@@ -92,6 +104,25 @@ const COLECOES = [
       B('ativo', 'Ativo'), N('ordem', 'Ordem'), T('etiqueta', 'Etiqueta'),
       T('titulo', 'Título'), T('texto', 'Texto'), T('rotuloBotao', 'Rótulo do botão'),
       U('link', 'Link'), I('fotoDesktop', 'Foto desktop'), I('fotoMobile', 'Foto mobile'),
+    ],
+  },
+  {
+    // UMA coleção serve os DOIS módulos — "o que está incluso" (11 itens) e "o que não
+    // está incluso" (4). O campo `escopo` separa. Motivo de não fazer duas: são a mesma
+    // forma de dado, e o item interno do repetidor é o mesmo desenho.
+    //
+    // Os campos `incluso`/`naoIncluso` de `Expedicoes` continuam existindo e preenchidos.
+    // Servem de caminho simples (um Texto avançado só) e de fonte para o agente do
+    // WhatsApp. Escolha um dos dois na montagem — não ligue os dois na mesma página.
+    id: 'Itens', displayName: 'Itens do pacote',
+    fields: [
+      REF('expedicao', 'Expedição', 'Expedicoes'),
+      T('escopo', 'Escopo (incluso | nao-incluso)'),
+      N('ordem', 'Ordem'),
+      // `numero` é TEXT, não NUMBER, porque o desenho mostra "01" e não "1" — campo
+      // numérico perde o zero à esquerda e não há como formatar isso no painel.
+      T('numero', 'Número (01, 02…)'),
+      T('texto', 'Texto do item'),
     ],
   },
   {
@@ -139,15 +170,38 @@ for (const def of COLECOES) {
 
   console.log(`! existe   ${def.id.padEnd(12)} faltam ${faltam.length}: ${faltam.map((f) => f.key).join(', ')}`);
   if (!FORCAR) { puladas++; continue; }
-  for (const f of faltam) {
-    if (SECO) { console.log(`    → acrescentaria ${f.key}`); campos++; continue; }
-    try {
-      await wix(`/wix-data/v2/collections/${def.id}/fields`, { corpo: { field: f }, escopo: SITE });
-      console.log(`    ✔ ${f.key}`);
-      campos++;
-    } catch (e) {
-      console.log(`    ✘ ${f.key}: ${String(e.message).replace(/\s+/g, ' ').slice(0, 120)}`);
-    }
+  if (SECO) { faltam.forEach((f) => console.log(`    → acrescentaria ${f.key}`)); campos += faltam.length; continue; }
+
+  // Acrescentar campo tem exatamente um caminho que funciona, e três que enganam:
+  //   POST /collections/{id}/fields   → 404, o endpoint não existe
+  //   PUT  /collections/{id}          → 404
+  //   PATCH /collections/{id}         → WDE0075, quer um diff que a doc não descreve
+  //   PUT  /collections  ✔            → com `revision` e a lista COMPLETA de campos
+  // Sem o `revision` da coleção: 400 "revision must not be empty".
+  // Mandando só os campos novos: apaga os antigos. Por isso vai `[...já, ...novos]`.
+  //
+  // 🛑 NÃO filtre por `type` aqui. Filtrar `f.type !== 'PAGE_LINK'` apagou o campo
+  // `link-expedicoes-titulo` de `Expedicoes` — o campo que a Wix cria sozinha quando existe
+  // página dinâmica, e que é justamente o que se conecta no link do cartão da agenda.
+  // O PUT substitui a lista inteira: o que não vai, morre. Só `_id`/`_createdDate` e afins
+  // é que devem sair, porque a API os rejeita de volta.
+  try {
+    await wix('/wix-data/v2/collections', {
+      metodo: 'PUT',
+      corpo: {
+        collection: {
+          id: ja.id, displayName: ja.displayName, revision: ja.revision,
+          fields: [...(ja.fields || []).filter((f) => !/^_/.test(f.key)), ...faltam],
+          permissions: ja.permissions || PERM,
+        },
+      },
+      escopo: SITE,
+    });
+    console.log(`    ✔ ${faltam.map((f) => f.key).join(', ')} (via PUT da coleção)`);
+    campos += faltam.length;
+  } catch (e) {
+    const viol = e.dados?.details?.validationError?.fieldViolations?.map((v) => `${v.field}: ${v.description}`).join(' | ');
+    console.log(`    ✘ ${viol || String(e.message).replace(/\s+/g, ' ').slice(0, 160)}`);
   }
 }
 

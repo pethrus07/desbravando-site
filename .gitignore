@@ -3,3 +3,8 @@ auditoria-visual/
 qa/
 node_modules/
 *.tmp
+
+# downloads brutos, backups e cache de captura
+recebidos/_downloads-2026-09/
+*.bak
+design/.cache-web/

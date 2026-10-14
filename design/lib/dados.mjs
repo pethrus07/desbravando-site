@@ -489,3 +489,65 @@ export const RESPOSTAS_TESTE = {
     // [INVENTADO] a equipe de fotos e vídeos está no dossiê; o PRAZO não
     'A expedição tem equipe de fotos e vídeos profissionais em campo. O acervo é entregue depois da edição, em link para download — o prazo é confirmado no fechamento da vaga.',
 };
+
+/**
+ * GUIA DA EXPEDIÇÃO — conteúdo por categoria.
+ *
+ * Só entra aqui o que o dossiê da Costa Doce sustenta. As categorias que o dossiê não
+ * cobre ficam com `''` de propósito: são orientação OPERACIONAL (que documento levar,
+ * que roupa, contato de emergência) onde inventar não é enfeite errado, é informação que
+ * alguém vai seguir dirigindo 540 km de duna. Ficam vazias até o cliente responder.
+ *
+ * A página trata vazio: a linha recolhe e não vira sanfona — o mesmo padrão do FAQ.
+ */
+export const GUIA_CONTEUDO = {
+  'Logística': {
+    titulo: 'Bases, encontro e ritmo',
+    itens: [
+      'Duas bases: Mostardas (3 noites) e Tramandaí (1 noite).',
+      'Ponto de encontro em Mostardas, 02/12, a partir das 15:00.',
+      '5 dias no total, 3 deles de trilha, somando ~540 km.',
+      'Boas-vindas no primeiro dia e encerramento no último, os dois fora do volante.',
+      'Comboio com carro de apoio 4×4 e reboque, 4 quadriciclos com mecânicos, e equipe de 7 entre guias, apoio e mecânica.',
+    ],
+  },
+  'Hospedagem': {
+    titulo: 'Onde o grupo fica',
+    itens: [
+      'Schenkel Hotel, em Mostardas — 3 pernoites.',
+      'Pousada Pouso Alegre, em Tramandaí — 1 pernoite.',
+      'Hospedagem escolhida a dedo entre as opções e padrões da região.',
+      '4 pernoites com café da manhã inclusos.',
+    ],
+  },
+  'Gastronomia': {
+    titulo: 'O que está à mesa',
+    itens: [
+      '4 cafés da manhã, junto com os pernoites.',
+      '4 jantas — 3 em Mostardas, 1 em Tramandaí.',
+      '3 almoços — 2 em Mostardas, 1 em Tramandaí.',
+      'Nos eventos de boas-vindas e encerramento: coquetel, chopp, drinks e música ao vivo.',
+    ],
+  },
+  'Transporte': {
+    titulo: 'Como o carro e você chegam',
+    itens: [
+      'Cegonha para o UTV, ida e volta, com seguro contra roubo — incluso.',
+      'Transfer terrestre ida e volta: Limeira ↔ aeroporto e Porto Alegre ↔ Mostardas/Tramandaí.',
+      'Aeroporto de referência: Porto Alegre, com transfer incluso.',
+      'O UTV é o seu; o transporte dele até a base está incluso.',
+      'Combustível dos trajetos fica por sua conta.',
+    ],
+  },
+
+  // ⛔ Abaixo: o dossiê NÃO cobre. Não preencher sem resposta do cliente.
+  'Vestuário': { titulo: '', itens: [] },
+  'O que levar': { titulo: '', itens: [] },
+  'Documentação': { titulo: '', itens: [] },
+  'Clima': { titulo: '', itens: [] },
+  'Contatos': { titulo: '', itens: [] },
+};
+
+/** As categorias do Guia que seguem esperando o cliente. */
+export const GUIA_PENDENTE = Object.entries(GUIA_CONTEUDO)
+  .filter(([, v]) => !v.itens.length).map(([k]) => k);

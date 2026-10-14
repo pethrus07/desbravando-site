@@ -360,7 +360,10 @@ function render(texto) {
 
       // módulo: "### 7. `roteiro` — 1440 × 1136"
       const mod = texto.match(/^\d+\.\s+`([^`]+)`/);
-      const vocab = texto.match(/^(V\d+)\s+·\s+(.+)$/);
+      // V<n> = peça do vocabulário · C<n> = conserto do QA · F<n> = item do "o que falta".
+      // Os três são passo com caixa de conferência; a letra vira o prefixo da chave, então
+      // os progressos não se misturam nem colidem com os módulos (que usam `03|nome`).
+      const vocab = texto.match(/^([VCF]\d+)\s+·\s+(.+)$/);
 
       if (mod && prefixoTela) {
         nModulo++;
@@ -414,7 +417,7 @@ function render(texto) {
 
       if (vocab) {
         out.push(
-          `<h3 class="vocab" id="${id}"><label class="feito"><input type="checkbox" class="passo" data-id="V|${vocab[1]}"><span></span></label>` +
+          `<h3 class="vocab" id="${id}"><label class="feito"><input type="checkbox" class="passo" data-id="${vocab[1][0]}|${vocab[1]}"><span></span></label>` +
           `<span class="tit"><b>${vocab[1]}</b> ${inline(vocab[2])}</span></h3>`,
         );
         i++;
