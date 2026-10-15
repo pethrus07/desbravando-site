@@ -411,7 +411,9 @@ async function gravar(colecao, item) {
 }
 const salvar = gravar;
 
-console.log(`\n${SECO ? 'SECO · ' : ''}subindo para o CMS`);
+const novaExpedicao = !(await todos('Expedicoes')).some((x) => x._id === id);
+
+console.log(`\n${SECO ? 'SECO · ' : ''}subindo para o CMS${novaExpedicao ? '' : ' (expedição já existe: campos de semente não são reescritos)'}`);
 console.log('Expedicoes');
 await salvar('Expedicoes', {
   _id: id, slug: id,
@@ -421,14 +423,19 @@ await salvar('Expedicoes', {
   // "Pré-reserva aberta"), não um slug. Só entra por --situacao: é estado comercial, não sai
   // do briefing, e escrever "rascunho" aqui publicaria a palavra na etiqueta da agenda.
   situacao: SITUACAO,
-  uf: UF_ESCOLHIDA,
-  regiao,
-  pontoEncontro,
   dataInicio: inicio, dataFim: fim,
   duracao: expedicao.duracao,
-  base: expedicao.base,
-  veiculos: expedicao.veiculos,
   publicado: false,
+  /* SEMENTE: escrito só quando a expedição ainda não existe. Depois disso quem manda é quem
+     edita no CMS. `uf`, `regiao` e `pontoEncontro` são derivação minha, não afirmação de
+     ninguém; reescrever a cada zip apagaria a correção da pessoa em silêncio, toda vez.
+
+     ⚠️ `veiculos` NÃO entra mais, nem como semente. Eu o preenchia com o número de adesivos
+     do briefing ("11 UTVs"), e o campo quer dizer OUTRA coisa: qual carro você usa (na Costa
+     Doce, "O seu UTV · transporte incluso"). A Ana apagou em 15/10 e pediu para tirar o
+     campo. Ela estava certa: não era o campo errado, era o meu valor errado. `base` saiu
+     junto, por ser palpite meu sobre a cidade-base a partir do Dia 01. */
+  ...(novaExpedicao ? { uf: UF_ESCOLHIDA, regiao, pontoEncontro } : {}),
 });
 
 console.log('Roteiro');
