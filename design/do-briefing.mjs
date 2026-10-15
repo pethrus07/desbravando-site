@@ -1,7 +1,11 @@
 // Transforma o PACOTE DE COMUNICAÇÃO de uma expedição (o .zip que sai do Controle de
 // Eventos, aba Comunicação) nos CSVs das coleções do CMS da Wix.
 //
-//   node design/do-briefing.mjs <caminho do briefing.json ou da pasta do pacote>
+//   node design/do-briefing.mjs <pacote>            só escreve os CSVs
+//   node design/do-briefing.mjs <pacote> --subir    escreve e MANDA para o CMS da Wix
+//   node design/do-briefing.mjs <pacote> --subir --seco   mostra o que mandaria
+//
+// <pacote> é o .zip baixado na aba Comunicação, a pasta dele, ou o briefing.json solto.
 //
 // POR QUE EXISTE
 // O briefing foi feito para matar as voltas entre o pedido e a peça. Se o mesmo conteúdo
@@ -24,6 +28,7 @@
 //    Cada troca sai nomeada na auditoria, com antes e depois.
 import fs from 'node:fs';
 import path from 'node:path';
+import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -34,8 +39,35 @@ if (!alvo) {
   console.error('uso: node design/do-briefing.mjs <briefing.json | pasta do pacote>');
   process.exit(1);
 }
-const arq = fs.statSync(alvo).isDirectory() ? path.join(alvo, 'briefing.json') : alvo;
-const brf = JSON.parse(fs.readFileSync(arq, 'utf8'));
+const SUBIR = process.argv.includes('--subir');
+const SECO = process.argv.includes('--seco');
+
+/**
+ * Lê `briefing.json` de dentro do .zip, sem descompactar na mão e sem dependência.
+ * O pacote do painel grava os arquivos SEM compressão (método 0), então quase sempre é um
+ * fatiamento; `inflateRawSync` cobre o caso de alguém recompactar o zip no caminho.
+ */
+function doZip(caminho) {
+  const b = fs.readFileSync(caminho);
+  for (let i = 0; i < b.length - 4; i++) {
+    if (b.readUInt32LE(i) !== 0x04034b50) continue;          // assinatura do cabeçalho local
+    const metodo = b.readUInt16LE(i + 8);
+    const compr = b.readUInt32LE(i + 18);
+    const nLen = b.readUInt16LE(i + 26);
+    const eLen = b.readUInt16LE(i + 28);
+    const nome = b.subarray(i + 30, i + 30 + nLen).toString('utf8');
+    const ini = i + 30 + nLen + eLen;
+    if (!/(^|\/)briefing\.json$/.test(nome)) continue;
+    const cru = b.subarray(ini, ini + compr);
+    return (metodo === 0 ? cru : zlib.inflateRawSync(cru)).toString('utf8');
+  }
+  throw new Error(`não achei briefing.json dentro de ${path.basename(caminho)}`);
+}
+
+const texto = /\.zip$/i.test(alvo)
+  ? doZip(alvo)
+  : fs.readFileSync(fs.statSync(alvo).isDirectory() ? path.join(alvo, 'briefing.json') : alvo, 'utf8');
+const brf = JSON.parse(texto);
 
 /* ── as duas leituras que valem ─────────────────────────────────────── */
 const notas = [];       // o que ficou em branco e por quê
@@ -246,3 +278,84 @@ fs.writeFileSync(path.join(DIR, 'FALTA.md'), [
   '',
 ].join('\n'), 'utf8');
 console.log(`\n${path.relative(RAIZ, path.join(DIR, 'FALTA.md'))} escrito.`);
+
+/* ── subir para o CMS ──────────────────────────────────────────────────
+   Mesmas convenções de `wix-importar.mjs`, que não dá para adivinhar e custaram QA no site
+   no ar: `_id` é o slug e tem que ir DUAS vezes (no `dataItem.id` e no `data._id`), senão a
+   API devolve WDE0080 com a explicação escondida em details.validationError; campo rico vai
+   em `<p>`; e `expedicao` é referência, que se liga pelo `_id` da expedição.
+
+   `save` cria ou substitui pelo `_id`, então rodar de novo com o mesmo zip ATUALIZA em vez
+   de duplicar. É o que permite o cliente corrigir o briefing, reenviar, e o site acompanhar. */
+if (!SUBIR) {
+  console.log('\nPara mandar ao CMS da Wix:  node design/do-briefing.mjs <pacote> --subir');
+  process.exit(0);
+}
+
+const { wix, SITE } = await import('./wix.mjs');
+const idDe = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase().slice(0, 60);
+const rico = (t) => (t ? `<p>${t}</p>` : '');
+const id = slug;
+
+let gravados = 0, falhos = 0;
+async function salvar(colecao, item) {
+  if (SECO) { console.log(`    → ${colecao.padEnd(12)} ${item._id}`); gravados++; return; }
+  try {
+    await wix('/wix-data/v2/items/save', {
+      corpo: { dataCollectionId: colecao, dataItem: { id: item._id, data: item } },
+      escopo: SITE,
+    });
+    gravados++;
+  } catch (e) {
+    const viol = e.dados?.details?.validationError?.fieldViolations?.map((v) => `${v.field}: ${v.description}`).join(' | ');
+    console.log(`    x ${colecao} ${item._id}: ${viol || String(e.message).replace(/\s+/g, ' ').slice(0, 160)}`);
+    falhos++;
+  }
+}
+
+console.log(`\n${SECO ? 'SECO · ' : ''}subindo para o CMS`);
+console.log('Expedicoes');
+await salvar('Expedicoes', {
+  _id: id, slug: id,
+  titulo: nome,
+  nomeEdicao: expedicao.nomeEdicao,
+  // ⚠️ `situacao` é o RÓTULO que o visitante lê ("Lista de espera", "Vagas abertas",
+  // "Pré-reserva aberta"), não um slug. Vai VAZIO: é estado comercial, não sai do briefing,
+  // e escrever "rascunho" aqui publicaria a palavra na etiqueta da agenda.
+  situacao: '',
+  dataInicio: inicio, dataFim: fim,
+  duracao: expedicao.duracao,
+  base: expedicao.base,
+  veiculos: expedicao.veiculos,
+  publicado: false,
+});
+
+console.log('Roteiro');
+for (const r of roteiro) {
+  await salvar('Roteiro', {
+    _id: `${id}-dia-${r.dia}`, expedicao: id,
+    dia: r.dia, data: r.data, local: r.local, titulo: r.titulo,
+    texto: rico(r.texto), km: '',
+  });
+}
+
+console.log('Hospedagens');
+for (const h of hospedagens) {
+  await salvar('Hospedagens', {
+    _id: `${id}-${idDe(h.nome)}`, expedicao: id,
+    ordem: h.ordem, nome: h.nome, papel: '', onde: '', noites: '', texto: '',
+  });
+}
+
+console.log('Guia');
+for (const [i, g] of guia.entries()) {
+  await salvar('Guia', {
+    _id: `${id}-${idDe(g.categoria)}`, expedicao: id,
+    categoria: g.categoria, ordem: i + 1, titulo: g.titulo, conteudo: rico(g.conteudo),
+  });
+}
+
+console.log(`\n${gravados} item(ns) ${SECO ? 'iriam' : 'gravados'}${falhos ? `, ${falhos} com erro` : ''}.`);
+console.log(`publicado=FALSE. A página existe em /expedicoes/${id} mas só aparece quando você virar a chave.`);
+process.exit(falhos ? 1 : 0);
