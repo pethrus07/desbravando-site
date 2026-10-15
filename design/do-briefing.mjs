@@ -135,10 +135,13 @@ for (const bruto of agenda.split(';')) {
   // de MAIÚSCULA nas duas pontas é o que impede "chegada do grupo à Barreirinhas" de virar
   // trecho — ali "grupo" é minúsculo, e não é origem de nada.
   const tr = texto.match(/(?:de\s+)?\b([A-ZÁÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ]*)\s+à\s+([A-ZÁÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ]*)/);
+  // Dia que não é trecho ainda tem lugar: "chegada do grupo à Barreirinhas", "Exploração pela
+  // região de Camocim". Sem isto, 3 dos 7 dias ficam sem local na página.
+  const parado = !tr && (texto.match(/(?:à|região de)\s+([A-ZÁÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ]*)/) || [])[1];
   roteiro.push({
     dia: n,
     data: inicio ? maisDias(inicio, n - 1) : '',
-    local: tr ? `${tr[1]} → ${tr[2]}` : '',
+    local: tr ? `${tr[1]} → ${tr[2]}` : parado || '',
     titulo: tr ? `${tr[1]} → ${tr[2]}` : texto.replace(/[,;].*$/, ''),
     texto,
     km: '',   // o briefing não pergunta quilometragem
@@ -177,15 +180,48 @@ if (duracaoDias && roteiro.length && duracaoDias !== roteiro.length) {
   process.exit(1);
 }
 
+/* ── o que dá para derivar do texto DELE ───────────────────────────────
+   Derivar não é inventar: tudo aqui sai de palavra que a pessoa escreveu no briefing. Mas
+   também não é afirmação dela, então cada um entra declarado na auditoria. */
+const derivados = [];
+
+/* `uf` e `situacao` o script NUNCA chuta: a sigla do estado quando o roteiro cruza três, e o
+   rótulo comercial da etiqueta, são escolha de quem vende. Entram por opção de linha de
+   comando, ditas em voz alta, ou não entram. */
+const opcao = (nome) => {
+  const i = process.argv.findIndex((a) => a === `--${nome}` || a.startsWith(`--${nome}=`));
+  if (i === -1) return '';
+  const a = process.argv[i];
+  return (a.includes('=') ? a.split('=').slice(1).join('=') : process.argv[i + 1] || '').trim();
+};
+const UF_ESCOLHIDA = opcao('uf');
+const SITUACAO = opcao('situacao');
+
+// A sequência de cidades, na ordem em que o roteiro passa. Mesmo formato da Costa Doce
+// ("Mostardas · Lagoa do Peixe · Tramandaí").
+const cidades = [];
+for (const r of roteiro) {
+  for (const c of (r.local ? r.local.split('→') : []).map((s) => s.trim()).filter(Boolean))
+    if (!cidades.includes(c)) cidades.push(c);
+}
+const regiao = cidades.join(' · ');
+if (regiao) derivados.push(`regiao = "${regiao}" (a ordem das cidades do próprio roteiro)`);
+
+// Ponto de encontro: cidade e data do Dia 01. A HORA o briefing não pergunta.
+const dia1 = roteiro.find((r) => r.dia === 1);
+const cidade1 = dia1 && (dia1.texto.match(/à\s+([A-ZÁÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ]*)/) || [])[1];
+const pontoEncontro = cidade1 && dia1.data
+  ? `${cidade1}, ${dia1.data.split('-').reverse().slice(0, 2).join('/')}`
+  : '';
+if (pontoEncontro) derivados.push(`pontoEncontro = "${pontoEncontro}" (Dia 01; falta a HORA)`);
+
 const VAZIOS_DE_PROPOSITO = {
-  uf: 'o roteiro cruza mais de um estado — qual entra na ficha é decisão sua',
   chamada: 'frase de chamada é escrita de marca, não sai do briefing',
   subtitulo: 'idem',
   formato: 'Família / Só Homens / Casais / Corporativa — o briefing não pergunta',
   percurso: 'quilometragem total não existe no briefing',
   destaques: 'não perguntado',
   aeroporto: 'não perguntado',
-  pontoEncontro: 'não perguntado (hora e local da chegada do Dia 01)',
   sobreDestino: 'texto sobre o destino é redação, não briefing',
   incluso: 'não perguntado',
   naoIncluso: 'não perguntado',
@@ -203,7 +239,9 @@ const expedicao = {
   dataInicio: inicio,
   dataFim: fim,
   duracao: duracaoDias ? `${duracaoDias} dias` : '',
-  regiao: '',
+  uf: UF_ESCOLHIDA,
+  regiao,
+  pontoEncontro,
   base: roteiro.length ? (roteiro[0].texto.match(/à\s+([A-ZÁÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ]*)/) || [])[1] || '' : '',
   veiculos: veiculos ? `${veiculos} UTVs` : '',
   hospedagemNota: '',
@@ -263,9 +301,31 @@ fs.writeFileSync(path.join(DIR, 'FALTA.md'), [
   '',
   `**\`publicado\` está FALSE.** Vire para TRUE só quando as linhas abaixo estiverem resolvidas.`,
   '',
+  ...(derivados.length ? ['## Derivado do texto do briefing, não afirmado por ninguém', '',
+    'Saiu de palavra que a pessoa escreveu, mas não é resposta dela. Confira:',
+    '', ...derivados.map((d) => `- ${d}`), ''] : []),
   '## Em branco de propósito',
   '',
   ...notas.map((n) => `- ${n}`),
+  '',
+  '## Dois campos que a página NÃO desenha hoje',
+  '',
+  'Medido em 15/10/2026 comparando o valor no CMS com o HTML da página, na Costa Doce',
+  '(a mais preenchida) e aqui. Todo o resto aparece.',
+  '',
+  '- `pontoEncontro` não está ligado a nenhum elemento',
+  '- `naoIncluso` idem (o "não está incluso" da página vem do repetidor da coleção `Itens`)',
+  '',
+  'Preencher esses dois no CMS não muda nada na tela até alguém ligar o elemento no Editor.',
+  '',
+  '## Quem preenche o quê, daqui para a frente',
+  '',
+  'O briefing manda nos campos que ele conhece: datas, duração, roteiro, hospedagens, veículos.',
+  'Reenviar o zip ATUALIZA esses e **não toca em mais nada** — foto, textos de venda e o que',
+  'inclui, escritos no CMS, ficam onde estão. Valor vazio nunca sobrescreve conteúdo.',
+  '',
+  '⚠️ Mudar o `titulo` muda o ENDEREÇO da página, porque a URL dinâmica sai dele.',
+  'Depois de divulgar o link, título não se mexe.',
   '',
   ...(unicas.length ? ['## Palavras que eu corrigi no texto do cliente', '',
     'Vai para página pública, então erro de digitação não sobe. Mas é texto dele:',
@@ -299,11 +359,47 @@ const rico = (t) => (t ? `<p>${t}</p>` : '');
 const id = slug;
 
 let gravados = 0, falhos = 0;
-async function salvar(colecao, item) {
-  if (SECO) { console.log(`    → ${colecao.padEnd(12)} ${item._id}`); gravados++; return; }
+const preservados = [];
+const cache = new Map();
+
+/** Todos os itens de uma coleção, uma vez só. */
+async function todos(colecao) {
+  if (!cache.has(colecao)) {
+    const r = await wix('/wix-data/v2/items/query', {
+      corpo: { dataCollectionId: colecao, query: { paging: { limit: 200 } } }, escopo: SITE,
+    });
+    cache.set(colecao, (r.dataItems || []).map((i) => i.data));
+  }
+  return cache.get(colecao);
+}
+
+/**
+ * LER, MESCLAR, ESCREVER — e nunca o contrário.
+ *
+ * `items/save` substitui o item INTEIRO. Enquanto só o briefing escrevia aqui, isso era a
+ * idempotência que a gente queria. A partir do momento em que uma PESSOA passa a preencher
+ * no CMS (fotos, textos de venda, o que inclui), substituir vira destruição: o cliente fecha
+ * outro briefing, eu rodo de novo, e some tudo que ela escreveu.
+ *
+ * Então o briefing escreve só o que ele sabe, e o que ele não sabe fica como está. Valor
+ * vazio NÃO sobrescreve — `false` e `0` sim, que são respostas de verdade, não ausência.
+ */
+async function gravar(colecao, item) {
+  const antigo = (await todos(colecao)).find((x) => x._id === item._id);
+  const novos = Object.fromEntries(
+    Object.entries(item).filter(([, v]) => v !== '' && v !== null && v !== undefined)
+  );
+  if (antigo) {
+    for (const [k, v] of Object.entries(antigo)) {
+      if (k.startsWith('_') || k === 'slug') continue;
+      if (!(k in novos) && v !== '' && v != null) preservados.push(`${colecao}.${item._id}.${k}`);
+    }
+  }
+  const final = { ...(antigo || {}), ...novos, _id: item._id };
+  if (SECO) { console.log(`    → ${colecao.padEnd(12)} ${item._id}${antigo ? ' (mescla)' : ' (novo)'}`); gravados++; return; }
   try {
     await wix('/wix-data/v2/items/save', {
-      corpo: { dataCollectionId: colecao, dataItem: { id: item._id, data: item } },
+      corpo: { dataCollectionId: colecao, dataItem: { id: item._id, data: final } },
       escopo: SITE,
     });
     gravados++;
@@ -313,6 +409,7 @@ async function salvar(colecao, item) {
     falhos++;
   }
 }
+const salvar = gravar;
 
 console.log(`\n${SECO ? 'SECO · ' : ''}subindo para o CMS`);
 console.log('Expedicoes');
@@ -321,9 +418,12 @@ await salvar('Expedicoes', {
   titulo: nome,
   nomeEdicao: expedicao.nomeEdicao,
   // ⚠️ `situacao` é o RÓTULO que o visitante lê ("Lista de espera", "Vagas abertas",
-  // "Pré-reserva aberta"), não um slug. Vai VAZIO: é estado comercial, não sai do briefing,
-  // e escrever "rascunho" aqui publicaria a palavra na etiqueta da agenda.
-  situacao: '',
+  // "Pré-reserva aberta"), não um slug. Só entra por --situacao: é estado comercial, não sai
+  // do briefing, e escrever "rascunho" aqui publicaria a palavra na etiqueta da agenda.
+  situacao: SITUACAO,
+  uf: UF_ESCOLHIDA,
+  regiao,
+  pontoEncontro,
   dataInicio: inicio, dataFim: fim,
   duracao: expedicao.duracao,
   base: expedicao.base,
@@ -356,6 +456,34 @@ for (const [i, g] of guia.entries()) {
   });
 }
 
+/* Dia que sumiu do briefing continua na coleção e continua na página. Não apago sozinho,
+   porque pode ter foto e texto que alguém escreveu ali — mas calar seria pior. */
+const orfaos = [];
+const esperado = {
+  Roteiro: new Set(roteiro.map((r) => `${id}-dia-${r.dia}`)),
+  Hospedagens: new Set(hospedagens.map((h) => `${id}-${idDe(h.nome)}`)),
+};
+for (const [col, ids] of Object.entries(esperado)) {
+  for (const x of await todos(col)) {
+    if (x.expedicao === id && !ids.has(x._id)) orfaos.push(`${col}  ${x._id}`);
+  }
+}
+
 console.log(`\n${gravados} item(ns) ${SECO ? 'iriam' : 'gravados'}${falhos ? `, ${falhos} com erro` : ''}.`);
-console.log(`publicado=FALSE. A página existe em /expedicoes/${id} mas só aparece quando você virar a chave.`);
+if (preservados.length) {
+  console.log(`\n${preservados.length} campo(s) que já tinham conteúdo foram PRESERVADOS (o briefing não manda neles):`);
+  for (const p of preservados.slice(0, 20)) console.log('  · ' + p);
+}
+if (orfaos.length) {
+  console.log(`\n⚠️ ${orfaos.length} item(ns) sobraram de um briefing anterior e ainda aparecem na página:`);
+  for (const o of orfaos) console.log('  · ' + o);
+  console.log('  Apague no CMS se não valem mais. Não apago sozinho: pode ter foto ou texto escrito ali.');
+}
+/* ⚠️ A URL da página dinâmica sai do TÍTULO, com acento e tudo — não do `slug`. Descoberto
+   na marra em 15/10: procurei por /expedicoes/lencois-maranhenses, levei 404, e concluí que
+   a página não existia. Ela existia, em /expedicoes/lençóis-maranhenses. */
+const url = 'https://www.desbravandoutv.com/expedicoes/' +
+  encodeURIComponent(nome.toLowerCase().replace(/\s+/g, '-'));
+console.log(`\npágina: ${url}`);
+console.log(`(o endereço sai do TÍTULO, não do slug — mudar o título muda o endereço)`);
 process.exit(falhos ? 1 : 0);
