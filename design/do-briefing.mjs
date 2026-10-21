@@ -138,9 +138,12 @@ for (const bruto of agenda.split(';')) {
   // Dia que não é trecho ainda tem lugar: "chegada do grupo à Barreirinhas", "Exploração pela
   // região de Camocim". Sem isto, 3 dos 7 dias ficam sem local na página.
   const parado = !tr && (texto.match(/(?:à|região de)\s+([A-ZÁÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ]*)/) || [])[1];
+  const diaIso = inicio ? maisDias(inicio, n - 1) : '';
   roteiro.push({
     dia: n,
-    data: inicio ? maisDias(inicio, n - 1) : '',
+    // dd/mm: a página imprime este campo como está, e em ISO saía "2027-05-24" na cara do
+    // visitante nos sete dias.
+    data: diaIso ? diaIso.split('-').slice(1).reverse().join('/') : '',
     local: tr ? `${tr[1]} → ${tr[2]}` : parado || '',
     titulo: tr ? `${tr[1]} → ${tr[2]}` : texto.replace(/[,;].*$/, ''),
     texto,
@@ -439,12 +442,22 @@ await salvar('Expedicoes', {
 });
 
 console.log('Roteiro');
+const diasQueExistem = new Set((await todos('Roteiro')).filter((x) => x.expedicao === id).map((x) => x._id));
 for (const r of roteiro) {
-  await salvar('Roteiro', {
-    _id: `${id}-dia-${r.dia}`, expedicao: id,
-    dia: r.dia, data: r.data, local: r.local, titulo: r.titulo,
-    texto: rico(r.texto), km: '',
-  });
+  const idDia = `${id}-dia-${r.dia}`;
+  /* SEMENTE também no roteiro, desde 20/10/2026. O briefing escreve o dia uma vez; depois,
+     quem manda é quem edita no CMS. A Ana reescreveu os sete dias à mão ("Dia 01 - Chegada à
+     Barreirinhas. Chegada pelo Aeroporto de São Luís, com transfer até...") e preencheu a
+     quilometragem. Com `titulo` e `texto` ainda pertencendo ao briefing, bastava o cliente
+     reenviar o zip para apagar tudo isso de uma vez — e a mescla não salva, porque o briefing
+     TEM valor para esses campos, só que o valor dele é a frase crua de origem.
+
+     A data agora vai em dd/mm. Em ISO ela aparecia crua na página, "2027-05-24", nos sete
+     dias: o campo é texto e a tela imprime o que está lá. */
+  const base = { _id: idDia, expedicao: id, dia: r.dia };
+  await salvar('Roteiro', diasQueExistem.has(idDia)
+    ? base
+    : { ...base, data: r.data, local: r.local, titulo: r.titulo, texto: rico(r.texto), km: '' });
 }
 
 console.log('Hospedagens');
