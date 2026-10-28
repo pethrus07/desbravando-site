@@ -84,6 +84,27 @@ pendencias.push('transfer (origem, embarque e chegada) — não existe campo no 
 pendencias.push('fotos — entram por nome de arquivo no bloco "fotos"');
 
 const arq = path.join(ESTEIRA, `dossie-${ID}.json`);
+
+/* MESCLA, não sobrescreve. O CMS é dono do CONTEÚDO (texto, roteiro, hospedagens, listas);
+   o arquivo guarda também o que não existe lá: as fotos escolhidas, a geometria de cada dia,
+   o texto de quem somos, a lista do padrão e a linha de crédito das licenças.
+
+   Em 28/10/2026 rodei isto só para pegar um texto que a cliente tinha reescrito e apaguei as
+   três chaves de uma vez; precisei restaurar do git. É a mesma lição que o briefing do site
+   já tinha aprendido em 15/10: gerador que reescreve o arquivo inteiro destrói o que não
+   conhece, e o estrago só aparece no render seguinte. */
+const MEUS = ['quemSomos', 'padrao', 'creditos', 'fotos'];
+if (fs.existsSync(arq)) {
+  const antigo = JSON.parse(fs.readFileSync(arq, 'utf8'));
+  const herdadas = MEUS.filter((k) => antigo[k] !== undefined);
+  for (const k of herdadas) dossie[k] = antigo[k];
+  // a geometria de cada dia também é escolha minha, e mora dentro do roteiro
+  const layouts = Object.fromEntries((antigo.roteiro ?? []).map((r) => [r.dia, r.layout]));
+  let n = 0;
+  for (const r of dossie.roteiro) if (layouts[r.dia]) { r.layout = layouts[r.dia]; n++; }
+  console.log(`mesclado: ${herdadas.join(', ')} + geometria de ${n} dia(s)`);
+}
+
 fs.writeFileSync(arq, JSON.stringify(dossie, null, 2) + '\n', 'utf8');
 
 console.log(`${e.titulo}`);
