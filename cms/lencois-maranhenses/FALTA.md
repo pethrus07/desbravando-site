@@ -1,6 +1,6 @@
 # Lençóis Maranhenses — o que falta antes de publicar
 
-Gerado de `briefing.json` (fechado, 14 de 18 campos) em 2026-10-15.
+Gerado de `briefing.json` (fechado, 14 de 18 campos) em 2026-10-21.
 Importe `1-Expedicoes.csv` primeiro; as outras coleções referenciam a expedição.
 
 **`publicado` está FALSE.** Vire para TRUE só quando as linhas abaixo estiverem resolvidas.
