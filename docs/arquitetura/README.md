@@ -11,7 +11,17 @@ cada uma numa notação padrão:
 
 Guarda-chuva das ferramentas que o Pedro mantém para a Desbravando UTV, operação de expedições de UTV: controle das expedições, formulário público, acervo de arquivos, estúdio de briefing e o site na Wix.
 
-![Desbravando UTV · as plataformas do cliente](./desbravando.svg)
+### Quem usa e para quê (UML)
+
+![Casos de uso · Desbravando UTV · as plataformas do cliente](./desbravando-1-casos-de-uso.svg)
+
+### Da expedição fechada à página no site (BPMN 2.0)
+
+![Processo · Desbravando UTV · as plataformas do cliente](./desbravando-2-processo.svg)
+
+### Arquitetura (C4, containers)
+
+![Arquitetura · Desbravando UTV · as plataformas do cliente](./desbravando-3-arquitetura.svg)
 
 Editável: [`desbravando.excalidraw`](./desbravando.excalidraw), abre em [excalidraw.com](https://excalidraw.com) ou no VS Code com a extensão Excalidraw.
 
@@ -19,7 +29,17 @@ Editável: [`desbravando.excalidraw`](./desbravando.excalidraw), abre em [excali
 
 Repaginação do site desbravandoutv.com sem sair da Wix: o design nasce em código e vira manual de montagem, o conteúdo das expedições entra no CMS por script e o pagamento segue no Wix Events. A troca de plataforma ficou adiada.
 
-![Site Desbravando · repaginação dentro da Wix](./site-desbravando.svg)
+### Quem usa e para quê (UML)
+
+![Casos de uso · Site Desbravando · repaginação dentro da Wix](./site-desbravando-1-casos-de-uso.svg)
+
+### Do pacote da expedição à página no ar (BPMN 2.0)
+
+![Processo · Site Desbravando · repaginação dentro da Wix](./site-desbravando-2-processo.svg)
+
+### Arquitetura (C4, containers)
+
+![Arquitetura · Site Desbravando · repaginação dentro da Wix](./site-desbravando-3-arquitetura.svg)
 
 Editável: [`site-desbravando.excalidraw`](./site-desbravando.excalidraw), abre em [excalidraw.com](https://excalidraw.com) ou no VS Code com a extensão Excalidraw.
 
