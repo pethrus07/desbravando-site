@@ -33,8 +33,19 @@ if (!e) { console.error(`não achei a expedição "${ID}"`); process.exit(1); }
 const lista = (html) => [...String(html || '').matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)]
   .map((m) => m[1].replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim())
   .filter(Boolean);
-const texto = (html) => String(html || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ')
-  .replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+/* O FIM DE PARÁGRAFO SOBREVIVE, como linha em branco. Até 29/10/2026 isto colapsava tudo num
+   espaço só, e o dia 3 da Lençóis (a travessia de barco) chegou do CMS em dois parágrafos
+   escritos pela cliente, um para o deslocamento e outro para o passeio: no PDF os dois saíram
+   grudados num bloco de oito linhas, sem a pausa que ela tinha posto ali. Quem lê o texto cru
+   não vê diferença; quem lê a peça, vê. */
+const texto = (html) => String(html || '')
+  .replace(/<\/p>\s*<p[^>]*>/gi, '\n\n')
+  .replace(/<br\s*\/?>/gi, '\n')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+  .replace(/[ \t]+/g, ' ')
+  .replace(/ ?\n ?/g, '\n')
+  .trim();
 
 const roteiro = (await q('Roteiro')).filter((x) => x.expedicao === ID).sort((a, b) => a.dia - b.dia)
   .map((r) => ({ dia: r.dia, data: r.data || '', local: r.local || '', titulo: r.titulo || '', texto: texto(r.texto), km: r.km || '' }));
