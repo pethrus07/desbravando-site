@@ -25,22 +25,4 @@ Guarda-chuva das ferramentas que o Pedro mantém para a Desbravando UTV, operaç
 
 Editável: [`desbravando.excalidraw`](./desbravando.excalidraw), abre em [excalidraw.com](https://excalidraw.com) ou no VS Code com a extensão Excalidraw.
 
-## Site Desbravando · repaginação dentro da Wix
-
-Repaginação do site desbravandoutv.com sem sair da Wix: o design nasce em código e vira manual de montagem, o conteúdo das expedições entra no CMS por script e o pagamento segue no Wix Events. A troca de plataforma ficou adiada.
-
-### Quem usa e para quê (UML)
-
-![Casos de uso · Site Desbravando · repaginação dentro da Wix](./site-desbravando-1-casos-de-uso.svg)
-
-### Do pacote da expedição à página no ar (BPMN 2.0)
-
-![Processo · Site Desbravando · repaginação dentro da Wix](./site-desbravando-2-processo.svg)
-
-### Arquitetura (C4, containers)
-
-![Arquitetura · Site Desbravando · repaginação dentro da Wix](./site-desbravando-3-arquitetura.svg)
-
-Editável: [`site-desbravando.excalidraw`](./site-desbravando.excalidraw), abre em [excalidraw.com](https://excalidraw.com) ou no VS Code com a extensão Excalidraw.
-
 A fonte destes arquivos é o vault do Sinapse (`09-DESENHOS/`); alterações feitas aqui são sobrescritas na próxima publicação.
