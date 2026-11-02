@@ -13,6 +13,7 @@
 // CMS) e as fotos, que entram por nome de arquivo.
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import { wix, SITE } from './wix.mjs';
 
 const ID = process.argv[2];
@@ -20,7 +21,9 @@ if (!ID) {
   console.error('uso: node design/dossie-dados.mjs <id-da-expedicao>');
   process.exit(1);
 }
-const ESTEIRA = path.join('C:', 'Users', 'olive', 'Projetos', 'estudio-briefing-desbravando-utv', 'artes', 'dados');
+// A pasta de dados das artes saiu do repositório do estúdio em 01/11/2026 (é dado do cliente).
+// Mesma regra do estudio-briefing-desbravando-utv/artes/ferramentas/caminhos.mjs.
+const ESTEIRA = path.join(process.env.DESBRAVANDO_DADOS || path.join(os.homedir(), 'Arquivo-projetos', 'desbravando-dados'), 'dados');
 
 const q = async (c) => (await wix('/wix-data/v2/items/query', {
   corpo: { dataCollectionId: c, query: { paging: { limit: 200 } } }, escopo: SITE,
