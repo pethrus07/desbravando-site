@@ -74,16 +74,13 @@ Diagrams in [docs/arquitetura/](docs/arquitetura/). The redesign plan is in
   source of truth, and `gerar.mjs` refuses to overwrite it.
 - Playwright is imported from an absolute path on the author's machine.
 
-## Before going public
+## History cleanup (2026-11)
 
-This repository is private and not ready to be public:
-
-- the Wix API key was committed in `.env.local` from 2026-08-11 (commit `41e956e`) until
-  2026-11-01. It must be rotated in Wix and the file removed from history;
-- the client's bank statement was in `recebidos/` since 2026-08-11 (commit `9bcc697`);
-- `recebidos/` and `docs/proposta-2026-07/` hold the client's proposal, closing statement and
-  cost plan, which are commercial material.
+The history was rewritten on 2026-11-01, before the repository was opened. The local Wix key
+file, the client's bank statement, the commercial proposal, the closing statement, the cost
+plan, the scope document, the capture caches and the generated manuals were removed from every
+commit. That material is kept outside the repository.
 
 ## License
 
-All rights reserved.
+All rights reserved. Published as portfolio; not licensed for reuse. See [LICENSE](LICENSE).

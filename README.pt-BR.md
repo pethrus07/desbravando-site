@@ -74,16 +74,13 @@ Diagramas em [docs/arquitetura/](docs/arquitetura/). O plano da repaginação es
   verdade e o `gerar.mjs` se recusa a sobrescrever.
 - O Playwright é importado de um caminho absoluto da máquina do autor.
 
-## Antes de tornar público
+## Limpeza do histórico (2026-11)
 
-Este repositório é privado e não está pronto para ser público:
-
-- a chave da API da Wix esteve versionada em `.env.local` de 11/08/2026 (commit `41e956e`)
-  até 01/11/2026. Ela precisa ser rotacionada na Wix e o arquivo tirado do histórico;
-- o extrato do cliente esteve em `recebidos/` desde 11/08/2026 (commit `9bcc697`);
-- `recebidos/` e `docs/proposta-2026-07/` têm proposta, fechamento e plano de custos do
-  cliente, que são material comercial.
+O histórico foi reescrito em 01/11/2026, antes de o repositório ser aberto. O arquivo local com
+a chave da Wix, o extrato do cliente, a proposta comercial, o fechamento, o plano de custos, o
+documento de escopo, os caches de captura e os manuais gerados saíram de todos os commits. Esse
+material fica guardado fora do repositório.
 
 ## Licença
 
-Todos os direitos reservados.
+Todos os direitos reservados. Publicado como portfólio; não licenciado para reuso. Veja o arquivo [LICENSE](LICENSE).
