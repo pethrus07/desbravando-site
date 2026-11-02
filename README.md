@@ -55,9 +55,8 @@ check the live site in desktop and mobile browsers.
 | `dados/` | Text of every module, per page, used by the manuals |
 | `cms/` | CSV and JSON that go into the Wix CMS collections |
 | `velo/` | Page code pasted into the Wix editor |
-| `marca/` | Brand assets |
-| `entrega/` | Files delivered to the client |
-| `recebidos/` | Files received from the client |
+| `marca/` | Brand guide (text) and the scripts that vectorize the logo and build the favicon |
+| `entrega/` | Notes on what was delivered (the rendered files stay out of git) |
 | `docs/` | Plans, architecture, implementation notes, diagrams |
 | `saida/` | Generated manuals (ignored by git) |
 
@@ -73,13 +72,17 @@ Diagrams in [docs/arquitetura/](docs/arquitetura/). The redesign plan is in
 - The `.pen` was born from code. Once someone edits it on the canvas, the canvas is the
   source of truth, and `gerar.mjs` refuses to overwrite it.
 - Playwright is imported from an absolute path on the author's machine.
+- The client's files (logo, photos, received documents, finished pieces) are not in git. The
+  scripts that need them read from the folder in the `DESBRAVANDO_ARTES` environment variable,
+  with `marca/` and `recebidos/` inside (see `design/lib/artes.mjs`). `npm test` does not need it.
 
 ## History cleanup (2026-11)
 
 The history was rewritten on 2026-11-01, before the repository was opened. The local Wix key
 file, the client's bank statement, the commercial proposal, the closing statement, the cost
 plan, the scope document, the capture caches and the generated manuals were removed from every
-commit. That material is kept outside the repository.
+commit. On 2026-11-02 a second pass removed the client's documents and artwork (`recebidos/`,
+the logo and favicon files in `marca/`, and the rendered PDF and HTML in `entrega/`). That material is kept outside the repository.
 
 ## License
 

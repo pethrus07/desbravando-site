@@ -84,7 +84,9 @@ export const LOGO_URL = 'https://static.wixstatic.com/media/596511_67f4e0bf83fc4
  * para não depender de rede nem de hospedagem.
  */
 import fs from 'node:fs';
-const _b64 = fs.readFileSync(new URL('../../marca/logo-montanha.b64', import.meta.url), 'utf8').trim();
+import { arte } from './artes.mjs';
+// O arquivo é arte do cliente e fica fora do git (ver design/lib/artes.mjs).
+const _b64 = fs.readFileSync(arte('marca', 'logo-montanha.b64'), 'utf8').trim();
 export const LOGO_MONTANHA = `data:image/png;base64,${_b64}`;
 export const LOGO_MONTANHA_PROPORCAO = 300 / 113; // 2,65
 

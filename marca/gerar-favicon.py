@@ -12,13 +12,19 @@ que tem transparência sobrando em volta), centraliza num quadrado preto com res
 nos tamanhos que a Wix usa. O respiro importa: encostada na borda, a montanha some dentro do
 arredondamento que o navegador aplica no ícone da aba.
 """
+import os
 import sys
 from pathlib import Path
 
 from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-AQUI = Path(__file__).parent
+# O logo é arte do cliente e fica fora do git: lê e grava na pasta de artes
+# (variável DESBRAVANDO_ARTES, a mesma de design/lib/artes.mjs).
+ARTES = Path(os.environ.get("DESBRAVANDO_ARTES", r"C:\Users\olive\Arquivo-projetos\desbravando-recebidos\do-repo"))
+AQUI = ARTES / "marca"
+if not (AQUI / "logo-montanha.png").exists():
+    sys.exit(f"logo não encontrado em {AQUI}. Aponte DESBRAVANDO_ARTES para a pasta das artes.")
 
 PRETO = (13, 13, 13, 255)   # mesmo #0D0D0D da identidade
 RESPIRO = 0.16              # fração do lado que fica de margem em cada ponta

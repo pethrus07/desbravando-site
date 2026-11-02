@@ -18,8 +18,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from '/Users/olive/Projetos/qa-parresia/node_modules/@playwright/test/index.mjs';
 
-const DIR = path.dirname(fileURLToPath(import.meta.url));
-const ORIGEM = path.join(DIR, 'logo-desbravando-original.png');
+import { arte, ARTES } from '../design/lib/artes.mjs';
+
+// O logo é arte do cliente e fica fora do git: lê e grava na pasta de artes
+// (DESBRAVANDO_ARTES, ver design/lib/artes.mjs).
+const DIR = path.join(ARTES, 'marca');
+const ORIGEM = arte('marca', 'logo-desbravando-original.png');
 const LIMIAR = 0.5;        // alfa a partir do qual é "dentro"
 const ESCALA = 2;          // amostra o PNG ampliado: contorno mais macio
 const EPS_DP = 0.9;        // simplificação, em pixels da amostragem
@@ -294,4 +298,4 @@ fs.writeFileSync(path.join(DIR, 'logo-montanha.svg'), svg('currentColor'), 'utf8
 fs.writeFileSync(path.join(DIR, 'logo-montanha-preto.svg'), svg('#111111'), 'utf8');
 fs.writeFileSync(path.join(DIR, 'logo-montanha-branco.svg'), svg('#FFFFFF'), 'utf8');
 console.log(`\nproporção 1000 × ${altura}  (${(1000 / altura).toFixed(3)} : 1)`);
-console.log('→ marca/logo-montanha.svg (currentColor) · -preto.svg · -branco.svg');
+console.log(`→ ${DIR}/logo-montanha.svg (currentColor) · -preto.svg · -branco.svg`);

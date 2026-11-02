@@ -55,9 +55,8 @@ conferem o site no ar, no navegador de computador e de celular.
 | `dados/` | Texto de cada módulo, por página, usado nos manuais |
 | `cms/` | CSV e JSON que entram nas coleções do CMS da Wix |
 | `velo/` | Código das páginas, colado no editor da Wix |
-| `marca/` | Arquivos da marca |
-| `entrega/` | O que foi entregue ao cliente |
-| `recebidos/` | O que o cliente mandou |
+| `marca/` | Guia da marca (texto) e os scripts que vetorizam o logo e geram o favicon |
+| `entrega/` | Notas sobre o que foi entregue (os arquivos renderizados ficam fora do git) |
 | `docs/` | Planos, arquitetura, notas de implementação, diagramas |
 | `saida/` | Manuais gerados (fora do git) |
 
@@ -73,12 +72,17 @@ Diagramas em [docs/arquitetura/](docs/arquitetura/). O plano da repaginação es
 - O `.pen` nasceu do código. Depois que alguém edita no canvas, o canvas vira a fonte da
   verdade e o `gerar.mjs` se recusa a sobrescrever.
 - O Playwright é importado de um caminho absoluto da máquina do autor.
+- Os arquivos do cliente (logo, fotos, documentos recebidos, peças prontas) não estão no git. Os
+  scripts que precisam deles leem da pasta na variável de ambiente `DESBRAVANDO_ARTES`, com
+  `marca/` e `recebidos/` dentro (ver `design/lib/artes.mjs`). O `npm test` não precisa dela.
 
 ## Limpeza do histórico (2026-11)
 
 O histórico foi reescrito em 01/11/2026, antes de o repositório ser aberto. O arquivo local com
 a chave da Wix, o extrato do cliente, a proposta comercial, o fechamento, o plano de custos, o
-documento de escopo, os caches de captura e os manuais gerados saíram de todos os commits. Esse
+documento de escopo, os caches de captura e os manuais gerados saíram de todos os commits. Em 02/11/2026 uma
+segunda passada tirou os documentos e as artes do cliente (`recebidos/`, os arquivos de logo e
+favicon em `marca/` e os PDF e HTML renderizados em `entrega/`). Esse
 material fica guardado fora do repositório.
 
 ## Licença

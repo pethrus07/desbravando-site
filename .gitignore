@@ -23,3 +23,11 @@ recebidos/_downloads-2026-09/
 
 # Peças renderizadas pelo design/social/render.mjs
 design/social/saida/
+
+# Material do cliente: fica fora do git (pasta DESBRAVANDO_ARTES, ver design/lib/artes.mjs)
+recebidos/
+marca/*.png
+marca/*.svg
+marca/*.b64
+entrega/**/*.pdf
+entrega/**/*.html

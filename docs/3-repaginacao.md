@@ -234,7 +234,7 @@ Briefing (`estudio-briefing-desbravando-utv/index.html`, constante `SPEC_MD`), p
 aquele projeto gera arte e precisa da identidade em código. Extraí e salvei em:
 
 - `marca/IDENTIDADE_VISUAL.md` — o guia inteiro
-- `marca/logo-desbravando-original.png` — 2300×813, branco com transparência
+- `marca/logo-desbravando-original.png` — 2300×813, branco com transparência (fora do git, na pasta `DESBRAVANDO_ARTES`)
 
 Não foi preciso ir ao Mini Drive. Fica o registro de que o `/list` de lá exige chave,
 e que o guia diz que o hex exato do azul/verde deve ser confirmado no arquivo-fonte do

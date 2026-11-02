@@ -1,3 +1,7 @@
+> Os arquivos citados aqui (HTML e PDF renderizados) saíram do git em 02/11/2026: são peças
+> do cliente. Ficam na pasta de artes (`DESBRAVANDO_ARTES`, subpasta `entrega/`) e os scripts
+> `entrega:exportar` e `entrega:pdf` voltam a gerar aqui, fora do git.
+
 # O que mandar pro cliente — **v2**
 
 Dois arquivos com sufixo `-v2`. **Mande o HTML**; o PDF é a versão "para olhar".

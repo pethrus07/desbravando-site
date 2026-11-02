@@ -8,6 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium } from '/Users/olive/Projetos/qa-parresia/node_modules/@playwright/test/index.mjs';
 import { fontesEmbutidas, logoDataUri } from './lib/fontes.mjs';
+import { arte } from '../lib/artes.mjs';
 import { TEMAS, FEED } from './lib/identidade.mjs';
 import { cegonha, meta, EDICOES } from './pecas/cegonha.mjs';
 
@@ -17,7 +18,7 @@ const SAIDA = path.join(DIR, 'saida');
 fs.mkdirSync(SAIDA, { recursive: true });
 
 const fontes = await fontesEmbutidas(path.join(RAIZ, 'design', '.cache-web'));
-const logoUri = logoDataUri(path.join(RAIZ, 'marca', 'logo-desbravando-original.png'));
+const logoUri = logoDataUri(arte('marca', 'logo-desbravando-original.png'));
 console.log(`fontes embutidas: ${(fontes.match(/@font-face/g) || []).length}`);
 
 /* argumentos soltos: o que for nome de edição filtra edição, o que for tema filtra tema */
