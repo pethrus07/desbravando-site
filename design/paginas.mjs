@@ -63,7 +63,7 @@ const ferramentas = (d, pref) => {
 };
 
 const figura = (d) =>
-  `<figure><img loading="lazy" src="previa/modulos/${d.base}.png" alt="${esc(d.nome)}">` +
+  `<figure><img loading="lazy" src="../previa/modulos/${d.base}.png" alt="${esc(d.nome)}">` +
   `<figcaption>clique para ampliar</figcaption></figure>`;
 
 const tabEsqueleto = (dados) => `
@@ -261,7 +261,8 @@ da <b>Can-Am</b> · como a venda funciona hoje, porque <b>não existe nenhum eve
 <script>${JS}</script>
 </body></html>`;
 
-  fs.writeFileSync(path.join(RAIZ, pg.arquivo), html, 'utf8');
+  fs.mkdirSync(path.join(RAIZ, 'saida'), { recursive: true });
+  fs.writeFileSync(path.join(RAIZ, 'saida', pg.arquivo), html, 'utf8');
   relatorio.push({
     pagina: pg.nome, arquivo: pg.arquivo, nota: pg.nota,
     modulos: dados.length, mobile: dadosM.length,
@@ -269,13 +270,13 @@ da <b>Can-Am</b> · como a venda funciona hoje, porque <b>não existe nenhum eve
     textos: dados.reduce((s, d) => s + d.conteudo.length, 0),
     retoques: dados.reduce((s, d) => s + d.retoques.length, 0),
     altura: alturaTotal,
-    kb: Math.round(fs.statSync(path.join(RAIZ, pg.arquivo)).size / 1024),
+    kb: Math.round(fs.statSync(path.join(RAIZ, 'saida', pg.arquivo)).size / 1024),
   });
 }
 
 /* ─────────────────────────── índice das páginas ─────────────────────────── */
 
-fs.writeFileSync(path.join(RAIZ, 'montagem.html'), `<!doctype html><meta charset="utf-8">
+fs.writeFileSync(path.join(RAIZ, 'saida', 'montagem.html'), `<!doctype html><meta charset="utf-8">
 <title>Montagem · Desbravando v3</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600&family=JetBrains+Mono&display=swap');

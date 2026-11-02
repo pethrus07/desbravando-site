@@ -436,7 +436,8 @@ Antes de pedir ajuda, três conferências resolvem a maioria:
 Se passou pelas três e continua sem aparecer, aí sim vale chamar.
 `;
 
-fs.writeFileSync(path.join(RAIZ, 'guia-do-cms.md'), md, 'utf8');
+fs.mkdirSync(path.join(RAIZ, 'saida'), { recursive: true });
+fs.writeFileSync(path.join(RAIZ, 'saida', 'guia-do-cms.md'), md, 'utf8');
 
 /* ───────────────────────── HTML para enviar ───────────────────────── */
 
@@ -563,7 +564,7 @@ td:first-child{white-space:nowrap}
 ${paraHtml(md).replace('<h1>Guia do CMS — como manter o site</h1>', '<div class="capa"><h1>Guia do CMS — como manter o site</h1>').replace('<hr>', '</div>')}
 </main></body></html>`;
 
-fs.writeFileSync(path.join(RAIZ, 'guia-do-cms.html'), html, 'utf8');
+fs.writeFileSync(path.join(RAIZ, 'saida', 'guia-do-cms.html'), html, 'utf8');
 
 const nCampos = Object.keys(CAMPOS).length;
 console.log(`\n${listasOrdenadas.length} listas · ${nCampos} campos explicados` +

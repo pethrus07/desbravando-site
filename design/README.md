@@ -83,3 +83,25 @@ estranho no editor e certo no PNG (ou o contrário), o editor é quem manda.
 
 Uma advertência que ele emite é esperada: a faixa de âncoras do mobile passa da
 largura da tela de propósito — ela rola na horizontal.
+
+## Todos os scripts, por grupo
+
+Cada um tem um nome no `package.json` da raiz (`npm run <nome>`). O cabeçalho de cada arquivo
+explica o porquê.
+
+| Grupo | Scripts | Escreve onde |
+|---|---|---|
+| ícones | `icones` (`baixar-icones.mjs`, lista em `icones.txt`) | `design/.cache-icones/`, fora do git |
+| design | `design:gerar`, `design:variacoes`, `design:validar`, `design:previa`, `design:ficha`, `design:recorte` | `.pen` deste diretório, `previa/` |
+| entrega | `entrega:exportar` (HTML único para o cliente), `entrega:pdf` | `entrega/` |
+| manual de montagem | `manual`, `manual:enxugar`, `manual:paginas`, `manual:guia-cms`, `manual:mapa`, `manual:servir` | `saida/`, `dados/`, `docs/5-manual-de-montagem.md` |
+| conteúdo do CMS | `cms:csv`, `cms:faq`, `cms:itens`, `cms:dossie`, `cms:do-briefing` | `cms/` e a esteira de dossiê |
+| **Wix (site no ar)** | `wix:testar`, `wix:estado` (só leitura) · `wix:criar-colecoes`, `wix:importar`, `wix:midia`, `wix:precos`, `wix:provisorio`, `wix:ajustar-dia` (**escrevem no site**) | CMS e biblioteca de mídia da Wix |
+| QA do site no ar | `qa:site`, `qa:mobile`, `qa:expedicao`, `qa:links`, `qa:detalhe` | `qa/`, fora do git |
+
+Os scripts da Wix leem `WIX_API_KEY` e `WIX_SITE_ID` do `.env.local` da raiz (modelo em
+`.env.example`). Os de prévia e QA usam o Playwright do checkout do `qa-parresia`.
+
+Desde 01/11/2026 os manuais gerados (`montagem*.html`, `manual-de-montagem.html`,
+`agente.html`, `guia-do-cms.*`) vão para `saida/`, e o texto-fonte do manual está em
+`docs/5-manual-de-montagem.md`.

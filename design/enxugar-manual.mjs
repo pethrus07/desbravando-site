@@ -20,8 +20,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
-const COMPLETO = path.join(RAIZ, '5-manual-COMPLETO.md.bak');
-const SAIDA = path.join(RAIZ, '5-manual-de-montagem.md');
+const COMPLETO = path.join(RAIZ, 'docs', '5-manual-COMPLETO.md.bak');
+const SAIDA = path.join(RAIZ, 'docs', '5-manual-de-montagem.md');
 
 const L = fs.readFileSync(COMPLETO, 'utf8').split('\n');
 

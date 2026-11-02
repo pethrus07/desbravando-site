@@ -274,7 +274,7 @@ console.log(`✓ ${Object.keys(MAPA).length} módulos mapeados, todos os campos 
 if (!GRAVAR) {
   for (const [m, b] of Object.entries(blocos)) console.log(`\n\n══════ ${m}\n${b}`);
 } else {
-  const arq = path.join(RAIZ, '5-manual-de-montagem.md');
+  const arq = path.join(RAIZ, 'docs', '5-manual-de-montagem.md');
   let md = fs.readFileSync(arq, 'utf8');
   let postos = 0;
   for (const [modulo, bloco] of Object.entries(blocos)) {

@@ -4,7 +4,7 @@
 // "Permitir acesso a URLs de arquivo" estiver ligada na página da extensão. Servindo por
 // localhost, o manual vira uma URL comum e some essa dependência.
 //
-// Rodar:  node design/servir.mjs        → http://localhost:8787/manual-de-montagem.html
+// Rodar:  node design/servir.mjs        → http://localhost:8787/saida/manual-de-montagem.html
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -22,7 +22,7 @@ const TIPOS = {
 
 http.createServer((req, res) => {
   const pedido = decodeURIComponent(req.url.split('?')[0]);
-  const alvo = path.join(RAIZ, pedido === '/' ? 'montagem-home.html' : pedido);
+  const alvo = path.join(RAIZ, pedido === '/' ? 'saida/montagem-home.html' : pedido);
 
   // não deixa sair da pasta do projeto
   if (!alvo.startsWith(RAIZ)) { res.writeHead(403).end('fora da pasta'); return; }
@@ -37,7 +37,7 @@ http.createServer((req, res) => {
   fs.createReadStream(alvo).pipe(res);
 }).listen(PORTA, () => {
   console.log(`servindo ${RAIZ}`);
-  console.log(`\n  manual   http://localhost:${PORTA}/manual-de-montagem.html`);
+  console.log(`\n  manual   http://localhost:${PORTA}/saida/manual-de-montagem.html`);
   console.log(`  dados    http://localhost:${PORTA}/manual-dados.json\n`);
   console.log('Ctrl+C para parar.');
 });

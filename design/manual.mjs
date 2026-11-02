@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.join(DIR, '..');
-const md = fs.readFileSync(path.join(RAIZ, '5-manual-de-montagem.md'), 'utf8');
+const md = fs.readFileSync(path.join(RAIZ, 'docs', '5-manual-de-montagem.md'), 'utf8');
 const doc = JSON.parse(fs.readFileSync(path.join(DIR, 'desbravando-repaginacao.pen'), 'utf8'));
 
 import { nomeArquivo } from './recorte-nome.mjs';
@@ -379,7 +379,7 @@ function render(texto) {
         );
         if (existe) {
           out.push(
-            `<figure><img loading="lazy" src="previa/modulos/${png}" alt="${esc(nome)}">` +
+            `<figure><img loading="lazy" src="../previa/modulos/${png}" alt="${esc(nome)}">` +
             `<figcaption>recorte do módulo · clique para ampliar</figcaption></figure>`,
           );
         }
@@ -849,10 +849,11 @@ ul.conferencia input:checked + *{opacity:.45}
 </script>
 </body></html>`;
 
-const saida = path.join(RAIZ, 'manual-de-montagem.html');
+fs.mkdirSync(path.join(RAIZ, 'saida'), { recursive: true });
+const saida = path.join(RAIZ, 'saida', 'manual-de-montagem.html');
 fs.writeFileSync(saida, html, 'utf8');
 console.log(`${itens.length} passos com caixa de conferência`);
-console.log(`${(fs.statSync(saida).size / 1024).toFixed(0)} KB\n→ manual-de-montagem.html`);
+console.log(`${(fs.statSync(saida).size / 1024).toFixed(0)} KB\n→ saida/manual-de-montagem.html`);
 
 /* ── a mesma especificação, UM ARQUIVO POR MÓDULO ───────────────────────
    O painel em HTML é para gente. Um agente de navegador lê valor cru melhor do que
@@ -1066,5 +1067,5 @@ nível: um elemento mais indentado está dentro do anterior.</p>
 </ol>
 <p>E diga também: <b>o Editor é o clássico ou o Wix Studio?</b> E um print da página inteira.</p>
 `;
-fs.writeFileSync(path.join(RAIZ, 'agente.html'), agente, 'utf8');
-console.log(`briefing do agente (${homeMods.length} módulos da Home)\n→ agente.html`);
+fs.writeFileSync(path.join(RAIZ, 'saida', 'agente.html'), agente, 'utf8');
+console.log(`briefing do agente (${homeMods.length} módulos da Home)\n→ saida/agente.html`);
