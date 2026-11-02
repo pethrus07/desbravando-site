@@ -1,10 +1,25 @@
+# Segredos: a chave da API da Wix fica em .env.local, nunca no git
+.env
+.env.*
+!.env.example
+
+# Dependências e temporários
+node_modules/
+*.tmp
+*.bak
+
+# Saídas geradas pelos scripts de design/ (regeneráveis)
+saida/
 previa/
 auditoria-visual/
 qa/
-node_modules/
-*.tmp
 
-# downloads brutos, backups e cache de captura
-recebidos/_downloads-2026-09/
-*.bak
+# Caches de captura e de ícones (design/baixar-icones.mjs refaz o de ícones)
 design/.cache-web/
+design/.cache-icones/
+
+# Downloads brutos e backups
+recebidos/_downloads-2026-09/
+
+# Peças renderizadas pelo design/social/render.mjs
+design/social/saida/
