@@ -1,6 +1,6 @@
-# Repaginação do site da Desbravando UTV
+# Desbravando UTV · site
 
-Português · [English](README.md)
+[English](README.md) · Português
 
 Repaginação do site da Desbravando UTV dentro da Wix. O cliente decidiu ficar na Wix, então
 este repositório não guarda o site. Guarda o que produz e alimenta o site: o design gerado por
@@ -11,7 +11,7 @@ montagem passo a passo e os scripts de QA do site no ar.
 
 Ativo. Home no ar na Wix desde 08/08/2026; páginas de expedição em acabamento.
 
-## O problema que resolve
+## O problema
 
 Cada expedição precisava de muitas artes separadas para dar todas as informações, e a página
 do evento tinha grandes áreas vazias no celular. A repaginação põe cada destino numa página só,
@@ -47,7 +47,7 @@ npm test
 Confere o arquivo de design gerado contra o vocabulário real do `.pen`. Os scripts `qa:*`
 conferem o site no ar, no navegador de computador e de celular.
 
-## Estrutura de pastas
+## Pastas
 
 | Caminho | O que é |
 |---|---|
@@ -76,7 +76,7 @@ Diagramas em [docs/arquitetura/](docs/arquitetura/). O plano da repaginação es
   scripts que precisam deles leem da pasta na variável de ambiente `DESBRAVANDO_ARTES`, com
   `marca/` e `recebidos/` dentro (ver `design/lib/artes.mjs`). O `npm test` não precisa dela.
 
-## Limpeza do histórico (2026-11)
+### Limpeza do histórico (2026-11)
 
 O histórico foi reescrito em 01/11/2026, antes de o repositório ser aberto. O arquivo local com
 a chave da Wix, o extrato do cliente, a proposta comercial, o fechamento, o plano de custos, o

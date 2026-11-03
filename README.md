@@ -1,6 +1,6 @@
-# Desbravando UTV website redesign
+# Desbravando UTV · site
 
-[Português](README.pt-BR.md) · English
+English · [Português](README.pt-BR.md)
 
 Redesign of the Desbravando UTV website inside Wix. The client chose to stay on Wix, so this
 repository does not hold the site itself. It holds what produces and feeds it: the design
@@ -11,7 +11,7 @@ step-by-step assembly manuals and the QA scripts for the live site.
 
 Active. Home page live on Wix since 2026-08-08; expedition pages being finished.
 
-## The problem it solves
+## The problem
 
 Each expedition needed many separate images to carry its information, and the event pages
 had large empty areas on mobile. The redesign puts each destination on one page, fed by CMS
@@ -47,7 +47,7 @@ npm test
 Checks the generated design file against the real `.pen` vocabulary. The `qa:*` scripts
 check the live site in desktop and mobile browsers.
 
-## Folder structure
+## Folders
 
 | Path | What it is |
 |---|---|
@@ -76,7 +76,7 @@ Diagrams in [docs/arquitetura/](docs/arquitetura/). The redesign plan is in
   scripts that need them read from the folder in the `DESBRAVANDO_ARTES` environment variable,
   with `marca/` and `recebidos/` inside (see `design/lib/artes.mjs`). `npm test` does not need it.
 
-## History cleanup (2026-11)
+### History cleanup (2026-11)
 
 The history was rewritten on 2026-11-01, before the repository was opened. The local Wix key
 file, the client's bank statement, the commercial proposal, the closing statement, the cost
