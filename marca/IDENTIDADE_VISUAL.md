@@ -130,12 +130,11 @@ reunião → briefing.json → mapeia o conteúdo no template do formato/preset 
 
 ---
 
-## Logo nova: só a montanha (11/11/2026)
+## Logo oficial 2026 (11/11/2026)
 
-**A logo do Desbravando é somente a montanha.** O lockup com DESBRAVANDO UTV embaixo (o PNG
-de 2300×813 da Wix) e a assinatura lateral (montanha · filete · #DESBRAVANDOUTV) saíram de
-uso em peça nova. Usar os vetores abaixo. Quando o nome precisar aparecer, ele vai em texto
-da peça (sobrelinha, rodapé), não colado na marca.
+**Logo oficial 2026 = montanha · filete · #DESBRAVANDOUTV**, do arquivo que o Pedro mandou em 11/11/2026 (`estudio-briefing-desbravando-utv/artes/marca/logo-oficial-2026.png`, branca com transparência; original em `logo-oficial-2026-original.png`; só o símbolo em `logo-oficial-2026-montanha.png`). A montanha desse arquivo é um desenho NOVO, mais achatado (largura 3,98× a altura) que o vetor antigo (`logo-montanha*.svg` e `logo-lateral.svg`, 2,64×), e a fonte do #DESBRAVANDOUTV também mudou. O lockup com DESBRAVANDO UTV embaixo está aposentado. Pendente: vetorizar a montanha nova; até lá os templates de impressão seguem no vetor antigo.
+
+A tabela abaixo é do vetor ANTIGO da montanha.
 
 ## A montanha em SVG (07/08/2026)
 
