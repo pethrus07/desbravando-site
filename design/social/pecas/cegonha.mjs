@@ -126,7 +126,7 @@ h1 .ac{color:${c.acento}}
   <div class="montanha" style="${mascara({ uri: logoUri, cor: c.montanha, larguraAlvo: 640, recorte: MONTANHA })}"></div>
 
   <div class="conteudo">
-    <div class="logo" style="${mascara({ uri: logoUri, cor: c.logo, larguraAlvo: 153 })}"></div>
+    <div class="logo" style="${mascara({ uri: logoUri, cor: c.logo, larguraAlvo: 120, recorte: MONTANHA })}"></div>
 
     <div class="sobre">Expedição Urubici · SC</div>
     <h1>Carregamento<br>da <span class="ac">cegonha</span></h1>

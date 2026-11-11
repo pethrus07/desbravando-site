@@ -130,6 +130,13 @@ reunião → briefing.json → mapeia o conteúdo no template do formato/preset 
 
 ---
 
+## Logo nova: só a montanha (11/11/2026)
+
+**A logo do Desbravando é somente a montanha.** O lockup com DESBRAVANDO UTV embaixo (o PNG
+de 2300×813 da Wix) e a assinatura lateral (montanha · filete · #DESBRAVANDOUTV) saíram de
+uso em peça nova. Usar os vetores abaixo. Quando o nome precisar aparecer, ele vai em texto
+da peça (sobrelinha, rodapé), não colado na marca.
+
 ## A montanha em SVG (07/08/2026)
 
 **Não existia SVG da marca.** O que o cliente tem é o PNG de 2300×813 que está no ar na
