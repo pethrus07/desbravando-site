@@ -88,7 +88,7 @@ import { arte } from './artes.mjs';
 // O arquivo é arte do cliente e fica fora do git (ver design/lib/artes.mjs).
 const _b64 = fs.readFileSync(arte('marca', 'logo-montanha.b64'), 'utf8').trim();
 export const LOGO_MONTANHA = `data:image/png;base64,${_b64}`;
-export const LOGO_MONTANHA_PROPORCAO = 300 / 113; // 2,65
+export const LOGO_MONTANHA_PROPORCAO = 300 / 83; // 3.61, gerado por atualizar-logo.py // 2,65
 
 export const VARIAVEIS = {
   '--papel': { type: 'color', value: COR.papel },
